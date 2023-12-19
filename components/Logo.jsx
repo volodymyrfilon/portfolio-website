@@ -1,10 +1,11 @@
-import Image from 'next/image'
 import Link from 'next/link'
 
 const Logo = () => {
 	return (
 		<Link href='/'>
-			<Image src='/logo.png' width={54} height={54} priority alt='Logo' />
+			<div className='text-4xl font-bold'>
+				V<span className='text-primary'>F</span>
+			</div>
 		</Link>
 	)
 }
