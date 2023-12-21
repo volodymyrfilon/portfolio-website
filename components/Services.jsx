@@ -28,7 +28,7 @@ const serviceData = [
 	},
 ]
 
-const Services = () => {
+const Service = () => {
 	return (
 		<section className='mb-12 xl:mb-36'>
 			<div className='container mx-auto'>
@@ -61,4 +61,4 @@ const Services = () => {
 	)
 }
 
-export default Services
+export default Service
