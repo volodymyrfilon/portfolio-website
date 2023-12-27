@@ -1,5 +1,6 @@
 import About from '@/components/About'
 import Hero from '@/components/Hero'
+import Reviews from '@/components/Reviews'
 import Service from '@/components/Services'
 import Work from '@/components/Works'
 import Cta from '@/components/cta'
@@ -11,7 +12,8 @@ export default function Home() {
 			<About />
 			<Service />
 			<Work />
-			<Cta />
+      <Reviews />
+      <Cta />
 		</main>
 	)
 }
