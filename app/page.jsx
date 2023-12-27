@@ -1,13 +1,15 @@
 import About from '@/components/About'
 import Hero from '@/components/Hero'
-import Services from '@/components/Services'
+import Service from '@/components/Services'
+import Work from '@/components/Works'
 
 export default function Home() {
 	return (
 		<main>
 			<Hero />
 			<About />
-			<Services />
+			<Service />
+			<Work />
 		</main>
 	)
 }
