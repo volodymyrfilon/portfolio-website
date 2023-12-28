@@ -1,9 +1,9 @@
 'use client'
 
-import emailjs from '@emailjs/browser'
 import { useRef, useState } from 'react'
 
 import Form from '@/components/Form'
+import emailjs from '@emailjs/browser'
 
 import ContactLoader from '@/components/ContactLoader'
 import { motion } from 'framer-motion'
@@ -107,11 +107,15 @@ const Contact = () => {
 					</div>
 					{/*  form */}
 					<div className='flex-1 p-12 w-full'>
-						<div ref={formRef} onSubmit={sendEmail} className='mt-10'>
+						<form
+							ref={formRef}
+							onSubmit={sendEmail}
+							className='flex flex-col gap-y-4 mt-10'
+						>
 							<Form />
 							{error && <p className='text-red-500'>Error</p>}
 							{success && <p className='text-green-500'>Success</p>}
-						</div>
+						</form>
 					</div>
 				</motion.div>
 			</div>
