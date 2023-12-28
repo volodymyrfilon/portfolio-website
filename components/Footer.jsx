@@ -11,7 +11,7 @@ const Footer = () => {
 						iconsStyles='text-primary dark:text-white/70 text-[20px] hover:text-white dark:hover:text-primary transition-all'
 					/>
 					{/* copyright */}
-					<div className='text-muted-foreground'>
+					<div className='text-muted-foreground text-center'>
 						Copyright 2023-2024 &copy; Volodymyr Filon. All rights reserved.
 					</div>
 				</div>
