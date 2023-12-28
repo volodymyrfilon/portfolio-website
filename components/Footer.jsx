@@ -12,7 +12,7 @@ const Footer = () => {
 					/>
 					{/* copyright */}
 					<div className='text-muted-foreground'>
-						Copyright 2024 &copy; Volodymyr Filon. All rights reserved.
+						Copyright 2023-2024 &copy; Volodymyr Filon. All rights reserved.
 					</div>
 				</div>
 			</div>
