@@ -1,4 +1,3 @@
-import { Blocks, GanttChartSquare, Gem } from 'lucide-react'
 import {
 	Card,
 	CardContent,
@@ -7,26 +6,8 @@ import {
 	CardTitle,
 } from './ui/card'
 
-const serviceData = [
-	{
-		icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-		title: 'Web Design',
-		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sint in culpas.',
-	},
-	{
-		icon: <Blocks size={72} strokeWidth={0.8} />,
-		title: 'Web Design',
-		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sint in culpas.',
-	},
-	{
-		icon: <Gem size={72} strokeWidth={0.8} />,
-		title: 'Web Design',
-		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sint in culpas.',
-	},
-]
+// database
+import { serviceData } from '@/database'
 
 const Service = () => {
 	return (
