@@ -5,7 +5,7 @@ import { useRef, useState } from 'react'
 import Form from '@/components/Form'
 import emailjs from '@emailjs/browser'
 
-import ContactLoader from '@/components/ContactLoader'
+import { ContactLoader } from '@/components/Loader'
 import { motion } from 'framer-motion'
 import { HomeIcon, MailIcon, PhoneCall } from 'lucide-react'
 
