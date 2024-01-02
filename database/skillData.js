@@ -3,10 +3,7 @@ export const skillData = [
 		title: 'skills',
 		data: [
 			{
-				name: 'HTML5, CSS3, Sass',
-			},
-			{
-				name: 'Frontend Development',
+				name: 'HTML5, CSS3',
 			},
 			{
 				name: 'JavaScript, TypeScript',
@@ -15,7 +12,13 @@ export const skillData = [
 				name: 'ReactJS, NextJS',
 			},
 			{
+				name: 'SASS, TailwindCss',
+			},
+			{
 				name: 'NodeJS',
+			},
+			{
+				name: 'MongoBD, PostgreSQL',
 			},
 		],
 	},
@@ -26,16 +29,19 @@ export const skillData = [
 				imgPath: '/about/vscode.svg',
 			},
 			{
-				imgPath: '/about/vscode.svg',
+				imgPath: '/about/notion.svg',
 			},
 			{
-				imgPath: '/about/vscode.svg',
+				imgPath: '/about/trello.svg',
 			},
 			{
-				imgPath: '/about/vscode.svg',
+				imgPath: '/about/figma.svg',
 			},
 			{
-				imgPath: '/about/vscode.svg',
+				imgPath: '/about/git.svg',
+			},
+			{
+				imgPath: '/about/discord.svg',
 			},
 		],
 	},

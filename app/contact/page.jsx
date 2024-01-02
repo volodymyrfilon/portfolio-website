@@ -46,12 +46,17 @@ const Contact = () => {
 				result => {
 					setSuccess(true)
 					setError(false)
+					SubmitForm()
 				},
 				error => {
 					setError(true)
 					setSuccess(false)
 				}
 			)
+	}
+
+	const SubmitForm = e => {
+		document.getElementById('form').reset()
 	}
 
 	return (
@@ -86,7 +91,7 @@ const Contact = () => {
 								<MailIcon size={20} className='text-primary' />
 								<h2 className='text-2xl font-semibold'>Email</h2>
 							</div>
-							<div className='text-lg'>myemail@gmail.com</div>
+							<div className='text-lg'>vdfo26@gmail.com</div>
 						</div>
 						{/* address */}
 						<div className='flex flex-col gap-x-4 items-center xl:items-start'>
@@ -102,12 +107,13 @@ const Contact = () => {
 								<PhoneCall size={20} className='text-primary' />
 								<h2 className='text-2xl font-semibold'>Address</h2>
 							</div>
-							<div className='text-lg'>+48 123 123 123</div>
+							<div className='text-lg'>+48 578 568 311</div>
 						</div>
 					</div>
 					{/*  form */}
 					<div className='flex-1 p-12 w-full'>
 						<form
+							id='form'
 							ref={formRef}
 							onSubmit={sendEmail}
 							className='flex flex-col gap-y-4 mt-10'

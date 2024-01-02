@@ -24,7 +24,7 @@ export const qualificationData = [
 			},
 			{
 				company: 'BAZA Trainee Ukraine',
-				role: 'Frontend Web Developer',
+				role: 'Junior Frontend Web Developer',
 				years: '2023 - Present',
 			},
 		],

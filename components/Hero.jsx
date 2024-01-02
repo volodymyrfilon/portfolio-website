@@ -24,8 +24,9 @@ const Hero = () => {
 						</div>
 						<h1 className='h1 mb-4'>Hello, my name is Volodymyr Filon</h1>
 						<p className='subtitle max-w-[490px] mx-auto xl:mx-0'>
-							Brief description with insights into myself, my volational
-							journey. and what I engage in dev.
+							I'm driven by a passion for creating user-friendly and visually
+							compelling websites. My journey involves translating ideas into
+							digital experiences through the art of code and design.
 						</p>
 						{/* buttons */}
 						<div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
@@ -34,10 +35,18 @@ const Hero = () => {
 									Contact me <Send size={18} />
 								</Button>
 							</Link>
-							<Button variant='secondary' className='gap-x-2'>
-								Download CV
-								<Download size={18} />
-							</Button>
+							<a
+								href={`cv.pdf`}
+								download
+								alt='CV PDF'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								<Button variant='secondary' className='gap-x-2'>
+									Download CV
+									<Download size={18} />
+								</Button>
+							</a>
 						</div>
 						{/* socials */}
 						<Socials
@@ -51,28 +60,27 @@ const Hero = () => {
 						<Badge
 							containerStyles='absolute top-[24%] -left-[5rem]'
 							icon={<RiBriefcase4Fill />}
-							endCountNum={4}
-							badgeText='Months Of Experience'
+							endCountNum={1}
+							badgeText='Years Of Experience'
 						/>
 						{/* badge 2 */}
 						<Badge
 							containerStyles='absolute top-[80%] -left-[1rem]'
 							icon={<RiTodoFill />}
-							endCountNum={6}
-							endCountText='k'
+							endCountNum={9}
 							badgeText='Finished Projects'
 						/>
 						{/* badge 3 */}
 						<Badge
 							containerStyles='absolute top-[55%] -right-8'
 							icon={<RiTeamFill />}
-							endCountNum={9}
-							endCountText='k'
-							badgeText='Happy Clients'
+							endCountNum={5}
+							endCountText=''
+							badgeText='Team Projects'
 						/>
 						<div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2'></div>
 						<DevImg
-							containerStyles='bg-hero_shape w-[510px] h-[462px] relative bg-bottom'
+							containerStyles='bg-hero_shape w-[510px] h-[462px] relative bg-no-repeat  bg-bottom'
 							imgSrc='/hero/developer.png'
 						/>
 					</div>

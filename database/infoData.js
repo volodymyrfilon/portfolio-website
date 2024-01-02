@@ -14,11 +14,11 @@ export const infoData = [
 	},
 	{
 		icon: <PhoneCall size={20} />,
-		text: '+48 222 22 222',
+		text: '+48 578 568 311',
 	},
 	{
 		icon: <MailIcon size={20} />,
-		text: 'volodymyrfilon@22222',
+		text: 'vdfo26@gmail.com',
 	},
 	{
 		icon: <Calendar size={20} />,

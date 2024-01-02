@@ -3,21 +3,21 @@ import { Blocks, GanttChartSquare, Gem } from 'lucide-react'
 export const serviceData = [
 	{
 		icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-		title: 'Web Design',
+		title: 'Web Development',
 		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sint in culpas.',
+			'Crafting dynamic and user-friendly websites using HTML, CSS, and JavaScript Libraries & Frameworks.',
 	},
 	{
 		icon: <Blocks size={72} strokeWidth={0.8} />,
-		title: 'Web Design',
+		title: 'Responsive Design',
 		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sint in culpas.',
+			'Creating layouts that adapt seamlessly to various devices for an optimal user experience.',
 	},
 	{
 		icon: <Gem size={72} strokeWidth={0.8} />,
-		title: 'Web Design',
+		title: 'Modern Frameworks',
 		description:
-			'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sint in culpas.',
+			'Using ReactJS and NextJS to build efficient and scalable frontend applications.',
 	},
 ]
 

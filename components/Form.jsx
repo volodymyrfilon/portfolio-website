@@ -1,5 +1,3 @@
-'use client'
-
 import { ArrowRightIcon, MailIcon, MessageSquare, User } from 'lucide-react'
 import { Button } from './ui/button'
 import { Input } from './ui/input'

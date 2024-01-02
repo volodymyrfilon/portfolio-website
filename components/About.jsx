@@ -12,7 +12,7 @@ const About = () => {
 		return arr.find(item => item.title === title)
 	}
 	return (
-		<section className='xl:h-[860px] py-12 xl:py-24'>
+		<section className='xl:h-[860px] pt-32 pb-12 special:py-12 xl:py-24'>
 			<div className='container mx-auto'>
 				<h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>
 					About me
@@ -47,11 +47,9 @@ const About = () => {
 								{/* personal */}
 								<TabsContent value='personal'>
 									<div className='text-center xl:text-left'>
-										<h3 className='h3 mb-4'>
-											Unmatched Service Quality for Over 0 years
-										</h3>
+										<h3 className='h3 mb-4'>Elevating digital experiences</h3>
 										<p className='subtitle max-w-xl mx-auto xl:mx-0'>
-											I specialize in crafting intuitive websites with
+											I specialize in creating intuitive websites with
 											cutting-edge technology, delivering dynamic and engaging
 											user experience.
 										</p>
@@ -71,7 +69,9 @@ const About = () => {
 										<div className='flex flex-col gap-y-2'>
 											<div className='text-primary'>Languages Skills</div>
 											<div className='border-b border-border'></div>
-											<div className=''>English, Ukrainian, German, Polish</div>
+											<div className=''>
+												Ukrainian, English, German, Polish.
+											</div>
 										</div>
 									</div>
 								</TabsContent>
@@ -79,7 +79,7 @@ const About = () => {
 								<TabsContent value='qualifications'>
 									<div>
 										<h3 className='h3 mb-8 text-center xl:text-left'>
-											My Blablabla Journey
+											My code and pixels journey
 										</h3>
 										{/* experience & education wrapper*/}
 										<div className='grid md:grid-cols-2 gap-y-8'>
@@ -159,7 +159,7 @@ const About = () => {
 								{/* skills */}
 								<TabsContent value='skills'>
 									<div className='text-center xl:text-left'>
-										<h3 className='h3 mb-8'>What I Use Daily</h3>
+										<h3 className='h3 mb-8'>What I use daily</h3>
 										{/* skills */}
 										<div className='mb-16'>
 											<h4 className='text-xl font-semibold mb-2'>Skills</h4>
