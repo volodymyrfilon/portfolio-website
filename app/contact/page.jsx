@@ -8,6 +8,7 @@ import emailjs from '@emailjs/browser'
 import { ContactLoader } from '@/components/Loader'
 import { motion } from 'framer-motion'
 import { HomeIcon, MailIcon, PhoneCall } from 'lucide-react'
+import Link from 'next/link'
 
 const variants = {
 	initial: {
@@ -91,7 +92,9 @@ const Contact = () => {
 								<MailIcon size={20} className='text-primary' />
 								<h2 className='text-2xl font-semibold'>Email</h2>
 							</div>
-							<div className='text-lg'>vdfo26@gmail.com</div>
+							<Link href='mailto:vdfo26@gmail.com' className='text-lg'>
+								vdfo26@gmail.com
+							</Link>
 						</div>
 						{/* address */}
 						<div className='flex flex-col gap-x-4 items-center xl:items-start'>
@@ -105,9 +108,11 @@ const Contact = () => {
 						<div className='flex flex-col gap-x-4 items-center xl:items-start'>
 							<div className='flex gap-x-2 items-center'>
 								<PhoneCall size={20} className='text-primary' />
-								<h2 className='text-2xl font-semibold'>Address</h2>
+								<h2 className='text-2xl font-semibold'>Phone</h2>
 							</div>
-							<div className='text-lg'>+48 578 568 311</div>
+							<Link href='tel:+48578568311' className='text-lg'>
+								+48 578 568 311
+							</Link>
 						</div>
 					</div>
 					{/*  form */}

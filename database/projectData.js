@@ -1,5 +1,14 @@
 export const projectData = [
 	{
+		image: '/work/post-angeles.jpg',
+		category: 'fullstack',
+		name: 'Post Angeles (in process)',
+		description:
+			'A project made for a Ukrainian humanitarian organization that helps the Ukrainian army.',
+		link: '/',
+		github: 'https://github.com/baza-trainee/post-angels',
+	},
+	{
 		image: '/work/marvel.jpg',
 		category: 'react js',
 		name: 'Marvel',
