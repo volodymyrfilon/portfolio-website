@@ -3,6 +3,7 @@ import { useRef, useState } from 'react'
 
 import { ArrowRightIcon, MailIcon, MessageSquare, User } from 'lucide-react'
 import { Button } from './ui/button'
+import { Checkbox } from './ui/checkbox'
 import { Input } from './ui/input'
 import { Textarea } from './ui/textarea'
 
@@ -81,10 +82,26 @@ const Form = () => {
 				/>
 				<MessageSquare className='absolute top-4 right-6' size={20} />
 			</div>
-			<Button className='flex items-center gap-x-1 max-w-[166px]'>
-				Let`s Talk
-				<ArrowRightIcon size={20} />
-			</Button>
+			{/* checkbox and button */}
+			<div className='flex flex-col justify-between gap-y-4 xl:flex-row'>
+				{/* checkbox */}
+				<div className='flex items-center space-x-2'>
+					<Checkbox id='terms' required />
+					<label
+						htmlFor='terms'
+						className='text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70'
+					>
+						Accept terms and conditions
+					</label>
+				</div>
+				{/* buton */}
+				<Button className='flex items-center gap-x-1 max-w-[166px]'>
+					Let`s Talk
+					<ArrowRightIcon size={20} />
+				</Button>
+				{/* errors */}
+			</div>
+
 			{error && <p className='text-red-500'>Error</p>}
 			{success && <p className='text-green-500'>Success</p>}
 		</form>
