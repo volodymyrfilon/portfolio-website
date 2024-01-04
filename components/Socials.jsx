@@ -10,19 +10,19 @@ import {
 
 const icons = [
 	{
-		path: '/',
+		path: 'https://www.linkedin.com/in/volodymyr-filon/',
 		name: <RiLinkedinFill />,
 	},
 	{
-		path: '/',
+		path: 'https://github.com/volodymyrfilon',
 		name: <RiGithubFill />,
 	},
 	{
-		path: '/',
+		path: 'https://t.me/wlodeeek1312',
 		name: <RiTelegramFill />,
 	},
 	{
-		path: '/',
+		path: 'https://www.facebook.com/wlodek.filon.26',
 		name: <RiFacebookFill />,
 	},
 ]

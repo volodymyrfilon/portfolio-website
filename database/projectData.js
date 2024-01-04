@@ -27,6 +27,15 @@ export const projectData = [
 		github: 'https://github.com/volodymyrfilon/GearsRoam',
 	},
 	{
+		image: '/work/weather.jpg',
+		category: 'native js',
+		name: 'Weather App',
+		description:
+			'Check out the Weather App, a JavaScript-based project that provides real-time weather updates.',
+		link: 'https://volodymyrfilon.github.io/weather-dashboard-js/',
+		github: 'https://github.com/volodymyrfilon/weather-dashboard-js',
+	},
+	{
 		image: '/work/quiz.jpg',
 		category: 'native js',
 		name: 'Quiz App',

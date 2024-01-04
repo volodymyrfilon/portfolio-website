@@ -19,7 +19,6 @@ const useScrollProgress = () => {
 		return () => window.removeEventListener('scroll', updateScrollCopmpletion)
 	}, [])
 
-	console.log(completion)
 	return completion
 }
 

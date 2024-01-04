@@ -56,7 +56,7 @@ const Projects = () => {
 				<motion.div
 					initial={{ opacity: 0 }}
 					whileInView={{ opacity: 1 }}
-					transition={{ delay: 5, duration: 1 }}
+					transition={{ delay: 3.5, duration: 1 }}
 				>
 					{/* tabs */}
 					<Tabs defaultValue={category} className='mb-12 xl:mb-48'>

@@ -1,26 +1,20 @@
-import useWindowSize from '@/hooks/useWindowSize'
 import { motion } from 'framer-motion'
 
 const ContactLoader = () => {
-	const size = useWindowSize()
 	return (
 		<motion.div
-			className='stroke-primary absolute -z-[1] top-1/2 -translate-y-1/2 mt-10 '
+			className='stroke-primary absolute -z-[1] mt-10 w-4/6 max-w-[450px]'
 			initial={{ opacity: 1 }}
 			whileInView={{ opacity: 0 }}
-			transition={{ delay: 3, duration: 1 }}
+			transition={{ delay: 2.75, duration: 1 }}
 		>
-			<svg
-				width={`${Math.ceil(size.width * 0.45)}px`}
-				height={`${Math.ceil(size.height * 0.45)}px`}
-				viewBox='0 0 32.666 32.666'
-			>
+			<svg width='100%' height='100%' viewBox='0 0 32.666 32.666'>
 				<motion.path
 					strokeWidth={0.2}
 					fill='none'
 					initial={{ pathLength: 0 }}
 					animate={{ pathLength: 1 }}
-					transition={{ duration: 4 }}
+					transition={{ duration: 3 }}
 					d='M28.189,16.504h-1.666c0-5.437-4.422-9.858-9.856-9.858l-0.001-1.664C23.021,4.979,28.189,10.149,28.189,16.504z
 					M16.666,7.856L16.665,9.52c3.853,0,6.983,3.133,6.981,6.983l1.666-0.001C25.312,11.735,21.436,7.856,16.666,7.856z M16.333,0
 					C7.326,0,0,7.326,0,16.334c0,9.006,7.326,16.332,16.333,16.332c0.557,0,1.007-0.45,1.007-1.006c0-0.559-0.45-1.01-1.007-1.01
@@ -41,26 +35,21 @@ const ContactLoader = () => {
 }
 
 const ProjectLoader = () => {
-	const size = useWindowSize()
 	return (
 		<motion.div
-			className='stroke-primary absolute -z-[1] mt-10'
+			className='stroke-primary absolute -z-[1] mt-10 w-4/6 max-w-[450px]'
 			initial={{ opacity: 1 }}
 			whileInView={{ opacity: 0 }}
-			transition={{ delay: 3, duration: 1 }}
+			transition={{ delay: 2.75, duration: 1 }}
 		>
-			<svg
-				viewBox='0 0 24 24'
-				width={`${Math.ceil(size.width * 0.55)}px`}
-				height={`${Math.ceil(size.height * 0.55)}px`}
-			>
+			<svg viewBox='0 0 24 24' width='100%' height='100%'>
 				<g>
 					<motion.path
 						strokeWidth={0.2}
 						fill='none'
 						initial={{ pathLength: 0 }}
 						animate={{ pathLength: 1 }}
-						transition={{ duration: 3.7 }}
+						transition={{ duration: 3 }}
 						d='M11.7444 14C5.13962 13 5.64768 8.5 7.67987 7C7.27882 6.39155 6.66375 4 7.1718 3.00001C8.18792 3.5 9.55173 4.23944 10.2202 5C12.2524 4 15.3007 4 16.8249 5C17.226 4.18873 18.6968 3.42254 19.3652 3C19.9668 3.60845 19.5323 5.98592 19.3652 7C20.3678 9.19718 20.8894 12.5 15.3007 14C16.1273 14.6688 17.4571 16.2652 18.3819 18.0893C19.0373 19.3821 17.7844 20.5701 16.3571 20.3176C15.3606 20.1413 14.2545 20 13.2685 20C12.0745 20 10.494 20.2071 9.12617 20.4329C7.71155 20.6663 6.56735 19.4472 7.29296 18.2106C7.81974 17.3128 8.48393 16.4725 9.20408 16C8.95342 15.662 7.9605 14.6887 6.15574 15.5C3.89979 16.5141 2.60607 14.2676 3.10739 13'
 					></motion.path>
 				</g>

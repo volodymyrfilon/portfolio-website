@@ -12,7 +12,7 @@ const About = () => {
 		return arr.find(item => item.title === title)
 	}
 	return (
-		<section className='xl:h-[860px] pt-32 pb-12 special:py-12 xl:py-24'>
+		<section className='xl:h-[860px] pt-0 pb-12 xl:py-24'>
 			<div className='container mx-auto'>
 				<h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>
 					About me
@@ -28,7 +28,7 @@ const About = () => {
 					{/* tabs */}
 					<div className='flex-1'>
 						<Tabs defaultValue='personal'>
-							<TabsList className='w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none'>
+							<TabsList className='w-full grid xl:grid-cols-3 md:w-[172px] xl:max-w-[520px] xl:border dark:border-none'>
 								<TabsTrigger className='w-[162px] xl:w-auto' value='personal'>
 									Personal Info
 								</TabsTrigger>
