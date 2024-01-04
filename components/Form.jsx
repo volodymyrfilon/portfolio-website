@@ -2,6 +2,7 @@ import emailjs from '@emailjs/browser'
 import { useRef, useState } from 'react'
 
 import { ArrowRightIcon, MailIcon, MessageSquare, User } from 'lucide-react'
+import Link from 'next/link'
 import { Button } from './ui/button'
 import { Checkbox } from './ui/checkbox'
 import { Input } from './ui/input'
@@ -75,7 +76,7 @@ const Form = () => {
 			{/* textarea */}
 			<div className='relative flex items-center'>
 				<Textarea
-					placeholder='Type your message here'
+					placeholder='Type here'
 					className='pr-12'
 					name='message'
 					required
@@ -83,16 +84,25 @@ const Form = () => {
 				<MessageSquare className='absolute top-4 right-6' size={20} />
 			</div>
 			{/* checkbox and button */}
-			<div className='flex flex-col justify-between gap-y-4 xl:flex-row'>
+			<div className='flex flex-col justify-between items-start gap-y-4 sm:flex-row'>
 				{/* checkbox */}
-				<div className='flex items-center space-x-2'>
-					<Checkbox id='terms' required />
-					<label
-						htmlFor='terms'
-						className='text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70'
-					>
-						Accept terms and conditions
-					</label>
+				<div className='items-top flex space-x-2'>
+					<Checkbox id='terms1' />
+					<div className='grid gap-1.5 leading-none'>
+						<label
+							htmlFor='terms1'
+							className='text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70'
+						>
+							Accept terms and conditions
+						</label>
+						<p className='text-sm text-muted-foreground'>
+							{/* space after text */}
+							{'You agree to our '}
+							<Link href='/privacy-policy' className='text-primary underline'>
+								Terms of Service and Privacy Policy.
+							</Link>
+						</p>
+					</div>
 				</div>
 				{/* buton */}
 				<Button className='flex items-center gap-x-1 max-w-[166px]'>

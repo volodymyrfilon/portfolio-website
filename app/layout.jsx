@@ -11,7 +11,7 @@ const outfit = Outfit({ subsets: ['latin'] })
 
 export const metadata = {
 	title: 'Portfolio Website',
-	description: 'Portfolio website: https://github.com/volodymyrfilon',
+	description: 'https://github.com/volodymyrfilon',
 }
 
 export default function RootLayout({ children }) {
