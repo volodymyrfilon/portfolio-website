@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 import Form from '@/components/Form'
 import { ContactLoader } from '@/components/Loader'
@@ -26,6 +26,10 @@ const variants = {
 
 const Contact = () => {
 	const ref = useRef()
+
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 
 	return (
 		<motion.section

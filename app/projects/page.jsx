@@ -5,7 +5,7 @@ import ProjectCard from '@/components/ProjectCard'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { projectData } from '@/database'
 import { motion } from 'framer-motion'
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 const variants = {
 	initial: {
@@ -29,6 +29,10 @@ const uniqueCategories = [
 ]
 
 const Projects = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+
 	const [categories, setCategories] = useState(uniqueCategories)
 	const [category, setCategory] = useState('all projects')
 	const ref = useRef()
