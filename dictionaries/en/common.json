@@ -1,0 +1,20 @@
+{
+	"common": {
+		"privacyPolicy": {
+			"title": "title",
+			"date": "date",
+			"content": [
+				{
+					"number": "01",
+					"subtitle": "subtitle",
+					"text": ["paragraf 1", "paragraf 2", "paragraf 3"]
+				},
+				{
+					"number": "02",
+					"subtitle": "subtitle",
+					"text": ["paragraf 1", "paragraf 2", "paragraf 3", "paragraf 4"]
+				}
+			]
+		}
+	}
+}

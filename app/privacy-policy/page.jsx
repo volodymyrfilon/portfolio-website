@@ -1,274 +1,245 @@
+'use client'
+'use client'
+import { Button } from '@/components/ui/button'
+import {
+	ChevronsLeft,
+	Contact,
+	HomeIcon,
+	MailIcon,
+	PhoneCall,
+} from 'lucide-react'
+import Link from 'next/link'
+import { useRouter } from 'next/navigation'
+
+const privacyPolicyData = {
+	title: 'Portfolio Website Privacy Policy',
+	date: 'from August 29, 2023',
+	content: [
+		// {
+		// 	number: '01',
+		// 	subtitle: 'General Provisions.',
+		// 	text: [
+		// 		{
+		// 			paragraph:
+		// 				'This Privacy Policy is a legally binding document, which constitutes an integral part of the Terms of Use of web-site brander.аgency, and aimed to regulate relationships between Owners and Users of web-site brander.аgency and contains the scope of confidential information, the methods for its collection, storage, processing, disclosure, analysis, ensuring security during the use of web-site brander.аgency. It is strongly recommended for Users to read carefully the following Privacy Policy before they start usage of web-site brander.аgency, as well as its content, or other related products. By using the mentioned products, you acknowledge your consent to use web-site brander.аgency in accordance with this Privacy Policy. If Users do not accept fully or partially the terms herein, they should terminate or not to start the usage of web-site brander.аgency.',
+		// 		},
+		// 	],
+		// },
+		// {
+		// 	number: '02',
+		// 	subtitle: 'The scope and types of confidential information.',
+		// 	text: [
+		// 		{
+		// 			paragraph:
+		// 				'The personal information that is collected, stored or processed while using web-site brander.аgency includes the following types of information',
+		// 		},
+		// 		{
+		// 			paragraph:
+		// 				'Contact Information - This includes, in particular: mobile phone numbers, email address, name and surname of User, i.e. information by means of which User can identify himself as submit User`s application or User`s CV of web-site brander.аgency.',
+		// 		},
+		// 		{
+		// 			paragraph:
+		// 				'User Information - This includes, in particular: any information that is generated and uploaded directly by User, shared, received, distributed in any form by User while using web-site brander.аgency, as well as information about the User himself.',
+		// 		},
+		// 		{
+		// 			paragraph:
+		// 				'Third party Materials - This includes, in particular: data, products, content, intellectual property created, published or otherwise accumulated from third parties, other than User and/or Owner of web-site brander.аgency.',
+		// 		},
+		// 		{
+		// 			paragraph:
+		// 				'Contact Information - This includes, in particular: information which is received or collected, in particular - about IP-addresses, device types, which are used for running web-site brander.аgency, time and frequency of installations, visits, geo-location of Users and devices, metadata, comments, ratings, feedback posted by Users, received from other users, content of third parties.',
+		// 		},
+		// 	],
+		// },
+		// {
+		// 	number: '03',
+		// 	subtitle: 'Purposes for the collection of personal data.',
+		// 	text: [
+		// 		{
+		// 			paragraph:
+		// 				"Collection of information is necessary in order to enable the following: Performance of User's tasks; Detecting, investigating, and combating fraud, non-permitted access or any other kind of illegal activity in relation to the web-site brander.аgency; ensuring technical support for Users of web-site brander.аgency; Administration of web-site brander.аgency; Ensuring compliance with the Terms of Use of web-site brander.аgency; Analytics of accumulated, depersonalized and anonymized information in order to improve and optimize the quality of service, which results will be used to optimize web-site brander.аgency functionality and improve the service provided.",
+		// 		},
+		// 		{
+		// 			paragraph:
+		// 				'With respect to above mentioned Owner of web-site brander.аgency agrees to obtain a full and explicit User consent for the collection and processing of mentioned data.',
+		// 		},
+		// 		{
+		// 			paragraph:
+		// 				'By starting an actual usage of web-site brander.аgency and setting tasks via web-site brander.аgency, including tasks for data sharing, User expresses his full and explicit consent for the collection and processing of mentioned personal data.',
+		// 		},
+		// 		{
+		// 			paragraph:
+		// 				"By accepting this Privacy Policy, User acknowledges and agrees that the data listed above will be collected, processed and stored on the Owner of web-site's brander.аgency servers. The collection, storage, processing, or any use of the information for purposes other than the purposes specified herein, is strictly prohibited. No one may distribute, publish or otherwise exploit User information in any way, which violates or potentially violates the rights of third parties, or other Users.",
+		// 		},
+		// 	],
+		// },
+		// {
+		// 	number: '04',
+		// 	subtitle: 'The moment of data collection.',
+		// 	text: [
+		// 		{
+		// 			paragraph:
+		// 				'The owner of the application collects information when: User directly uses web-site brander.аgency interfaces; Users create, upload and share data or otherwise participates in related communications; User communicates with Owner of web-site brander.аgency through web-site brander.аgency and related systems.',
+		// 		},
+		// 	],
+		// },
+		// {
+		// 	number: '05',
+		// 	subtitle: 'Disclosure of personal data.',
+		// 	text: [
+		// 		{
+		// 			paragraph:
+		// 				'Owners of web-site brander.аgency reserve the right to disclose User personal data to following persons: Third parties who are partners of the Owner of web-site brander.аgency and shall, therefore, assist in the provision of service (maintaining services, support, hosting, database management, etc.). In this case, the information is disclosed exclusively for the purposes of service provision, and person to whom it is available, undertakes not to disclose or use information outside the scope of this Privacy Policy; Representatives of public authorities – in order to respond to legally reasonable requests in connection with official procedures, investigations, if the obligation to disclose is required by the current legislation; Professional advisors (lawyers, auditors, etc.) for the purposes of an independent audit, corporate governance and compliance procedures.',
+		// 		},
+		// 	],
+		// },
+		// {
+		// 	number: '06',
+		// 	subtitle:
+		// 		'Disclosure, transfer, exchange of personal information is possible only based on full, expressed and explicit User consent. User has opportunity at any time to prevent, to stop the transfer or sharing of personal information.',
+		// 	text: [],
+		// },
+		// {
+		// 	number: '07',
+		// 	subtitle: 'Storage and Data Security.',
+		// 	text: [
+		// 		{
+		// 			paragraph:
+		// 				'Owner of web-site brander.аgency undertakes all the necessary and reasonable measures to protect User information from leakage, loss, illegal and unauthorized use. However, User should be aware that web-site brander.аgency is open, can be accessed online, and therefore can potentially be subject to cyber-attacks, viruses, and other similar negative activities. Online access a priori does not guarantee the absolute safety of web-site brander.аgency; web-site brander.аgency Users use web-site brander.аgency at their own risk and Owners of web-site brander.аgency do not bear any responsibility for damage / loss raised from the threats to information and cyber security.',
+		// 		},
+		// 		{
+		// 			paragraph:
+		// 				'The User is also aware that the applicable information security and data protection tools cannot guarantee the absolute security of any data shared. Owners of web-site brander.аgency are not responsible for the actions of third parties, to whom User opens, discloses or otherwise transmits information. Since web-site brander.аgency runs globally, User acknowledges and agrees that personal information may be transferred to the devices that are located in any other country of the world, and with different levels of data protection. By using web-site brander.аgency, the User acknowledges and agrees to such data traffic',
+		// 		},
+		// 	],
+		// },
+		// {
+		// 	number: '08',
+		// 	subtitle: 'Personal Data Change.',
+		// 	text: [
+		// 		{
+		// 			paragraph:
+		// 				'Users have the right at any time to change, update, correct or delete personal information via web-site brander.аgency. User agrees that after removal of his [registration] data / content - a copy of the data can continue to be stored on the server because of the data backups for some time. However, the Owner of web-site brander.аgency is not obliged to store such data after termination of this Privacy Policy and User is aware and agrees that after termination of the usage of service his data and content will not be saved.',
+		// 		},
+		// 	],
+		// },
+		// {
+		// 	number: '09',
+		// 	subtitle: 'Cookies.',
+		// 	text: [
+		// 		{
+		// 			paragraph:
+		// 				'Cookies-files may be used to monitor the use of web-site brander.аgency and web traffic in order to optimize and improve the service. User is aware and agrees that cookies may collect his certain personal information, including information about IP-addresses, information on the types of devices and used operating systems, time and frequency of visits.',
+		// 		},
+		// 		{
+		// 			paragraph:
+		// 				'User can at any time to change the settings of his browser by blocking the ability for automatic use of cookies. The information gathered may be used exclusively for the purposes of analytics, based on depersonalized and anonymized data, the results of which will be used in order to optimize the functionality of web-site brander.аgency and to improve the service provided. Blocking of cookies, however, may affect the ability of access to certain functionality of web-site brander.аgency.',
+		// 		},
+		// 	],
+		// },
+		// {
+		// 	number: '10',
+		// 	subtitle:
+		// 		'The procedure for making amendments and additions to the Privacy Policy',
+		// 	text: [
+		// 		{
+		// 			paragraph:
+		// 				'Owners of web-site brander.аgency reserve the right at any time to revoke the terms and herein, to make changes, additions, without prior User consent or other prior notifications.',
+		// 		},
+		// 		{
+		// 			paragraph:
+		// 				'In case if certain provisions of the present Privacy Policy turn to be invalid or ineffective under the jurisdiction of particular countries, the mentioned does not affect the legal force of the entire document hereby, as well as the validity of its particular provisions in specific jurisdictions. Since consequent changes to the terms herein are made, they shall be published via platform, where web-site brander.аgency is located, with the appropriate notification on the updating date at the top of the text.',
+		// 		},
+		// 	],
+		// },
+		{
+			number: '11',
+			subtitle: 'The contact details.',
+			text: [],
+		},
+	],
+}
+
 const privacyPolicyPage = () => {
+	const router = useRouter()
+	const { title, date, content } = privacyPolicyData
 	return (
-		// <section className='main'>
-		// 	<div className='container'>
-		// 		<div className='main__title'>
-		// 			<h1 className='main__title-text'>Portfolio Website privacy policy</h1>
-		// 			<p className='main__title-upd'>від 29 серпня 2023 року</p>
-		// 		</div>
-		// 		<div className='main__content'>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>01</div>
-		// 				<h2 className='main__content-subtitle'>Загальні положення.</h2>
-		// 				<p className='main__content-text'>
-		// 					Ці Умови конфіденційності є Офіційним документом, які становлять
-		// 					невід'ємну частину Умов використання веб-сайту schedule.io, який
-		// 					регулює взаємовідносини між власником веб-сайту schedule.io і його
-		// 					користувачами щодо переліку конфіденційної інформації, способів її
-		// 					збору, зберігання, обробки, розкриття, аналізу і процесингу,
-		// 					забезпечення безпеки у зв'язку з, і в процесі використання
-		// 					веб-сайту schedule.io. Наполегливо рекомендуємо користувачам
-		// 					детально Ознайомитися з викладеними Умовами конфіденційності перед
-		// 					початком використання веб-сайту schedule.io, його контенту, або
-		// 					Інших пов'язаних продуктів, адже, починаючи використовувати
-		// 					перераховані продукти, ви підтверджуєте свою згоду на використання
-		// 					веб-сайту schedule.io на умовах, викладених нижче. У разі, якщо
-		// 					Користувачі НЕ згодні повністю або частково з цими Умовами
-		// 					конфіденційності, прохання припинити / НЕ продовжувати роботу з
-		// 					веб-сайтом schedule.io.
-		// 				</p>
-		// 			</div>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>02</div>
-		// 				<h2 className='main__content-subtitle'>
-		// 					Перелік конфіденційної інформації.
-		// 				</h2>
-		// 				<p className='main__content-text'>
-		// 					До персональної інформації, яка збирається, зберігається або
-		// 					обробляється в процесі використання веб-сайту brander.ua
-		// 					відносяться наступні види інформації:
-		// 					<br />
-		// 					— Контактна інформація.
-		// 					<br />
-		// 					До неї відноситься, зокрема: номер мобільного телефону, адреса
-		// 					електронної пошти, ім'я та прізвище Користувача, за допомогою
-		// 					якого Користувач може ідентифікувати себе.
-		// 					<br />
-		// 					— Інформація користувача.
-		// 					<br />
-		// 					До неї відноситься, зокрема: будь-яка інформація, яка створюється
-		// 					і завантажується безпосередньо Користувачем, що передається і
-		// 					отримується, поширюється так чи інакше Користувачем в процесі і за
-		// 					допомогою використання веб-сайту brander.ua, а також безпосередньо
-		// 					інформація про Користувача.
-		// 					<br />
-		// 					— Матеріали третіх осіб.
-		// 					<br />
-		// 					До неї відноситься, зокрема: дані, продукти, контент, об'єкти
-		// 					інтелектуальної власності, що створені, публікуються або іншим
-		// 					способом виходять від третіх осіб, відмінних від Користувача та /
-		// 					або Власника веб-сайту brander.ua.
-		// 					<br />
-		// 					— Інформація про акаунт Користувача / Користувача.
-		// 					<br />
-		// 					До неї відноситься, зокрема: інформація, яка так чи інакше
-		// 					отримана / зібрана про IP-адреси, типи пристроїв, з яких
-		// 					відбувається використання веб-сайту brander.ua, часу і частоту
-		// 					відвідувань веб-сайту brander.ua, геолокації Користувача і
-		// 					пристроїв, метадані, відгуки, рейтинги, фідбек, розміщений
-		// 					Користувачем, отриманий від інших користувачів / третіх осіб
-		// 					контенту.
-		// 				</p>
-		// 			</div>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>03</div>
-		// 				<h2 className='main__content-subtitle'>Цілі збору інформації.</h2>
-		// 				<p className='main__content-text'>
-		// 					Збір інформації відбувається для забезпечення:
-		// 					<br />
-		// 					— виконання завдань від Користувача;
-		// 					<br />
-		// 					— виявлення, розслідування, боротьби з шахрайською,
-		// 					несанкціонованої чи іншого роду незаконної активністю в рамках і в
-		// 					зв'язку з використанням веб-сайту brander.ua;
-		// 					<br />
-		// 					— здійснення технічної підтримки користувачів в процесі
-		// 					використання веб-сайту brander.ua; — адміністрування веб-сайту
-		// 					brander.ua;
-		// 					<br />
-		// 					— забезпечення виконання Умов використання веб-сайту brander.ua;
-		// 					<br />
-		// 					— аналітики акумульованої, деперсоналізованої і анонімізованої
-		// 					інформації для поліпшення і оптимізації якості сервісу, результати
-		// 					якої можуть бути використані Власником веб-сайту brander.ua для
-		// 					оптимізації веб-сайту brander.ua і поліпшення сервісу.
-		// 					<br />
-		// 					При цьому, Власник веб-сайту brander.ua зобов'язується отримувати
-		// 					від Користувача повну, прямо виражену і вичерпну згоду на збір і
-		// 					обробку запитуваних даних.
-		// 					<br />
-		// 					За допомогою використання веб-сайту brander.ua і постановки
-		// 					відповідних завдань на веб-сайті brander.ua, в тому числі завдань
-		// 					на передачу даних, Користувач висловлює свою повну та вичерпну
-		// 					згоду на збір і обробку перерахованих вище персональних даних
-		// 					Користувача.
-		// 					<br />
-		// 					Приймаючи дані Умови конфіденційності, Користувач підтверджує і
-		// 					погоджується з тим, що перераховані вище дані будуть збиратися,
-		// 					оброблятися і зберігатися на серверах Власника веб-сайту
-		// 					brander.ua. Збір, зберігання, обробка або будь-яке використання
-		// 					інформації з метою, відмінних від цілей, передбачених даними
-		// 					Умовами конфіденційності, суворо забороняється. Ніхто не може
-		// 					поширювати, публікувати або іншим чином використовувати інформацію
-		// 					Користувача будь-яким чином, що порушує або потенційно порушує
-		// 					права третіх осіб чи інших користувачів.
-		// 				</p>
-		// 			</div>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>04</div>
-		// 				<h2 className='main__content-subtitle'>Момент збору інформації.</h2>
-		// 				<p className='main__content-text'>
-		// 					Власник веб-сайту brander.ua здійснює збір інформації в момент:
-		// 					<br />
-		// 					— безпосереднього використання Користувачами інтерфейсів веб-сайту
-		// 					brander.ua;4
-		// 					<br />
-		// 					— створення, завантаження та передачі даних між Користувачами або
-		// 					здійснення інших комунікацій з їх участю;
-		// 					<br />— здійснення комунікацій між Користувачем і Власником
-		// 					веб-сайту brander.ua за допомогою веб-сайту brander.ua.
-		// 				</p>
-		// 			</div>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>05</div>
-		// 				<h2 className='main__content-subtitle'>
-		// 					Розкриття персональних даних.
-		// 				</h2>
-		// 				<p className='main__content-text'>
-		// 					Власники веб-сайту brander.ua залишають за собою право розкрити
-		// 					персональні дані своїх користувачів наступним особам:
-		// 					<br />
-		// 					— третім особам, які є партнерами Власників веб-сайту brander.ua і
-		// 					сприяють у наданні сервісу (обслуговування, підтримку, хостинг,
-		// 					управління базами даних і т.д.). При цьому, інформація
-		// 					розкривається виключно для цілей надання сервісу, і особи, яким
-		// 					вона стає доступною, зобов'язуються не розкривати або
-		// 					використовувати її за рамками цих Умов конфіденційності;
-		// 					<br />
-		// 					— представникам державних органів влади у відповідь на їх належним
-		// 					чином оформлений і обгрунтований запит в зв'язку з проведенням
-		// 					офіційних процедур, розслідувань, якщо обов'язок розкрити
-		// 					інформацію передбачена чинним законодавством;
-		// 					<br />— професійним радникам (юристам, аудиторам і т.д.) для цілей
-		// 					здійснення незалежного аудиту, корпоративного управління і
-		// 					комплаенса.
-		// 				</p>
-		// 			</div>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>06</div>
-		// 				<h2 className='main__content-subtitle'>
-		// 					Розкриття, передача, обмін особистою інформацією відбувається
-		// 					тільки з повної, прямо вираженої і вичерпної згоди Користувача.
-		// 					Користувач має можливість в будь-який момент запобігти, зупинити
-		// 					подальшу передачу, обмін персональної інформації.
-		// 				</h2>
-		// 			</div>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>07</div>
-		// 				<h2 className='main__content-subtitle'>
-		// 					Зберігання і безпека даних.
-		// 				</h2>
-		// 				<p className='main__content-text'>
-		// 					Власник веб-сайту brander.ua вживає всіх необхідних і об'єктивно
-		// 					обґрунтованих заходів для захисту інформації користувачів від
-		// 					витоку, втрати, незаконного і несанкціонованого використання.
-		// 					Проте, Користувач повинен також усвідомлювати, що веб-сайт
-		// 					brander.ua знаходиться у відкритому онлайн-доступі, у зв'язку із
-		// 					чим може бути підданий кібератакам, вірусам і іншим подібним
-		// 					негативним явищам, що не гарантує Користувачеві абсолютної безпеки
-		// 					використовуваного сервісу; веб-сайт brander.ua використовується
-		// 					ним на власний ризик і Власники веб-сайту brander.ua не несуть
-		// 					жодної відповідальності за шкоду/збиток, що виникли у результаті
-		// 					загроз інформаційної і кібербезпеки. Користувач також усвідомлює,
-		// 					що застосовані заходи інформаційної безпеки і захисту даних не
-		// 					гарантують абсолютний захист будь-якої інформації, що передається.
-		// 					Власники веб-сайту brander.ua також не відповідають за дії третіх
-		// 					осіб, яким Користувач розкриває або іншим чином передає
-		// 					інформацію. Так як веб-сайт brander.ua функціонує глобально,
-		// 					Користувач усвідомлює і погоджується з тим, що персональна
-		// 					інформація може бути передана на пристрої, що знаходяться у
-		// 					будь-якій іншій країні світу, і з різними рівнем захисту даних.
-		// 					Використовуючи веб-сайт brander.ua, Користувач підтверджує і надає
-		// 					згоду на такий рух даних.
-		// 				</p>
-		// 			</div>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>08</div>
-		// 				<h2 className='main__content-subtitle'>
-		// 					Зміна персональних даних.
-		// 				</h2>
-		// 				<p className='main__content-text'>
-		// 					Користувачі мають право у будь-який момент змінювати, оновлювати,
-		// 					виправляти і видаляти персональну інформацію за допомогою
-		// 					веб-сайту brander.ua. Користувач погоджується з тим, що після
-		// 					видалення своїх даних / контенту - копії таких даних можуть
-		// 					продовжувати зберігатись на сервері в результаті резервного
-		// 					копіювання даних протягом деякого часу. Проте Власник веб-сайту
-		// 					brander.ua не зобов'язаний зберігати такі дані після припинення
-		// 					строку дії даних Умов конфіденційності і Користувач усвідомлює, що
-		// 					під час припинення використання сервісу його дані і контент можуть
-		// 					не зберегтися.
-		// 				</p>
-		// 			</div>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>09</div>
-		// 				<h2 className='main__content-subtitle'>Cookies.</h2>
-		// 				<p className='main__content-text'>
-		// 					Файли-сookies можуть бути використані для моніторингу використання
-		// 					веб-сайту brander.ua і веб-трафіку для оптимізації і покращення
-		// 					сервісу. Користувач усвідомлює, що сookies можуть збирати певну
-		// 					персональну інформацію про Користувачів, включаючи інформацію про
-		// 					IP-адреси Користувачів, інформацію про типи пристроїв, операційні
-		// 					системи, що використовуються, про час і частоту надходжень.
-		// 					<br />
-		// 					Користувач може змінити налаштування свого браузера, заблокувавши
-		// 					можливість автоматичного використання таких файлів-сookies.
-		// 					Зібрана інформація може бути використана виключно для аналітики
-		// 					акумульованої, деперсоналізованної і анонімізованної інформації,
-		// 					результати якої можуть бути використані Власником веб-сайту
-		// 					brander.ua для оптимізації функціоналу веб-сайту brander.ua і
-		// 					поліпшення сервісу, що надається. Відмова від використання
-		// 					сookies, проте, може вплинути на можливість доступу до тих або
-		// 					інших функціональних можливостей веб-сайту brander.ua.
-		// 				</p>
-		// 			</div>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>10</div>
-		// 				<h2 className='main__content-subtitle'>
-		// 					Зміни в Умовах конфіденційності.
-		// 				</h2>
-		// 				<p className='main__content-text'>
-		// 					Власники веб-сайту brander.ua зберігають за собою право у
-		// 					будь-який момент відкликати дію даних Умов конфіденційності,
-		// 					вносити до них зміни, доповнення без попередньої згоди
-		// 					Користувачів або їх попереднього повідомлення.
-		// 					<br />
-		// 					У разі визнання окремих положень даних Умов конфіденційності
-		// 					недійсними, або їх недійсності в межах тієї або іншої юрисдикції,
-		// 					це не тягне за собою визнання недійсними Умов конфіденційності в
-		// 					цілому, як і недійсності їх окремих положень у межах конкретних
-		// 					юрисдикцій.
-		// 					<br />З моменту внесення відповідних змін до цих Умов
-		// 					конфіденційності, вони підлягають публікації на платформі, де
-		// 					знаходиться веб-сайт brander.ua, а також розміщення вказівки угорі
-		// 					тексту на дату оголошення.
-		// 				</p>
-		// 			</div>
-		// 			<div className='main__content-item'>
-		// 				<div className='main__content-num'>11</div>
-		// 				<h2 className='main__content-subtitle'>Контактні дані.</h2>
-		// 				<p className='main__content-text'>
-		// 					TELEGRAM - @11wqdqscwc
-		// 					<br />
-		// 					MAIL - hel2121lo@212121.com
-		// 					<br />
-		// 					ТЕЛЕФОН - +380 32 323 3232 232
-		// 				</p>
-		// 			</div>
-		// 		</div>
-		// 	</div>
-		// </section>
-		<h1 className='h1 flex h-screen justify-center'>PRIVACY POLICY PAGE</h1>
+		<section className='mt-14 mb-24 xl:mb-32 min-h-screen'>
+			<div className='container'>
+				{/* main title and date */}
+				<div className=''>
+					<h1 className='uppercase h1 text-primary'>{title}</h1>
+					<p className='text-sm text-muted-foreground'>{date}</p>
+				</div>
+
+				{/* privacy policy content */}
+				<ol className='[counter-reset:section] w-1/2'>
+					{content.map((item, index) => (
+						<li
+							className='mt-10 xl:mt-20 [counter-increment:section]'
+							key={index}
+						>
+							<div className='text-4xl md:text-7xl font-black font-["Helvetica"] privacy-policy_num_extended'>
+								{item.number}
+							</div>
+							<h2 className='mt-2 mb-10 text-2xl md:text-4xl leading-6 font-bold'>
+								{item.subtitle}
+							</h2>
+							<ol className='[counter-reset:section] text-base font-semibold leading-6 dark:text-muted-foreground text-black/60'>
+								{item.text.map((text, index) => (
+									<li
+										className="my-2 px-2 ml-8 [counter-increment:section] marker:[content:counters(section,'.')]"
+										key={index}
+									>
+										{text.paragraph}
+									</li>
+								))}
+							</ol>
+						</li>
+					))}
+					{}
+				</ol>
+				{/* contacts */}
+				<div className='flex flex-col'>
+					<div className='flex gap-x-2 items-center'>
+						<MailIcon size={20} />
+						Email:
+						<Link href='mailto:vdfo26@gmail.com' className='text-primary'>
+							vdfo26@gmail.com
+						</Link>
+					</div>
+					<div className='flex gap-x-2 items-center'>
+						<PhoneCall size={20} />
+						Phone:
+						<Link href='tel:+48578568311' className='text-primary'>
+							+48 578 568 311
+						</Link>
+					</div>
+				</div>
+				{/* buttons */}
+				<div className='flex mt-8 gap-x-4'>
+					<Button
+						className='flex items-center gap-x-2'
+						onClick={() => router.back()}
+					>
+						<ChevronsLeft size={18} />
+						Back
+					</Button>
+					<Link href='/'>
+						<Button className='flex items-center gap-x-2'>
+							<HomeIcon size={18} />
+							Home
+						</Button>
+					</Link>
+					<Link href='/contact'>
+						<Button className='flex items-center gap-x-2'>
+							<Contact size={18} />
+							Contact
+						</Button>
+					</Link>
+				</div>
+			</div>
+		</section>
 	)
 }
 

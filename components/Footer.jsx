@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import Socials from './Socials'
 
 const Footer = () => {
 	return (
-		<footer className='bg-secondary py-12'>
+		<footer className='bg-secondary py-12 h-[150px]'>
 			<div className='container mx-auto'>
 				<div className='flex flex-col items-center justify-between'>
 					{/* socials */}
@@ -14,6 +15,10 @@ const Footer = () => {
 					<div className='text-muted-foreground text-center'>
 						Copyright 2023-2024 &copy; Volodymyr Filon. All rights reserved.
 					</div>
+					{/* privacy policy */}
+					<Link href='/privacy-policy' className='text-primary underline'>
+						Terms of Service and Privacy Policy.
+					</Link>
 				</div>
 			</div>
 		</footer>

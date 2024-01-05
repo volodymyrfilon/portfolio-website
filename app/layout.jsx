@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang='en' suppressHydrationWarning>
-			<body className={outfit.className}>
+			<body className={`${outfit.className} selection:bg-primary/40`}>
 				<ThemeProvider attribute='class' defaultTheme='light'>
 					<Header />
 					{children}
