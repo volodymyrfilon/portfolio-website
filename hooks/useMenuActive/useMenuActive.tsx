@@ -1,6 +1,6 @@
 import { usePathname } from 'next/navigation'
 
-const useMenuActive = route => {
+const useMenuActive = (route: string) => {
 	const pathname = usePathname()
 
 	const isActive =
