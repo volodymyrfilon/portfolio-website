@@ -4,8 +4,8 @@ import { Sheet, SheetClose, SheetContent, SheetTrigger } from './ui/sheet'
 import { links } from '@/database'
 import useMenuActive from '@/hooks/useMenuActive'
 import Link from 'next/link'
-import Logo from './Logo'
 import Socials from './Socials'
+import Logo from './shared/Logo'
 
 const MobileNav = () => {
 	return (

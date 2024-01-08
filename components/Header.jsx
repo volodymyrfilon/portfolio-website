@@ -2,10 +2,10 @@
 
 import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
-import Logo from './Logo'
 import MobileNav from './MobileNav'
 import Nav from './Nav'
 import ThemeToggler from './ThemeToggler'
+import Logo from './shared/Logo'
 
 const Header = () => {
 	const [header, setHeader] = useState(false)
