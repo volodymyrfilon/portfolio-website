@@ -1,7 +1,7 @@
 'use client'
 
-import { ProjectLoader } from '@/components/Loader'
 import ProjectCard from '@/components/ProjectCard'
+import { ProjectLoader } from '@/components/ui/loader'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { projectData } from '@/database'
 import { motion } from 'framer-motion'

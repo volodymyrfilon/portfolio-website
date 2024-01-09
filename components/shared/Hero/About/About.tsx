@@ -1,8 +1,8 @@
 import DevImg from './DevImg'
 
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Briefcase, GraduationCap } from 'lucide-react'
 import Image from 'next/image'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs'
 
 //database
 import { infoData, qualificationData, skillData } from '@/database'

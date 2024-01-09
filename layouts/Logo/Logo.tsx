@@ -1,8 +1,10 @@
 import Link from 'next/link'
+import { FC } from 'react'
+import { LogoProps } from './Logo.props'
 
-const Logo = () => {
+export const Logo: FC<LogoProps> = ({ href }) => {
 	return (
-		<Link href='/'>
+		<Link href={href}>
 			<div className='text-4xl font-bold'>
 				V<span className='text-primary'>F</span>
 			</div>
