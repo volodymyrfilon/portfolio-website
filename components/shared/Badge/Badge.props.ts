@@ -1,7 +1,9 @@
+import { ReactNode } from 'react';
+
 export interface BadgeProps {
-	containerStyles: string
-	icon: string
-	endCountNum: number
-	endCountText: number
-	badgeText: string
+  containerStyles: string;
+  icon: ReactNode;
+  endCountNum: number;
+  endCountText?: number;
+  badgeText: string;
 }

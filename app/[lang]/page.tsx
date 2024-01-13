@@ -1,18 +1,18 @@
-import About from '@/components/About'
-import Cta from '@/components/Cta'
-import Hero from '@/components/Hero'
-import Service from '@/components/Services'
-import Projects from '../../components/shared/Hero/Projects/Projects'
+import { Locale } from '@/i18n.config';
+import { getDictionary } from '@/lib/utils';
+import { Hero } from '@/sections/Hero';
 
-export default function Home() {
-	return (
-		<main>
-			<Hero />
-			<About />
-			<Service />
-			<Projects />
-			{/* <Reviews /> */}
-			<Cta />
-		</main>
-	)
+export default async function Home({ params: { lang } }: { params: { lang: Locale } }) {
+  const { common } = await getDictionary(lang);
+  const { hero } = common['home'];
+  return (
+    <main>
+      <Hero data={hero} />
+      {/* <About data={about} /> */}
+      {/* <Service data={service} /> */}
+      {/* <Projects data={projects} /> */}
+      {/* <Reviews /> */}
+      {/* <Cta data={cta} /> */}
+    </main>
+  );
 }

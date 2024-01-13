@@ -1,0 +1,123 @@
+{
+  "common": {
+    "header": {
+      "headerNav": [
+        {
+          "name": "Головна",
+          "href": "/"
+        },
+        {
+          "name": "Мої проекти",
+          "href": "/projects"
+        },
+        {
+          "name": "Контакт",
+          "href": "/contact"
+        }
+      ],
+      "headerLanguageLabel": "Кнопка зміни мови",
+      "mobileMenu": {
+        "menuOpenLabel": "Відкрити меню на мобільному",
+        "menuCloseLabel": "Закрити меню на мобільному"
+      }
+    },
+    "home": {
+      "hero": {
+        "position": "веб-розробник",
+        "developer": "Привіт, мене звати Володимир Філон",
+        "aboutDeveloper": "Мене веде пристрасть до створення зручних для користувачів та візуально привабливих веб-сайтів. Моя подорож полягає в перетворенні ідей в цифрові враження через мистецтво коду та дизайну.",
+        "contactButton": {
+          "href": "/contact",
+          "name": "Зв'яжіться зі мною"
+        },
+        "downloadButton": {
+          "href": "/ua/cv.pdf",
+          "name": "Завантажити резюме"
+        },
+        "badge1": {
+          "endCountNum": 1,
+          "badgeText": "Років досвіду"
+        },
+        "badge2": {
+          "endCountNum": 9,
+          "badgeText": "Завершених проектів"
+        },
+        "badge3": {
+          "endCountNum": 5,
+          "badgeText": "Командних проектів"
+        },
+        "devImageSrc": "@/public/hero/developer.png"
+      },
+      "about": {},
+      "service": {},
+      "projects": {},
+      "cta": {}
+    },
+    "footer": {
+      "footerText": "Авторське право 2023-2024 © Володимир Філон. Всі права захищено.",
+      "footerPrivacyPolicy": {
+        "label": "Умови надання послуг та політика конфіденційності.",
+        "href": "/privacy-policy"
+      }
+    },
+    "logo": {
+      "href": "/ua"
+    },
+    "contact": {
+      "contacts": {
+        "title": "Мої контакти",
+        "subtitle": "Давайте працювати разом!",
+        "email": {
+          "text": "Електронна пошта",
+          "content": "vdfo26@gmail.com"
+        },
+        "address": {
+          "text": "Адреса",
+          "content": "Познань, Польща"
+        },
+        "phone": {
+          "text": "Телефон",
+          "content": "+48 578 568 311"
+        }
+      },
+      "form": {
+        "input": {
+          "email": "Електронна пошта",
+          "name": "Ім'я",
+          "message": "Введіть повідомлення"
+        },
+        "checkbox": {
+          "acceptTerms": "Прийняти умови та положення",
+          "beforeLink": "Ви погоджуєтеся з нашими ",
+          "linkTerms": {
+            "name": "Умовами надання послуг та політикою конфіденційності.",
+            "href": "/privacy-policy"
+          }
+        },
+        "button": {
+          "name": "Давайте говорити"
+        },
+        "errorText": "Помилка",
+        "successText": "Успішно"
+      }
+    },
+
+    "notFound": {},
+    "privacyPolicy": {
+      "title": "заголовок",
+      "date": "дата",
+      "content": [
+        {
+          "number": "01",
+          "subtitle": "підзаголовок",
+          "text": ["параграф 1", "параграф 2", "параграф 3"]
+        },
+        {
+          "number": "02",
+          "subtitle": "підзаголовок",
+          "text": ["параграф 1", "параграф 2", "параграф 3", "параграф 4"]
+        }
+      ]
+    }
+  }
+}

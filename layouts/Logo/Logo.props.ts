@@ -1,3 +1,5 @@
 export interface LogoProps {
-	href: string
+  data: {
+    href: string;
+  };
 }

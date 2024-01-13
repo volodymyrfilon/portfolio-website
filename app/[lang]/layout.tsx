@@ -1,29 +1,46 @@
-import { Outfit } from 'next/font/google'
-import './globals.css'
+import { Outfit } from 'next/font/google';
+import './globals.css';
 
-// components
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-// theme provider
-import { ThemeProvider } from '@/components/ThemeProvider'
+import { ThemeProvider } from '@/components/shared/Theme/ThemeProvider/ThemeProvider';
+import { Locale, i18n } from '@/i18n.config';
+import { Footer } from '@/layouts/Footer';
+import { Header } from '@/layouts/Header';
+import { getDictionary } from '@/lib/utils';
+import { Suspense } from 'react';
+import Loading from './loading';
 
-const outfit = Outfit({ subsets: ['latin'] })
+const outfit = Outfit({ subsets: ['latin'] });
 
-export const metadata = {
-	title: 'Portfolio Website',
-	description: 'https://github.com/volodymyrfilon',
+export async function generateStaticParams() {
+  return i18n.locales.map(locale => ({ lang: locale }));
 }
 
-export default function RootLayout({ children }) {
-	return (
-		<html lang='en' suppressHydrationWarning>
-			<body className={`${outfit.className} selection:bg-primary/40`}>
-				<ThemeProvider attribute='class' defaultTheme='light'>
-					<Header />
-					{children}
-					<Footer />
-				</ThemeProvider>
-			</body>
-		</html>
-	)
+export const metadata = {
+  title: 'Portfolio Website',
+  description: 'https://github.com/volodymyrfilon',
+};
+
+export default async function RootLayout({
+  children,
+  params: { lang },
+}: {
+  children: React.ReactNode;
+  params: { lang: Locale; project?: string };
+}) {
+  const { common } = await getDictionary(lang);
+  const { logo, header, footer } = common;
+  return (
+    <html lang={lang} suppressHydrationWarning className={outfit.className}>
+      <body className={`${outfit.className} selection:bg-primary/40`}>
+        <Suspense fallback={<Loading />}>
+          <ThemeProvider attribute="class" defaultTheme="light">
+            <Header data={header} lang={lang} logo={logo} />
+            {children}
+            <Footer data={footer} />
+            <div id="modal" />
+          </ThemeProvider>
+        </Suspense>
+      </body>
+    </html>
+  );
 }
