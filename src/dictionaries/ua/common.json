@@ -1,0 +1,328 @@
+{
+  "common": {
+    "header": {
+      "headerNav": [
+        {
+          "name": "Головна",
+          "href": "/ua"
+        },
+        {
+          "name": "Мої проекти",
+          "href": "/ua/projects"
+        },
+        {
+          "name": "Контакт",
+          "href": "/ua/contact"
+        }
+      ]
+    },
+    "footer": {
+      "footerText": "Авторські права 2023-2024 © Володимир Філон. Усі права захищено.",
+      "footerPrivacyPolicy": {
+        "label": "Умови обслуговування та політика конфіденційності.",
+        "href": "/privacy-policy"
+      }
+    },
+    "logo": {
+      "href": "/ua"
+    },
+
+    "home": {
+      "hero": {
+        "position": "веб-розробник",
+        "developer": "Привіт, мене звати Володимир Філон",
+        "aboutDeveloper": "Мене веде страх перед створенням дружелюбних для користувача та візуально привабливих веб-сайтів. Мій шлях полягає в перетворенні ідей в цифрові враження за допомогою мистецтва коду та дизайну.",
+        "contactButton": {
+          "href": "/ua/contact",
+          "name": "Зв'яжіться зі мною"
+        },
+        "downloadButton": {
+          "href": "/cv.pdf",
+          "name": "Завантажити резюме"
+        },
+        "badge1": {
+          "endCountNum": 1,
+          "badgeText": "Роки досвіду"
+        },
+        "badge2": {
+          "endCountNum": 9,
+          "badgeText": "Завершені проекти"
+        },
+        "badge3": {
+          "endCountNum": 5,
+          "badgeText": "Командні проекти"
+        },
+        "devImageSrc": "/hero/developer.png"
+      },
+      "about": {
+        "title": "Про мене",
+        "devImageSrc": "/about/developer.png",
+        "tabSections": {
+          "personal": "Особиста інформація",
+          "qualification": "Кваліфікації",
+          "skills": "Навички"
+        },
+        "personalData": {
+          "title": "Піднімаючи цифрові враження",
+          "subtitle": "Я спеціалізуюся на створенні інтуїтивно зрозумілих веб-сайтів з використанням передових технологій, що надають динаміку та захопливий користувальницький досвід.",
+          "data": [
+            {
+              "icon": "user",
+              "text": "Володимир Філон"
+            },
+            {
+              "icon": "phone",
+              "text": "+48 578 568 311"
+            },
+            {
+              "icon": "mail",
+              "text": "vdfo26@gmail.com"
+            },
+            {
+              "icon": "calendar",
+              "text": "Народився 26 квітня 2002 р."
+            },
+            {
+              "icon": "graduation",
+              "text": "Магістр міжнародної вантажно-транспортної логістики"
+            },
+            {
+              "icon": "home",
+              "text": "Познань, Польща"
+            }
+          ],
+          "languageInfo": {
+            "title": "Мови",
+            "text": "Українська, Англійська, Німецька, Польська."
+          }
+        },
+
+        "qualificationData": {
+          "title": "Моя подорож кодом і пікселями",
+          "educationData": {
+            "title": "Освіта",
+            "data": [
+              {
+                "university": "Вища Школа Логістики",
+                "qualification": "Бакалавр логістики та управління ланцюгом поставок",
+                "years": "2019 - 2022"
+              },
+              {
+                "university": "Вища Школа Логістики",
+                "qualification": "Магістр міжнародної вантажно-транспортної логістики",
+                "years": "2022 - 2024"
+              }
+            ]
+          },
+          "experienceData": {
+            "title": "Досвід роботи",
+            "data": [
+              {
+                "company": "Транспортна Група Вітрак",
+                "role": "Міжнародний вантажно-транспортний менеджер",
+                "years": "2021 - До теперішнього часу"
+              },
+              {
+                "company": "BAZA Trainee Ukraine",
+                "role": "Молодший веб-розробник Frontend",
+                "years": "2023 - До теперішнього часу"
+              }
+            ]
+          }
+        },
+        "skillData": {
+          "title": "Що я використовую щоденно",
+          "techSkill": {
+            "title": "Технічні навички",
+            "data": [
+              { "name": "HTML5, CSS3, SASS/SCSS" },
+              { "name": "JavaScript, TypeScript" },
+              { "name": "ReactJS, NextJS, TailwindCSS" },
+              { "name": "NodeJS" },
+              { "name": "MongoDB, PostgreSQL" }
+            ]
+          },
+          "toolSkill": {
+            "title": "Інструменти",
+            "data": [
+              {
+                "imgPath": "/about/vscode.svg"
+              },
+              {
+                "imgPath": "/about/notion.svg"
+              },
+              {
+                "imgPath": "/about/trello.svg"
+              },
+              {
+                "imgPath": "/about/figma.svg"
+              },
+              {
+                "imgPath": "/about/git.svg"
+              },
+              {
+                "imgPath": "/about/discord.svg"
+              }
+            ]
+          }
+        }
+      },
+      "services": {
+        "title": "Мої послуги",
+        "serviceData": [
+          {
+            "icon": "chart",
+            "title": "Розробка веб-сайтів",
+            "description": "Створення динамічних та зручних для користувача веб-сайтів за допомогою HTML, CSS та JavaScript Libraries & Frameworks."
+          },
+          {
+            "icon": "blocks",
+            "title": "Адаптивний дизайн",
+            "description": "Створення макетів, які безперешкодно адаптуються до різних пристроїв для оптимального користувацького досвіду."
+          },
+          {
+            "icon": "gem",
+            "title": "Сучасні фреймворки",
+            "description": "Використання ReactJS та NextJS для побудови ефективних та масштабованих фронтенд-додатків."
+          }
+        ]
+      },
+      "projects": {
+        "title": "Останній проект",
+        "subtitle": "Lorem ipsum dolor sit amet amet amet amet amet amet consectetur adipisicing elit.",
+        "buttonProjectsPage": {
+          "href": "/ua/projects",
+          "name": "Всі проекти"
+        }
+      },
+      "cta": {
+        "title": "У вас є питання? Не соромтесь звертатися до мене!",
+        "buttonContactPage": {
+          "href": "/ua/contact",
+          "name": "Зв'яжіться зі мною"
+        }
+      }
+    },
+    "contact": {
+      "contacts": {
+        "title": "Мої контакти",
+        "subtitle": "Давайте працювати разом!",
+        "email": {
+          "text": "Електронна пошта",
+          "content": "vdfo26@gmail.com"
+        },
+        "address": {
+          "text": "Адреса",
+          "content": "Познань, Польща"
+        },
+        "phone": {
+          "text": "Телефон",
+          "content": "+48 578 568 311"
+        }
+      },
+      "form": {
+        "input": {
+          "email": "Електронна пошта",
+          "name": "Ім'я",
+          "message": "Введіть повідомлення"
+        },
+        "checkbox": {
+          "acceptTerms": "Прийняти умови та політику конфіденційності",
+          "beforeLink": "Ви погоджуєтеся з нашими ",
+          "linkTerms": {
+            "name": "Умовами обслуговування та політикою конфіденційності.",
+            "href": "/ua/privacy-policy"
+          }
+        },
+        "button": {
+          "name": "Поговоримо"
+        },
+        "errorText": "Помилка",
+        "successText": "Успіх"
+      }
+    },
+
+    "projects": [
+      {
+        "image": "/work/post-angeles.jpg",
+        "category": "fullstack",
+        "name": "Post Angeles (у процесі)",
+        "description": "Проект створений для української гуманітарної організації, яка допомагає українській армії.",
+        "link": "https://post-angels.vercel.app/",
+        "github": "https://github.com/baza-trainee/post-angels"
+      },
+      {
+        "image": "/work/marvel.jpg",
+        "category": "react js",
+        "name": "Marvel",
+        "description": "Проект використовує API коміксів Marvel для демонстрації персонажів та коміксів в інтерактивному форматі.",
+        "link": "https://volodymyrfilon.github.io/react-marvel/",
+        "github": "https://github.com/volodymyrfilon/react-marvel"
+      },
+      {
+        "image": "/work/gears-roam.jpg",
+        "category": "fullstack",
+        "name": "Автомобільний Блог",
+        "description": "Досліджуйте захопливий 'Gears Roam', блог, що розкриває чарівний світ автомобілів.",
+        "link": "https://gears-roam.vercel.app/",
+        "github": "https://github.com/volodymyrfilon/GearsRoam"
+      },
+      {
+        "image": "/work/weather.jpg",
+        "category": "JavaScript",
+        "name": "Погодний Додаток",
+        "description": "Переглядайте Погодний Додаток, проект на основі JavaScript, який надає оновлення погоди в реальному часі.",
+        "link": "https://volodymyrfilon.github.io/weather-dashboard-js/",
+        "github": "https://github.com/volodymyrfilon/weather-dashboard-js"
+      },
+      {
+        "image": "/work/quiz.jpg",
+        "category": "JavaScript",
+        "name": "Гра в Квіз",
+        "description": "Гра в квіз з лічильником балів та рейтингом в локальному сховищі. У проекті використовується API Open Trivia DB.",
+        "link": "https://volodymyrfilon.github.io/quiz-js/",
+        "github": "https://github.com/volodymyrfilon/quiz-js"
+      },
+      {
+        "image": "/work/garmin.jpg",
+        "category": "JavaScript",
+        "name": "Garmin Shop",
+        "description": "Досліджуйте 'Garmin Shop'. Проект дозволяє вам взаємодіяти з його можливостями.",
+        "link": "https://volodymyrfilon.github.io/garmin-shop/",
+        "github": "https://github.com/volodymyrfilon/garmin-shop"
+      }
+    ],
+    "notFound": {
+      "title": "Сторінку не знайдено",
+      "buttonHomePage": {
+        "href": "/ua",
+        "name": "Головна"
+      }
+    },
+    "privacyPolicy": {
+      "title": "Політика конфіденційності",
+      "date": "2023-2024",
+      "content": [
+        {
+          "number": "01",
+          "subtitle": "Заголовок секції 1",
+          "text": [
+            "Параграф 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Параграф 2 - Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Параграф 3 - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          ]
+        },
+        {
+          "number": "02",
+          "subtitle": "Заголовок секції 2",
+          "text": [
+            "Параграф 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Параграф 2 - Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "Параграф 3 - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Параграф 4 - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          ]
+        }
+      ]
+    }
+  }
+}

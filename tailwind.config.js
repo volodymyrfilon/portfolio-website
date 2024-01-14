@@ -1,12 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ['class'],
-  content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './**/*.{ts,tsx}',
-  ],
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     container: {
       center: true,
@@ -78,18 +73,22 @@ module.exports = {
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
       backgroundImage: {
-        hero: 'url(/hero/hero-bg.png)',
-        hero_shape: 'url(/hero/shape-1.svg)',
-        hero_shape2_light: 'url(/hero/shape-2-light.svg)',
-        hero_shape2_dark: 'url(/hero/shape-2-dark.svg)',
-        about_shape_light: 'url(/about/shape-light.svg)',
-        about_shape_dark: 'url(/about/shape-dark.svg)',
-        dots_light: 'url(/dots-light.svg)',
-        dots_dark: 'url(/dots-dark.svg)',
-        work_project_bg_light: 'url(/work/project-bg-light.png)',
-        work_project_bg_dark: 'url(/work/project-bg-dark.png)',
-        contact_illustration_light: 'url(/contact/illustration-light.svg)',
-        contact_illustration_dark: 'url(/contact/illustration-dark.svg)',
+        hero: 'url(../../../public/hero/hero-bg.png)',
+        hero_shape: 'url(../../../public/hero/shape-1.svg)',
+        hero_shape2_light: 'url(../../../public/hero/shape-2-light.svg)',
+        hero_shape2_dark: 'url(../../../public/hero/shape-2-dark.svg)',
+        about_shape_light: 'url(../../../public/about/shape-light.svg)',
+        about_shape_dark: 'url(../../../public/about/shape-dark.svg)',
+        dots_light: 'url(../../../public/dots-light.svg)',
+        dots_dark: 'url(../../../public/dots-dark.svg)',
+        work_project_bg_light: 'url(../../../public/work/project-bg-light.png)',
+        work_project_bg_dark: 'url(../../../public/work/project-bg-dark.png)',
+        contact_illustration_light: 'url(../../../public/contact/illustration-light.svg)',
+        contact_illustration_dark: 'url(../../../public/contact/illustration-dark.svg)',
+      },
+      fontFamily: {
+        eUkraine: ['var(--font-eUkraine)'],
+        eUkraineHead: ['var(--font-eUkraineHead)'],
       },
     },
   },
