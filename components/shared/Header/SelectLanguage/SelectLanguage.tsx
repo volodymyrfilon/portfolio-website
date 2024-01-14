@@ -6,13 +6,7 @@ import { useState } from 'react';
 import { i18n } from '@/i18n.config';
 import Link from 'next/link';
 
-export const SelectLanguage = ({
-  headerLanguageLabel,
-  lang,
-}: {
-  lang: string;
-  headerLanguageLabel: { name: string };
-}) => {
+export const SelectLanguage = ({ lang }: { lang: string }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selected, setSelected] = useState(lang);
 

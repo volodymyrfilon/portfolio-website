@@ -6,11 +6,6 @@ export interface HeaderProps {
       name: string;
       href: string;
     }[];
-    headerLanguageLabel: string;
-    mobileMenu: {
-      menuOpenLabel: string;
-      menuCloseLabel: string;
-    };
   };
   lang: Locale;
   logo: {

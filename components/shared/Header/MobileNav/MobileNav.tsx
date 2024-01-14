@@ -7,7 +7,7 @@ import { Logo } from '@/layouts/Logo';
 import Link from 'next/link';
 import { MobileNavProps } from './MobileNav.props';
 
-const MobileNav = ({ headerNav, logo, mobileMenu }: MobileNavProps) => {
+const MobileNav = ({ headerNav, logo }: MobileNavProps) => {
   return (
     <Sheet>
       <SheetTrigger asChild>

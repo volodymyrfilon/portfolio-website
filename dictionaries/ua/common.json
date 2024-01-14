@@ -4,22 +4,17 @@
       "headerNav": [
         {
           "name": "Home",
-          "href": "/"
+          "href": "/ua"
         },
         {
           "name": "My Projects",
-          "href": "/projects"
+          "href": "/ua/projects"
         },
         {
           "name": "Contact",
-          "href": "/contact"
+          "href": "/ua/contact"
         }
-      ],
-      "headerLanguageLabel": "Change language button",
-      "mobileMenu": {
-        "menuOpenLabel": "Open mobile menu",
-        "menuCloseLabel": "Close mobile menu"
-      }
+      ]
     },
     "footer": {
       "footerText": "Copyright 2023-2024 © Volodymyr Filon. All rights reserved.",
@@ -29,7 +24,7 @@
       }
     },
     "logo": {
-      "href": "/"
+      "href": "/ua"
     },
 
     "home": {
@@ -38,7 +33,7 @@
         "developer": "Hello, my name is Volodymyr Filon",
         "aboutDeveloper": "I'm driven by a passion for creating user-friendly and visually compelling websites. My journey involves translating ideas into digital experiences through the art of code and design.",
         "contactButton": {
-          "href": "/contact",
+          "href": "/ua/contact",
           "name": "Contact me"
         },
         "downloadButton": {
@@ -195,14 +190,14 @@
         "title": "Latest Project",
         "subtitle": "Lorem ipsum dolor sit amet amet amet amet amet amet consectetur adipisicing elit.",
         "buttonProjectsPage": {
-          "href": "/projects",
+          "href": "/ua/projects",
           "name": "All Projects"
         }
       },
       "cta": {
         "title": "Do you have any questions? Feel free to reach out to me!",
         "buttonContactPage": {
-          "href": "/contact",
+          "href": "/ua/contact",
           "name": "Contact me"
         }
       }
@@ -235,7 +230,7 @@
           "beforeLink": "You agree to our ",
           "linkTerms": {
             "name": "Terms of Service and Privacy Policy.",
-            "href": "/privacy-policy"
+            "href": "/ua/privacy-policy"
           }
         },
         "button": {
@@ -296,7 +291,13 @@
       }
     ],
 
-    "notFound": {},
+    "notFound": {
+      "title": "Page is not found",
+      "buttonHomePage": {
+        "href": "/en",
+        "name": "Home"
+      }
+    },
     "privacyPolicy": {
       "title": "title",
       "date": "date",
