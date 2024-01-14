@@ -81,7 +81,7 @@ export const Form = ({ data }: FormProps) => {
       <div className="flex flex-col items-start justify-between gap-y-4 sm:flex-row">
         {/* checkbox */}
         <div className="items-top flex space-x-2">
-          <Checkbox id="terms" />
+          <Checkbox id="terms" required />
           <div className="grid gap-1.5 leading-none">
             <label
               htmlFor="terms"
@@ -97,7 +97,7 @@ export const Form = ({ data }: FormProps) => {
             </p>
           </div>
         </div>
-        {/* buton */}
+        {/* button */}
         <Button className="flex max-w-[166px] items-center gap-x-1">
           {button.name}
           <ArrowRightIcon size={20} />

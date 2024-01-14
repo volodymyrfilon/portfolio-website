@@ -2,7 +2,6 @@ import { Sheet, SheetClose, SheetContent, SheetTrigger } from '@/components/ui/s
 import { AlignJustify } from 'lucide-react';
 
 import { Socials } from '@/components/shared/Socials';
-import { links } from '@/database';
 import { useMenuActive } from '@/hooks/useMenuActive';
 import { Logo } from '@/layouts/Logo';
 import Link from 'next/link';
@@ -19,12 +18,12 @@ const MobileNav = ({ headerNav, logo, mobileMenu }: MobileNavProps) => {
           <div className="flex flex-col items-center gap-y-32">
             <Logo data={logo} />
             <nav className="flex flex-col items-center gap-y-6">
-              {links.map((link, index) => {
-                const isActive = useMenuActive(link.path);
+              {headerNav.map((link, index) => {
+                const isActive = useMenuActive(link.href);
                 return (
                   <Link
                     className={`text-2xl hover:text-primary ${isActive ? 'text-primary' : ''}`}
-                    href={link.path}
+                    href={link.href}
                     key={index}
                   >
                     <SheetClose>{link.name}</SheetClose>

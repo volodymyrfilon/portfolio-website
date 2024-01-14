@@ -3,119 +3,313 @@
     "header": {
       "headerNav": [
         {
-          "name": "Головна",
+          "name": "Home",
           "href": "/"
         },
         {
-          "name": "Мої проекти",
+          "name": "My Projects",
           "href": "/projects"
         },
         {
-          "name": "Контакт",
+          "name": "Contact",
           "href": "/contact"
         }
       ],
-      "headerLanguageLabel": "Кнопка зміни мови",
+      "headerLanguageLabel": "Change language button",
       "mobileMenu": {
-        "menuOpenLabel": "Відкрити меню на мобільному",
-        "menuCloseLabel": "Закрити меню на мобільному"
+        "menuOpenLabel": "Open mobile menu",
+        "menuCloseLabel": "Close mobile menu"
       }
     },
-    "home": {
-      "hero": {
-        "position": "веб-розробник",
-        "developer": "Привіт, мене звати Володимир Філон",
-        "aboutDeveloper": "Мене веде пристрасть до створення зручних для користувачів та візуально привабливих веб-сайтів. Моя подорож полягає в перетворенні ідей в цифрові враження через мистецтво коду та дизайну.",
-        "contactButton": {
-          "href": "/contact",
-          "name": "Зв'яжіться зі мною"
-        },
-        "downloadButton": {
-          "href": "/ua/cv.pdf",
-          "name": "Завантажити резюме"
-        },
-        "badge1": {
-          "endCountNum": 1,
-          "badgeText": "Років досвіду"
-        },
-        "badge2": {
-          "endCountNum": 9,
-          "badgeText": "Завершених проектів"
-        },
-        "badge3": {
-          "endCountNum": 5,
-          "badgeText": "Командних проектів"
-        },
-        "devImageSrc": "@/public/hero/developer.png"
-      },
-      "about": {},
-      "service": {},
-      "projects": {},
-      "cta": {}
-    },
     "footer": {
-      "footerText": "Авторське право 2023-2024 © Володимир Філон. Всі права захищено.",
+      "footerText": "Copyright 2023-2024 © Volodymyr Filon. All rights reserved.",
       "footerPrivacyPolicy": {
-        "label": "Умови надання послуг та політика конфіденційності.",
+        "label": "Terms of Service and Privacy Policy.",
         "href": "/privacy-policy"
       }
     },
     "logo": {
-      "href": "/ua"
+      "href": "/"
+    },
+
+    "home": {
+      "hero": {
+        "position": "web developer",
+        "developer": "Hello, my name is Volodymyr Filon",
+        "aboutDeveloper": "I'm driven by a passion for creating user-friendly and visually compelling websites. My journey involves translating ideas into digital experiences through the art of code and design.",
+        "contactButton": {
+          "href": "/contact",
+          "name": "Contact me"
+        },
+        "downloadButton": {
+          "href": "/cv.pdf",
+          "name": "Download CV"
+        },
+        "badge1": {
+          "endCountNum": 1,
+          "badgeText": "Years Of Experience"
+        },
+        "badge2": {
+          "endCountNum": 9,
+          "badgeText": "Finished Projects"
+        },
+        "badge3": {
+          "endCountNum": 5,
+          "badgeText": "Team Projects"
+        },
+        "devImageSrc": "/hero/developer.png"
+      },
+      "about": {
+        "title": "About Me",
+        "tabSections": {
+          "personal": "Personal Info",
+          "qualification": "Qualifications",
+          "skills": "Skills"
+        },
+        "personalData": {
+          "title": "Elevating digital experiences",
+          "subtitle": "I specialize in creating intuitive websites with cutting-edge technology, delivering dynamic and engaging user experience.",
+          "data": [
+            {
+              "icon": "user",
+              "text": "Volodymyr Filon"
+            },
+            {
+              "icon": "phone",
+              "text": "+48 578 568 311"
+            },
+            {
+              "icon": "mail",
+              "text": "vdfo26@gmail.com"
+            },
+            {
+              "icon": "calendar",
+              "text": "Born on 26 Apr, 2002"
+            },
+            {
+              "icon": "graduation",
+              "text": "Master of Int. Freight Forwarding"
+            },
+            {
+              "icon": "home",
+              "text": "Poznan, Poland"
+            }
+          ],
+          "languageInfo": {
+            "title": "Languages",
+            "text": "Ukrainian, English, German, Polish."
+          }
+        },
+
+        "qualificationData": {
+          "title": "My code and pixels journey",
+          "educationData": {
+            "title": "education",
+            "data": [
+              {
+                "university": "High School of Logistics",
+                "qualification": "Bachelor of Logistics & Supply Chain Management",
+                "years": "2019 - 2022"
+              },
+              {
+                "university": "High School of Logistics",
+                "qualification": "Master of Int. Freight Forwarding & Transportation",
+                "years": "2022 - 2024"
+              }
+            ]
+          },
+          "experienceData": {
+            "title": "experience",
+            "data": [
+              {
+                "company": "Transport Wietrak Group",
+                "role": "Int. Freight Forwarder & Trasnport Manager",
+                "years": "2021 - Present"
+              },
+              {
+                "company": "BAZA Trainee Ukraine",
+                "role": "Junior Frontend Web Developer",
+                "years": "2023 - Present"
+              }
+            ]
+          }
+        },
+        "skillData": {
+          "title": "What I use daily",
+          "techSkill": {
+            "title": "Tech skills",
+            "data": [
+              { "name": "HTML5, CSS3, SASS/SCSS" },
+              { "name": "JavaScript, TypeScript" },
+              { "name": "ReactJS, NextJS, TailwindCSS" },
+              { "name": "NodeJS" },
+              { "name": "MongoDB, PostgreSQL" }
+            ]
+          },
+          "toolSkill": {
+            "title": "Tools",
+            "data": [
+              {
+                "imgPath": "/about/vscode.svg"
+              },
+              {
+                "imgPath": "/about/notion.svg"
+              },
+              {
+                "imgPath": "/about/trello.svg"
+              },
+              {
+                "imgPath": "/about/figma.svg"
+              },
+              {
+                "imgPath": "/about/git.svg"
+              },
+              {
+                "imgPath": "/about/discord.svg"
+              }
+            ]
+          }
+        }
+      },
+      "services": {
+        "title": "My Services",
+        "serviceData": [
+          {
+            "icon": "chart",
+            "title": "Web Development",
+            "description": "Crafting dynamic and user-friendly websites using HTML, CSS, and JavaScript Libraries & Frameworks."
+          },
+          {
+            "icon": "blocks",
+            "title": "Responsive Design",
+            "description": "Creating layouts that adapt seamlessly to various devices for an optimal user experience."
+          },
+          {
+            "icon": "gem",
+            "title": "Modern Frameworks",
+            "description": "Using ReactJS and NextJS to build efficient and scalable frontend applications."
+          }
+        ]
+      },
+      "projects": {
+        "title": "Latest Project",
+        "subtitle": "Lorem ipsum dolor sit amet amet amet amet amet amet consectetur adipisicing elit.",
+        "buttonProjectsPage": {
+          "href": "/projects",
+          "name": "All Projects"
+        }
+      },
+      "cta": {
+        "title": "Do you have any questions? Feel free to reach out to me!",
+        "buttonContactPage": {
+          "href": "/contact",
+          "name": "Contact me"
+        }
+      }
     },
     "contact": {
       "contacts": {
-        "title": "Мої контакти",
-        "subtitle": "Давайте працювати разом!",
+        "title": "My Contacts",
+        "subtitle": "Let`s Work Together!",
         "email": {
-          "text": "Електронна пошта",
+          "text": "Email",
           "content": "vdfo26@gmail.com"
         },
         "address": {
-          "text": "Адреса",
-          "content": "Познань, Польща"
+          "text": "Address",
+          "content": "Poznan, Poland"
         },
         "phone": {
-          "text": "Телефон",
+          "text": "Phone",
           "content": "+48 578 568 311"
         }
       },
       "form": {
         "input": {
-          "email": "Електронна пошта",
-          "name": "Ім'я",
-          "message": "Введіть повідомлення"
+          "email": "Email",
+          "name": "Name",
+          "message": "Type message"
         },
         "checkbox": {
-          "acceptTerms": "Прийняти умови та положення",
-          "beforeLink": "Ви погоджуєтеся з нашими ",
+          "acceptTerms": "Accept terms and conditions",
+          "beforeLink": "You agree to our ",
           "linkTerms": {
-            "name": "Умовами надання послуг та політикою конфіденційності.",
+            "name": "Terms of Service and Privacy Policy.",
             "href": "/privacy-policy"
           }
         },
         "button": {
-          "name": "Давайте говорити"
+          "name": "Let`s Talk"
         },
-        "errorText": "Помилка",
-        "successText": "Успішно"
+        "errorText": "Error",
+        "successText": "Success"
       }
     },
+    "projects": [
+      {
+        "image": "/work/post-angeles.jpg",
+        "category": "fullstack",
+        "name": "Post Angeles (in process)",
+        "description": "A project made for a Ukrainian humanitarian organization what helps the Ukrainian army.",
+        "link": "https://post-angels.vercel.app/",
+        "github": "https://github.com/baza-trainee/post-angels"
+      },
+      {
+        "image": "/work/marvel.jpg",
+        "category": "react js",
+        "name": "Marvel",
+        "description": "Project is utilizing the Marvel Comics API to showcase characters and comics interactively.",
+        "link": "https://volodymyrfilon.github.io/react-marvel/",
+        "github": "https://github.com/volodymyrfilon/react-marvel"
+      },
+      {
+        "image": "/work/gears-roam.jpg",
+        "category": "fullstack",
+        "name": "Automobile Blog",
+        "description": "Explore the engaging 'Gears Roam', a blog that uncovers the fascinating world of cars.",
+        "link": "https://gears-roam.vercel.app/",
+        "github": "https://github.com/volodymyrfilon/GearsRoam"
+      },
+      {
+        "image": "/work/weather.jpg",
+        "category": "JavaScript",
+        "name": "Weather App",
+        "description": "Check out the Weather App, a JavaScript-based project that provides real-time weather updates.",
+        "link": "https://volodymyrfilon.github.io/weather-dashboard-js/",
+        "github": "https://github.com/volodymyrfilon/weather-dashboard-js"
+      },
+      {
+        "image": "/work/quiz.jpg",
+        "category": "JavaScript",
+        "name": "Quiz App",
+        "description": "Quiz game, with score counter and local storage highscores. In project is used Open Trivia DB API.",
+        "link": "https://volodymyrfilon.github.io/quiz-js/",
+        "github": "https://github.com/volodymyrfilon/quiz-js"
+      },
+      {
+        "image": "/work/garmin.jpg",
+        "category": "JavaScript",
+        "name": "Garmin Shop",
+        "description": "Explore the 'Garmin Shop'. Project is allowing you to get hands-on with its features.",
+        "link": "https://volodymyrfilon.github.io/garmin-shop/",
+        "github": "https://github.com/volodymyrfilon/garmin-shop"
+      }
+    ],
 
     "notFound": {},
     "privacyPolicy": {
-      "title": "заголовок",
-      "date": "дата",
+      "title": "title",
+      "date": "date",
       "content": [
         {
           "number": "01",
-          "subtitle": "підзаголовок",
-          "text": ["параграф 1", "параграф 2", "параграф 3"]
+          "subtitle": "subtitle",
+          "text": ["paragraf 1", "paragraf 2", "paragraf 3"]
         },
         {
           "number": "02",
-          "subtitle": "підзаголовок",
-          "text": ["параграф 1", "параграф 2", "параграф 3", "параграф 4"]
+          "subtitle": "subtitle",
+          "text": ["paragraf 1", "paragraf 2", "paragraf 3", "paragraf 4"]
         }
       ]
     }
