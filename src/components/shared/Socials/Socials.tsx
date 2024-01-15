@@ -33,7 +33,7 @@ export const Socials = ({
     <div className={`${containerStyles}`}>
       {icons.map((icon, index) => {
         return (
-          <Link href={icon.path} key={index}>
+          <Link href={icon.path} key={index} className="hover:text-primary focus:text-primary">
             <div className={`${iconsStyles}`}>{icon.name}</div>
           </Link>
         );

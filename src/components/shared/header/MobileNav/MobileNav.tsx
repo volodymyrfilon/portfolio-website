@@ -11,10 +11,13 @@ const MobileNav = ({ headerNav, logo }: MobileNavProps) => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <AlignJustify className="cursor-pointer" />
+        <button>
+          <AlignJustify className="cursor-pointer" />
+        </button>
       </SheetTrigger>
+
       <SheetContent>
-        <div className="font-eUkraineHead flex h-full flex-col items-center justify-between py-8">
+        <div className="flex h-full flex-col items-center justify-between py-8 font-eUkraineHead">
           <div className="flex flex-col items-center gap-y-32">
             <Logo data={logo} />
             <nav className="flex flex-col items-center gap-y-6">
@@ -22,7 +25,7 @@ const MobileNav = ({ headerNav, logo }: MobileNavProps) => {
                 const isActive = useMenuActive(link.href);
                 return (
                   <Link
-                    className={`text-2xl hover:text-primary ${isActive ? 'text-primary' : ''}`}
+                    className={`text-2xl focus:text-primary ${isActive ? 'text-primary' : ''}`}
                     href={link.href}
                     key={index}
                   >
