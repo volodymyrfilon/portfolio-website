@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: var(--font-eUkraineHead);
+  font-family: var(--font-eUkraine);
 }
 
 @layer base {

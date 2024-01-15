@@ -25,7 +25,7 @@ const MobileNav = ({ headerNav, logo }: MobileNavProps) => {
                 const isActive = useMenuActive(link.href);
                 return (
                   <Link
-                    className={`text-2xl focus:text-primary ${isActive ? 'text-primary' : ''}`}
+                    className={`text-xl focus:text-primary ${isActive ? 'text-primary' : ''}`}
                     href={link.href}
                     key={index}
                   >
@@ -35,7 +35,7 @@ const MobileNav = ({ headerNav, logo }: MobileNavProps) => {
               })}
             </nav>
           </div>
-          <Socials containerStyles="flex gap-x-4" iconsStyles="text-2xl" />
+          <Socials containerStyles="flex gap-x-4" iconsStyles="text-xl " />
         </div>
       </SheetContent>
     </Sheet>

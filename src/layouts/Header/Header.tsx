@@ -26,7 +26,7 @@ export const Header = ({ data, lang, logo }: HeaderProps) => {
 
   return (
     <header
-      className={`${
+      className={`font-eUkraineHead ${
         header ? 'bg-white py-4 shadow-lg dark:bg-accent' : 'py-6 dark:bg-transparent'
       } sticky top-0 z-30 transition-all ${pathname === '/' && 'bg-[#fdfaff]'}`}
     >

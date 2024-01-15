@@ -10,7 +10,7 @@ export const Nav = ({ containerStyles, linkStyles, underlineStyles, headerNav }:
         const isActive = useMenuActive(item.href);
         return (
           <Link
-            className={`font-eUkraineHead text-sm capitalize hover:text-primary focus:text-primary ${linkStyles}`}
+            className={`text-sm capitalize hover:text-primary focus:text-primary ${linkStyles}`}
             href={item.href}
             key={index}
           >
