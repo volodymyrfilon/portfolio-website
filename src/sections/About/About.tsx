@@ -47,18 +47,18 @@ export const About = ({ data }: AboutProps) => {
           <div className="flex-1">
             <Tabs defaultValue="personal">
               <TabsList className="grid w-full dark:border-none md:w-[172px] xl:max-w-[520px] xl:grid-cols-3 xl:border">
-                <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
+                <TabsTrigger className="w-[162px] text-sm xl:w-auto" value="personal">
                   {tabSections.personal}
                 </TabsTrigger>
-                <TabsTrigger className="w-[162px] xl:w-auto" value="qualifications">
+                <TabsTrigger className="w-[162px] text-sm xl:w-auto" value="qualifications">
                   {tabSections.qualification}
                 </TabsTrigger>
-                <TabsTrigger className="w-[162px] xl:w-auto" value="skills">
+                <TabsTrigger className="w-[162px] text-sm xl:w-auto" value="skills">
                   {tabSections.skills}
                 </TabsTrigger>
               </TabsList>
               {/* tabs content */}
-              <div className="mt-12 text-lg xl:mt-8">
+              <div className="mt-12 text-base xl:mt-8">
                 {/* personal */}
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
@@ -75,7 +75,7 @@ export const About = ({ data }: AboutProps) => {
                     </div>
                     {/* language info*/}
                     <div className="flex flex-col">
-                      <div className="mb-2 flex items-center gap-x-2 text-xl font-semibold">
+                      <div className="mb-2 flex items-center justify-center gap-x-2 text-xl font-semibold xl:justify-start">
                         <Languages size={20} className="text-primary" />
                         <h4>{personalData.languageInfo.title}</h4>
                       </div>
@@ -92,7 +92,7 @@ export const About = ({ data }: AboutProps) => {
                     <div className="grid gap-y-8 md:grid-cols-2">
                       {/* experience */}
                       <div className="flex flex-col gap-y-6">
-                        <div className="flex items-center gap-x-4 text-[22px] text-primary">
+                        <div className="flex items-center gap-x-4 text-[18px] text-primary">
                           <Briefcase />
                           <h4 className="font-medium capitalize">{experienceData.title}</h4>
                         </div>
@@ -106,13 +106,13 @@ export const About = ({ data }: AboutProps) => {
                                   <div className="absolute -left-[5px] h-[11px] w-[11px] rounded-full bg-primary transition-all duration-500 group-hover:translate-y-[84px]"></div>
                                 </div>
                                 <div>
-                                  <div className="mb-2 text-xl font-semibold leading-none">
+                                  <div className="mb-2 text-base font-semibold leading-none">
                                     {company}
                                   </div>
-                                  <div className="mb-4 text-lg leading-none text-muted-foreground">
+                                  <div className="mb-4 text-sm leading-none text-muted-foreground">
                                     {role}
                                   </div>
-                                  <div className="text-base font-medium">{years}</div>
+                                  <div className="text-sm font-medium">{years}</div>
                                 </div>
                               </div>
                             );
@@ -121,8 +121,8 @@ export const About = ({ data }: AboutProps) => {
                       </div>
                       {/* education */}
                       <div className="flex flex-col gap-y-6">
-                        <div className="flex items-center gap-x-4 text-[22px] text-primary">
-                          <GraduationCap size={28} />
+                        <div className="flex items-center gap-x-4 text-[18px]  text-primary">
+                          <GraduationCap />
                           <h4 className="font-medium capitalize">{educationData.title}</h4>
                         </div>
                         {/* list */}
@@ -135,13 +135,13 @@ export const About = ({ data }: AboutProps) => {
                                   <div className="absolute -left-[5px] h-[11px] w-[11px] rounded-full bg-primary transition-all duration-500 group-hover:translate-y-[84px]"></div>
                                 </div>
                                 <div>
-                                  <div className="mb-2 text-xl font-semibold leading-none">
+                                  <div className="mb-2 text-base font-semibold leading-none">
                                     {university}
                                   </div>
-                                  <div className="mb-4 text-lg leading-none text-muted-foreground">
+                                  <div className="mb-4 text-sm leading-none text-muted-foreground">
                                     {qualification}
                                   </div>
-                                  <div className="text-base font-medium">{years}</div>
+                                  <div className="text-sm font-medium">{years}</div>
                                 </div>
                               </div>
                             );
@@ -157,7 +157,7 @@ export const About = ({ data }: AboutProps) => {
                     <h3 className="h3 mb-8">{skillData.title}</h3>
                     {/* skills */}
                     <div className="mb-16">
-                      <div className="mb-2 flex items-center gap-x-2 text-xl font-semibold">
+                      <div className="mb-2 flex items-center justify-center gap-x-2 text-xl font-semibold xl:justify-start">
                         <Code2 size={24} className="text-primary" />
                         <h4>{techSkill.title}</h4>
                       </div>
@@ -166,7 +166,7 @@ export const About = ({ data }: AboutProps) => {
                       <div>
                         {techSkill.data.map((item: any, index: number) => (
                           <div
-                            className="mx-auto w-2/4 text-center xl:mx-0 xl:text-left"
+                            className="mx-auto w-2/4 text-center leading-7 xl:mx-0 xl:text-left"
                             key={index}
                           >
                             <div className="font-medium">{item.name}</div>
@@ -176,7 +176,7 @@ export const About = ({ data }: AboutProps) => {
                     </div>
                     {/* tools */}
                     <div>
-                      <div className="mb-2 flex items-center gap-x-2 text-xl font-semibold">
+                      <div className="mb-2 flex items-center justify-center gap-x-2 text-xl font-semibold xl:justify-start">
                         <Box size={20} className="text-primary" />
                         <h4>{toolSkill.title}</h4>
                       </div>
@@ -185,7 +185,7 @@ export const About = ({ data }: AboutProps) => {
                       <div className="flex justify-center gap-x-8 xl:justify-start">
                         {toolSkill.data.map((item: any, index: number) => (
                           <div key={index}>
-                            <Image src={item.imgPath} width={48} height={48} alt="tool" priority />
+                            <Image src={item.imgPath} width={48} height={48} alt="tool" />
                           </div>
                         ))}
                       </div>
