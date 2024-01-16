@@ -25,7 +25,7 @@ export const Hero = ({ data }: HeroProps) => {
         <div className="flex justify-between gap-x-8">
           {/* text */}
           <div className="mx-auto flex max-w-[600px] flex-col justify-center text-center xl:mx-0 xl:text-left">
-            <div className="mb-4 text-sm font-semibold uppercase tracking-[4px] text-primary">
+            <div className="mb-4 text-xs font-semibold uppercase tracking-[4px] text-primary">
               {position}
             </div>
             <h1 className="h1 mb-4">{developer}</h1>
@@ -50,7 +50,7 @@ export const Hero = ({ data }: HeroProps) => {
               iconsStyles="text-foreground text-[22px] hover:text-primary transition-all"
             />
           </div>
-          {/* image */}
+          {/* image & badge */}
           <div className="relative hidden xl:flex">
             {/* badge 1 */}
             <Badge

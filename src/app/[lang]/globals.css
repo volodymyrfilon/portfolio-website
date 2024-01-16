@@ -58,11 +58,11 @@ body {
 }
 
 .h1 {
-  @apply text-5xl font-bold tracking-[-2px] sm:text-6xl xl:text-[72px] xl:leading-[80px];
+  @apply text-[44px] font-bold leading-none tracking-[-2px] special:text-5xl sm:text-6xl xl:text-[64px] xl:leading-[72px];
 }
 
 .h2 {
-  @apply text-3xl font-bold sm:text-4xl;
+  @apply text-2xl font-bold sm:text-3xl;
 }
 
 .h3 {
@@ -74,7 +74,7 @@ body {
 }
 
 .subtitle {
-  @apply mb-8 text-lg font-light text-muted-foreground;
+  @apply mb-8 text-sm font-light leading-7 text-muted-foreground;
 }
 
 .section-title {
@@ -82,7 +82,7 @@ body {
 }
 
 .badge {
-  @apply z-10 flex h-[68px] w-[200px] items-center gap-x-4 rounded-[10px] bg-white p-4 shadow-2xl  dark:backdrop-blur-[44px];
+  @apply z-10 flex h-[68px] w-[200px] items-center gap-x-3 rounded-[10px] bg-white p-4 shadow-2xl  dark:backdrop-blur-[44px];
 }
 
 /* swiper bullets styles */

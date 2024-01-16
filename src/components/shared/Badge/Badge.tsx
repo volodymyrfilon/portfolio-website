@@ -18,7 +18,7 @@ export const Badge = ({
           <CountUp end={endCountNum} delay={1} duration={4} />
           {endCountText}
         </div>
-        <div className="max-w-[70px] text-[15px] font-medium leading-none text-black">
+        <div className="max-w-[70px] text-[14px] font-medium leading-none text-black">
           {badgeText}
         </div>
       </div>
