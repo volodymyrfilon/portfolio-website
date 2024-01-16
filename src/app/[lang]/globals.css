@@ -70,7 +70,7 @@ body {
 }
 
 .h4 {
-  @apply text-[22px] font-semibold;
+  @apply text-[18px] font-semibold;
 }
 
 .subtitle {

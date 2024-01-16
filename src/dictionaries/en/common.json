@@ -189,10 +189,10 @@
       },
       "projects": {
         "title": "Latest Project",
-        "subtitle": "Lorem ipsum dolor sit amet amet amet amet amet amet consectetur adipisicing elit.",
+        "subtitle": "Dive into my recent web projects, where creativity and functionality come together. Explore the latest additions to my portfolio and experience the art of web development firsthand.",
         "buttonProjectsPage": {
           "href": "/en/projects",
-          "name": "All Projects"
+          "name": "All projects"
         }
       },
       "cta": {

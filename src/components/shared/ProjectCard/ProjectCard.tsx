@@ -37,11 +37,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         </div>
       </CardHeader>
       <div className="h-full px-8 py-6">
-        <Badge className="absolute left-5 top-4 mb-2 text-sm font-medium uppercase">
+        <Badge className="absolute left-5 top-4 mb-2 text-xs font-normal uppercase leading-5">
           {project.category}
         </Badge>
-        <h4 className="h4 mb-1 text-primary/80">{project.name}</h4>
-        <p className="text-lg text-muted-foreground">{project.description}</p>
+        <h4 className="h4 mb-1 font-eUkraineHead text-primary/80">{project.name}</h4>
+        <p className="text-sm leading-7 text-muted-foreground">{project.description}</p>
       </div>
     </Card>
   );
