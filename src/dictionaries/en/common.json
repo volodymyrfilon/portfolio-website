@@ -230,7 +230,7 @@
           "acceptTerms": "Accept terms and conditions",
           "beforeLink": "You agree to our ",
           "linkTerms": {
-            "name": "Terms of Service and Privacy Policy.",
+            "name": "Terms of Service and Privacy Policy",
             "href": "/en/privacy-policy"
           }
         },

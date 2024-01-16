@@ -85,11 +85,11 @@ export const Form = ({ data }: FormProps) => {
           <div className="grid gap-1.5 leading-none">
             <label
               htmlFor="terms"
-              className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              className="text-xs font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
             >
               {checkbox.acceptTerms}
             </label>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-xs text-muted-foreground">
               {checkbox.beforeLink}
               <Link href={checkbox.linkTerms.href} className="underline hover:text-primary">
                 {checkbox.linkTerms.name}

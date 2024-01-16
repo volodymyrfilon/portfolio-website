@@ -93,14 +93,14 @@ const Contact = ({ params: { lang } }: { params: { lang: Locale } }) => {
         >
           {/* text */}
           <div className="mt-4 flex flex-1 flex-col items-center gap-5 text-center xl:items-start xl:gap-10 xl:text-left">
-            <h1 className="h1 mb-8 max-w-md">{subtitle}</h1>
+            <h1 className="h1 mb-8 max-w-md font-eUkraineHead">{subtitle}</h1>
             {/* mail */}
             <div className="flex flex-col items-center gap-x-4 xl:items-start">
               <div className="flex items-center gap-x-2">
                 <MailIcon size={20} className="text-primary" />
-                <h2 className="text-2xl font-semibold">{email.text}</h2>
+                <h2 className="text-xl font-semibold">{email.text}</h2>
               </div>
-              <Link href="mailto:vdfo26@gmail.com" className="text-lg">
+              <Link href="mailto:vdfo26@gmail.com" className="text-base">
                 {email.content}
               </Link>
             </div>
@@ -108,17 +108,17 @@ const Contact = ({ params: { lang } }: { params: { lang: Locale } }) => {
             <div className="flex flex-col items-center gap-x-4 xl:items-start">
               <div className="flex items-center gap-x-2">
                 <HomeIcon size={20} className="text-primary" />
-                <h2 className="text-2xl font-semibold">{address.text}</h2>
+                <h2 className="text-xl font-semibold">{address.text}</h2>
               </div>
-              <div className="text-lg">{address.content}</div>
+              <div className="text-base">{address.content}</div>
             </div>
             {/* phone */}
             <div className="flex flex-col items-center gap-x-4 xl:items-start">
               <div className="flex items-center gap-x-2">
                 <PhoneCall size={20} className="text-primary" />
-                <h2 className="text-2xl font-semibold">{phone.text}</h2>
+                <h2 className="text-xl font-semibold">{phone.text}</h2>
               </div>
-              <Link href="tel:+48578568311" className="text-lg">
+              <Link href="tel:+48578568311" className="text-base">
                 {phone.content}
               </Link>
             </div>
