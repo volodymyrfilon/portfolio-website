@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 // database
 import { Blocks, GanttChartSquare, Gem } from 'lucide-react';
-import { ServiceProps } from './Service.props';
+import { ServicesProps } from './Services.props';
 
 const serviceDataIcons: Record<string, JSX.Element> = {
   chart: <GanttChartSquare size={72} strokeWidth={0.8} />,
@@ -10,7 +10,7 @@ const serviceDataIcons: Record<string, JSX.Element> = {
   gem: <Gem size={72} strokeWidth={0.8} />,
 };
 
-export const Service = ({ data }: ServiceProps) => {
+export const Services = ({ data }: ServicesProps) => {
   const { title, serviceData } = data;
   return (
     <section className="mb-12 xl:mb-36">
@@ -29,8 +29,10 @@ export const Service = ({ data }: ServiceProps) => {
                 </div>
               </CardHeader>
               <CardContent className="text-center">
-                <CardTitle className="mb-4">{item.title}</CardTitle>
-                <CardDescription className="text-lg">{item.description}</CardDescription>
+                <CardTitle className="mb-4 text-xl">{item.title}</CardTitle>
+                <CardDescription className="text-base leading-7">
+                  {item.description}
+                </CardDescription>
               </CardContent>
             </Card>
           ))}

@@ -4,7 +4,8 @@ import { About } from '@/sections/About';
 
 import { Cta } from '@/sections/Cta';
 import { Hero } from '@/sections/Hero';
-import { Service } from '@/sections/Service';
+import { Projects } from '@/sections/Projects';
+import { Services } from '@/sections/Services';
 
 export default async function Home({ params: { lang } }: { params: { lang: Locale } }) {
   const { common } = await getDictionary(lang);
@@ -15,8 +16,8 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
     <main>
       <Hero data={hero} />
       <About data={about} />
-      <Service data={services} />
-      {/* <Projects data={projects} projectsData={projectsData} /> */}
+      <Services data={services} />
+      <Projects data={projects} projectsData={projectsData} />
       {/* <Reviews /> */}
       <Cta data={cta} />
     </main>

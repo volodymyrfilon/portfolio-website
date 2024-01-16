@@ -1,4 +1,4 @@
-export interface ServiceProps {
+export interface ServicesProps {
   data: {
     title: string;
     serviceData: {
