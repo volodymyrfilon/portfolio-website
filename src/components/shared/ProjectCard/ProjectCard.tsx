@@ -41,7 +41,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           {project.category}
         </Badge>
         <h4 className="h4 mb-1 font-eUkraineHead text-primary/80">{project.name}</h4>
-        <p className="text-sm leading-7 text-muted-foreground">{project.description}</p>
+        <p className="text-sm leading-6 text-muted-foreground">{project.description}</p>
       </div>
     </Card>
   );

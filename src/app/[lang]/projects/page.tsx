@@ -84,14 +84,14 @@ const Projects = ({ params: { lang } }: { params: { lang: Locale } }) => {
                   onClick={() => setCategory(category)}
                   value={category}
                   key={index}
-                  className="w-[162px] capitalize md:w-auto"
+                  className="w-[162px] text-sm capitalize md:w-auto"
                 >
                   {category}
                 </TabsTrigger>
               ))}
             </TabsList>
             {/* tabs content */}
-            <div className="grid grid-cols-1 gap-4 text-lg lg:grid-cols-3 xl:mt-8">
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 xl:mt-8">
               {filteredProjects.map((project, index) => (
                 <TabsContent value={category} key={index}>
                   <ProjectCard project={project} />
