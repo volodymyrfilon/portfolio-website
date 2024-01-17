@@ -241,7 +241,6 @@
         "successText": "Успіх"
       }
     },
-
     "projects": [
       {
         "image": "/work/post-angeles.jpg",
@@ -299,28 +298,101 @@
         "name": "Головна"
       }
     },
+
     "privacyPolicy": {
-      "title": "Політика конфіденційності",
-      "date": "2023-2024",
+      "title": "Політика приватності портфоліо вебсайту",
+      "date": "from August 29, 2023",
+      "email": {
+        "text": "Email",
+        "content": "vdfo26@gmail.com"
+      },
+      "phone": {
+        "text": "Phone",
+        "content": "+48 578 568 311"
+      },
       "content": [
         {
           "number": "01",
-          "subtitle": "Заголовок секції 1",
+          "subtitle": "General Provisions.",
           "text": [
-            "Параграф 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Параграф 2 - Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Параграф 3 - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "This Privacy Policy is a legally binding document, which constitutes an integral part of the Terms of Use of web-site volodymyrfilon.vercel.app, and aimed to regulate relationships between Owners and Users of web-site volodymyrfilon.vercel.app and contains the scope of confidential information, the methods for its collection, storage, processing, disclosure, analysis, ensuring security during the use of web-site volodymyrfilon.vercel.app. It is strongly recommended for Users to read carefully the following Privacy Policy before they start usage of web-site volodymyrfilon.vercel.app, as well as its content, or other related products. By using the mentioned products, you acknowledge your consent to use web-site volodymyrfilon.vercel.app in accordance with this Privacy Policy. If Users do not accept fully or partially the terms herein, they should terminate or not to start the usage of web-site volodymyrfilon.vercel.app."
           ]
         },
         {
           "number": "02",
-          "subtitle": "Заголовок секції 2",
+          "subtitle": "The scope and types of confidential information.",
           "text": [
-            "Параграф 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Параграф 2 - Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Параграф 3 - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Параграф 4 - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            "The personal information that is collected, stored or processed while using web-site volodymyrfilon.vercel.app includes the following types of information",
+            "Contact Information - This includes, in particular: mobile phone numbers, email address, name and surname of User, i.e. information by means of which User can identify himself as submit User`s application or User`s CV of web-site volodymyrfilon.vercel.app.",
+            "User Information - This includes, in particular: any information that is generated and uploaded directly by User, shared, received, distributed in any form by User while using web-site volodymyrfilon.vercel.app, as well as information about the User himself.",
+            "Third party Materials - This includes, in particular: data, products, content, intellectual property created, published or otherwise accumulated from third parties, other than User and/or Owner of web-site volodymyrfilon.vercel.app.",
+            "Contact Information - This includes, in particular: information which is received or collected, in particular - about IP-addresses, device types, which are used for running web-site volodymyrfilon.vercel.app, time and frequency of installations, visits, geo-location of Users and devices, metadata, comments, ratings, feedback posted by Users, received from other users, content of third parties."
           ]
+        },
+        {
+          "number": "03",
+          "subtitle": "Purposes for the collection of personal data.",
+          "text": [
+            "Collection of information is necessary in order to enable the following: Performance of User's tasks; Detecting, investigating, and combating fraud, non-permitted access or any other kind of illegal activity in relation to the web-site volodymyrfilon.vercel.app; ensuring technical support for Users of web-site volodymyrfilon.vercel.app; Administration of web-site volodymyrfilon.vercel.app; Ensuring compliance with the Terms of Use of web-site volodymyrfilon.vercel.app; Analytics of accumulated, depersonalized and anonymized information in order to improve and optimize the quality of service, which results will be used to optimize web-site volodymyrfilon.vercel.app functionality and improve the service provided.",
+            "With respect to above mentioned Owner of web-site volodymyrfilon.vercel.app agrees to obtain a full and explicit User consent for the collection and processing of mentioned data.",
+            "By starting an actual usage of web-site volodymyrfilon.vercel.app and setting tasks via web-site volodymyrfilon.vercel.app, including tasks for data sharing, User expresses his full and explicit consent for the collection and processing of mentioned personal data.",
+            "By accepting this Privacy Policy, User acknowledges and agrees that the data listed above will be collected, processed and stored on the Owner of web-site's volodymyrfilon.vercel.app servers. The collection, storage, processing, or any use of the information for purposes other than the purposes specified herein, is strictly prohibited. No one may distribute, publish or otherwise exploit User information in any way, which violates or potentially violates the rights of third parties, or other Users."
+          ]
+        },
+        {
+          "number": "04",
+          "subtitle": "The moment of data collection.",
+          "text": [
+            "The owner of the application collects information when: User directly uses web-site volodymyrfilon.vercel.app interfaces; Users create, upload and share data or otherwise participates in related communications; User communicates with Owner of web-site volodymyrfilon.vercel.app through web-site volodymyrfilon.vercel.app and related systems."
+          ]
+        },
+        {
+          "number": "05",
+          "subtitle": "Disclosure of personal data.",
+          "text": [
+            "Owners of web-site volodymyrfilon.vercel.app reserve the right to disclose User personal data to following persons: Third parties who are partners of the Owner of web-site volodymyrfilon.vercel.app and shall, therefore, assist in the provision of service (maintaining services, support, hosting, database management, etc.). In this case, the information is disclosed exclusively for the purposes of service provision, and person to whom it is available, undertakes not to disclose or use information outside the scope of this Privacy Policy; Representatives of public authorities – in order to respond to legally reasonable requests in connection with official procedures, investigations, if the obligation to disclose is required by the current legislation; Professional advisors (lawyers, auditors, etc.) for the purposes of an independent audit, corporate governance and compliance procedures."
+          ]
+        },
+        {
+          "number": "06",
+          "subtitle": "Disclosure, transfer, exchange of personal information is possible only based on full, expressed and explicit User consent. User has opportunity at any time to prevent, to stop the transfer or sharing of personal information.",
+          "text": []
+        },
+        {
+          "number": "07",
+          "subtitle": "Storage and Data Security.",
+          "text": [
+            "Owner of web-site volodymyrfilon.vercel.app undertakes all the necessary and reasonable measures to protect User information from leakage, loss, illegal and unauthorized use. However, User should be aware that web-site volodymyrfilon.vercel.app is open, can be accessed online, and therefore can potentially be subject to cyber-attacks, viruses, and other similar negative activities. Online access a priori does not guarantee the absolute safety of web-site volodymyrfilon.vercel.app; web-site volodymyrfilon.vercel.app Users use web-site volodymyrfilon.vercel.app at their own risk and Owners of web-site volodymyrfilon.vercel.app do not bear any responsibility for damage / loss raised from the threats to information and cyber security.",
+            "The User is also aware that the applicable information security and data protection tools cannot guarantee the absolute security of any data shared. Owners of web-site volodymyrfilon.vercel.app are not responsible for the actions of third parties, to whom User opens, discloses or otherwise transmits information. Since web-site volodymyrfilon.vercel.app runs globally, User acknowledges and agrees that personal information may be transferred to the devices that are located in any other country of the world, and with different levels of data protection. By using web-site volodymyrfilon.vercel.app, the User acknowledges and agrees to such data traffic"
+          ]
+        },
+        {
+          "number": "08",
+          "subtitle": "Personal Data Change.",
+          "text": [
+            "Users have the right at any time to change, update, correct or delete personal information via web-site volodymyrfilon.vercel.app. User agrees that after removal of his [registration] data / content - a copy of the data can continue to be stored on the server because of the data backups for some time. However, the Owner of web-site volodymyrfilon.vercel.app is not obliged to store such data after termination of this Privacy Policy and User is aware and agrees that after termination of the usage of service his data and content will not be saved."
+          ]
+        },
+        {
+          "number": "09",
+          "subtitle": "Cookies.",
+          "text": [
+            "Cookies-files may be used to monitor the use of web-site volodymyrfilon.vercel.app and web traffic in order to optimize and improve the service. User is aware and agrees that cookies may collect his certain personal information, including information about IP-addresses, information on the types of devices and used operating systems, time and frequency of visits.",
+            "User can at any time to change the settings of his browser by blocking the ability for automatic use of cookies. The information gathered may be used exclusively for the purposes of analytics, based on depersonalized and anonymized data, the results of which will be used in order to optimize the functionality of web-site volodymyrfilon.vercel.app and to improve the service provided. Blocking of cookies, however, may affect the ability of access to certain functionality of web-site volodymyrfilon.vercel.app."
+          ]
+        },
+        {
+          "number": "10",
+          "subtitle": "The procedure for making amendments and additions to the Privacy Policy",
+          "text": [
+            "Owners of web-site volodymyrfilon.vercel.app reserve the right at any time to revoke the terms and herein, to make changes, additions, without prior User consent or other prior notifications.",
+            "In case if certain provisions of the present Privacy Policy turn to be invalid or ineffective under the jurisdiction of particular countries, the mentioned does not affect the legal force of the entire document hereby, as well as the validity of its particular provisions in specific jurisdictions. Since consequent changes to the terms herein are made, they shall be published via platform, where web-site volodymyrfilon.vercel.app is located, with the appropriate notification on the updating date at the top of the text."
+          ]
+        },
+        {
+          "number": "11",
+          "subtitle": "The contact details.",
+          "text": []
         }
       ]
     }

@@ -44,7 +44,7 @@ export const SelectLanguage = ({ lang }: { lang: string }) => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative font-eUkraineHead">
       <button
         className="flex cursor-pointer items-center gap-2 uppercase hover:text-primary focus:text-primary"
         onClick={() => setIsOpen(prev => !prev)}

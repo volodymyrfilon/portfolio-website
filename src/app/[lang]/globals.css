@@ -92,7 +92,7 @@ body {
 }
 
 .privacy-policy_num_extended {
-  -webkit-text-stroke: 1px hsl(var(--primary));
-  text-stroke: 1px hsl(var(--primary));
+  -webkit-text-stroke: 1.7px hsl(var(--primary));
+  text-stroke: 1.7px hsl(var(--primary));
   color: transparent;
 }

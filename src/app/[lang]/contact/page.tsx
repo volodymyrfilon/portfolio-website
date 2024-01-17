@@ -100,7 +100,11 @@ const Contact = ({ params: { lang } }: { params: { lang: Locale } }) => {
                 <MailIcon size={20} className="text-primary" />
                 <h2 className="text-xl font-semibold">{email.text}</h2>
               </div>
-              <Link href="mailto:vdfo26@gmail.com" className="text-base">
+              <Link
+                rel="nofollow noreferrer"
+                href="mailto:vdfo26@gmail.com"
+                className="text-base hover:text-primary focus:text-primary"
+              >
                 {email.content}
               </Link>
             </div>
@@ -110,7 +114,13 @@ const Contact = ({ params: { lang } }: { params: { lang: Locale } }) => {
                 <HomeIcon size={20} className="text-primary" />
                 <h2 className="text-xl font-semibold">{address.text}</h2>
               </div>
-              <div className="text-base">{address.content}</div>
+              <Link
+                rel="nofollow noreferrer"
+                href="https://www.google.com/maps/place/Poznan"
+                className="text-base hover:text-primary focus:text-primary"
+              >
+                {address.content}
+              </Link>
             </div>
             {/* phone */}
             <div className="flex flex-col items-center gap-x-4 xl:items-start">
@@ -118,7 +128,11 @@ const Contact = ({ params: { lang } }: { params: { lang: Locale } }) => {
                 <PhoneCall size={20} className="text-primary" />
                 <h2 className="text-xl font-semibold">{phone.text}</h2>
               </div>
-              <Link href="tel:+48578568311" className="text-base">
+              <Link
+                rel="nofollow noreferrer"
+                href="tel:+48578568311"
+                className="text-base hover:text-primary focus:text-primary"
+              >
                 {phone.content}
               </Link>
             </div>

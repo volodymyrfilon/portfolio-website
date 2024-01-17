@@ -91,7 +91,10 @@ export const Form = ({ data }: FormProps) => {
             </label>
             <p className="text-xs text-muted-foreground">
               {checkbox.beforeLink}
-              <Link href={checkbox.linkTerms.href} className="underline hover:text-primary">
+              <Link
+                href={checkbox.linkTerms.href}
+                className="underline hover:text-primary focus:text-primary"
+              >
                 {checkbox.linkTerms.name}
               </Link>
             </p>
