@@ -30,6 +30,8 @@ const privacyPolicyPage = async ({ params: { lang } }: { params: { lang: Locale 
               <h2 className="mb-10 mt-2 font-eUkraineHead text-2xl font-bold leading-6 md:text-4xl ">
                 {item.subtitle}
               </h2>
+              {/* upper text */}
+              {/* <div className="my-2 ml-8 px-2">{upperText}</div> */}
               {/* text */}
               <ol className="text-sm font-semibold leading-6 text-black/60 [counter-reset:section] dark:text-muted-foreground md:text-base">
                 {item.text.map((text, index) => (
@@ -56,7 +58,7 @@ const privacyPolicyPage = async ({ params: { lang } }: { params: { lang: Locale 
             <Link
               rel="nofollow noreferrer"
               href="mailto:vdfo26@gmail.com"
-              className="text-xs hover:text-primary focus:text-primary md:text-lg"
+              className="text-sm font-semibold leading-6 text-black/60 hover:text-primary focus:text-primary dark:text-muted-foreground md:text-base"
             >
               {email.content}
             </Link>
@@ -65,12 +67,12 @@ const privacyPolicyPage = async ({ params: { lang } }: { params: { lang: Locale 
           <div className="flex flex-col gap-x-4 xl:items-start">
             <div className="flex items-center gap-x-2 text-sm md:text-xl">
               <PhoneCall size={20} className="text-primary" />
-              <h2 className="font-semibold">{phone.text}</h2>
+              <h2 className="font-semibold ">{phone.text}</h2>
             </div>
             <Link
               rel="nofollow noreferrer"
               href="tel:+48578568311"
-              className="text-xs hover:text-primary focus:text-primary md:text-lg"
+              className="text-sm font-semibold leading-6 text-black/60 hover:text-primary focus:text-primary dark:text-muted-foreground md:text-base"
             >
               {phone.content}
             </Link>

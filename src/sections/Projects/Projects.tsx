@@ -39,7 +39,7 @@ export const Projects = ({ data, projectsData }: ProjectsProps) => {
               pagination={{ clickable: true }}
             >
               {/* projects slides */}
-              {projectsData.slice(0, 4).map((project: any, index: number) => (
+              {projectsData.data.slice(0, 4).map((project: any, index: number) => (
                 <SwiperSlide key={index}>
                   <ProjectCard project={project} />
                 </SwiperSlide>

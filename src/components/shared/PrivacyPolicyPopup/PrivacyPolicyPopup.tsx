@@ -24,7 +24,7 @@ export const PrivacyPolicyPopup = ({ data }: PrivacyPolicyPopupProps) => {
   return (
     <div className={`fixed bottom-0 z-[99] min-h-[48px] w-full bg-secondary py-1.5 ${isVisible}`}>
       <div className="container">
-        <div className="flex items-center justify-between gap-x-3 text-[12px] font-extralight text-white">
+        <div className="flex items-center justify-between gap-x-3 text-[12px] font-light text-white">
           <div className="w-5/6">
             {text}
             <Link href={link.href} className="underline">

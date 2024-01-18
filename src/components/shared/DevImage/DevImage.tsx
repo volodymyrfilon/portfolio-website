@@ -9,7 +9,7 @@ export const DevImage = ({
 }) => {
   return (
     <div className={`${containerStyles}`}>
-      <Image src={imgSrc} fill priority alt="developer-image" />
+      <Image src={imgSrc} fill priority alt="developer-image" className="object-contain" />
     </div>
   );
 };

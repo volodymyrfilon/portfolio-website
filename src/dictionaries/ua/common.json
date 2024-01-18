@@ -17,7 +17,7 @@
       ]
     },
     "footer": {
-      "footerText": "Авторські права 2023-2024 © Володимир Філон. Усі права захищено.",
+      "footerText": "Copyright 2023-2024 © Volodymyr Filon. Усі права захищено.",
       "footerPrivacyPolicy": {
         "label": "Умови обслуговування та політика конфіденційності.",
         "href": "/privacy-policy"
@@ -29,16 +29,16 @@
 
     "home": {
       "hero": {
-        "position": "веб-розробник",
+        "position": "веб розробник",
         "developer": "Привіт, мене звати Володимир Філон",
         "aboutDeveloper": "Мене веде страх перед створенням дружелюбних для користувача та візуально привабливих веб-сайтів. Мій шлях полягає в перетворенні ідей в цифрові враження за допомогою мистецтва коду та дизайну.",
         "contactButton": {
           "href": "/ua/contact",
-          "name": "Зв'яжіться зі мною"
+          "name": "Контакт"
         },
         "downloadButton": {
           "href": "/cv.pdf",
-          "name": "Завантажити резюме"
+          "name": "Скачати резюме"
         },
         "badge1": {
           "endCountNum": 1,
@@ -58,12 +58,12 @@
         "title": "Про мене",
         "devImageSrc": "/about/developer.png",
         "tabSections": {
-          "personal": "Особиста інформація",
+          "personal": "Особистe інфо",
           "qualification": "Кваліфікації",
           "skills": "Навички"
         },
         "personalData": {
-          "title": "Піднімаючи цифрові враження",
+          "title": "Підвищення цифрового досвіду",
           "subtitle": "Я спеціалізуюся на створенні інтуїтивно зрозумілих веб-сайтів з використанням передових технологій, що надають динаміку та захопливий користувальницький досвід.",
           "data": [
             {
@@ -84,7 +84,7 @@
             },
             {
               "icon": "graduation",
-              "text": "Магістр міжнародної вантажно-транспортної логістики"
+              "text": "Магістр Міжнарод. Логістики"
             },
             {
               "icon": "home",
@@ -100,32 +100,32 @@
         "qualificationData": {
           "title": "Моя подорож кодом і пікселями",
           "educationData": {
-            "title": "Освіта",
+            "title": "освіта",
             "data": [
               {
                 "university": "Вища Школа Логістики",
-                "qualification": "Бакалавр логістики та управління ланцюгом поставок",
+                "qualification": "Бакалавр Логістики та Управління Ланцюгом Поставок",
                 "years": "2019 - 2022"
               },
               {
                 "university": "Вища Школа Логістики",
-                "qualification": "Магістр міжнародної вантажно-транспортної логістики",
+                "qualification": "Магістр Міжнарод. Вантажно-Транспортної Логістики",
                 "years": "2022 - 2024"
               }
             ]
           },
           "experienceData": {
-            "title": "Досвід роботи",
+            "title": "досвід роботи",
             "data": [
               {
-                "company": "Транспортна Група Вітрак",
-                "role": "Міжнародний вантажно-транспортний менеджер",
-                "years": "2021 - До теперішнього часу"
+                "company": "Transport Wietrak Group",
+                "role": "Міжнарод. Вантажно-Транспортний Менеджер",
+                "years": "2021 - Зараз"
               },
               {
                 "company": "BAZA Trainee Ukraine",
-                "role": "Молодший веб-розробник Frontend",
-                "years": "2023 - До теперішнього часу"
+                "role": "Молодший Фронтенд Веб-Розробник (віддалено)",
+                "years": "2023 - Зараз"
               }
             ]
           }
@@ -172,8 +172,8 @@
         "serviceData": [
           {
             "icon": "chart",
-            "title": "Розробка веб-сайтів",
-            "description": "Створення динамічних та зручних для користувача веб-сайтів за допомогою HTML, CSS та JavaScript Libraries & Frameworks."
+            "title": "Розробка Вебсайтів",
+            "description": "Створення динамічних і зручних веб-сайтів за допомогою HTML, CSS, а також JavaScript бібліотек і фреймворків."
           },
           {
             "icon": "blocks",
@@ -188,27 +188,27 @@
         ]
       },
       "projects": {
-        "title": "Останній проект",
-        "subtitle": "Lorem ipsum dolor sit amet amet amet amet amet amet consectetur adipisicing elit.",
+        "title": "Найновіші проекти",
+        "subtitle": "Поринь в мої останні веб-проекти, де поєднуються креативність і функціональність. Ознайомся з останніми доповненнями до мого портфоліо та на власні очі відчуй мистецтво веб-розробки.",
         "buttonProjectsPage": {
           "href": "/ua/projects",
           "name": "Всі проекти"
         }
       },
       "cta": {
-        "title": "У вас є питання? Не соромтесь звертатися до мене!",
+        "title": "Маєте питання? Не соромтеся написати до мене!",
         "buttonContactPage": {
           "href": "/ua/contact",
-          "name": "Зв'яжіться зі мною"
+          "name": "Контакт"
         }
       }
     },
     "contact": {
       "contacts": {
-        "title": "Мої контакти",
+        "title": "Мої Контакти",
         "subtitle": "Давайте працювати разом!",
         "email": {
-          "text": "Електронна пошта",
+          "text": "Пошта",
           "content": "vdfo26@gmail.com"
         },
         "address": {
@@ -222,9 +222,9 @@
       },
       "form": {
         "input": {
-          "email": "Електронна пошта",
+          "email": "Пошта",
           "name": "Ім'я",
-          "message": "Введіть повідомлення"
+          "message": "Повідомлення"
         },
         "checkbox": {
           "acceptTerms": "Прийняти умови та політику конфіденційності",
@@ -237,60 +237,63 @@
         "button": {
           "name": "Поговоримо"
         },
-        "errorText": "Помилка",
-        "successText": "Успіх"
+        "errorText": "Помилка відправлення",
+        "successText": "Успішно відправлено"
       }
     },
-    "projects": [
-      {
-        "image": "/work/post-angeles.jpg",
-        "category": "fullstack",
-        "name": "Post Angeles (у процесі)",
-        "description": "Проект створений для української гуманітарної організації, яка допомагає українській армії.",
-        "link": "https://post-angels.vercel.app/",
-        "github": "https://github.com/baza-trainee/post-angels"
-      },
-      {
-        "image": "/work/marvel.jpg",
-        "category": "react js",
-        "name": "Marvel",
-        "description": "Проект використовує API коміксів Marvel для демонстрації персонажів та коміксів в інтерактивному форматі.",
-        "link": "https://volodymyrfilon.github.io/react-marvel/",
-        "github": "https://github.com/volodymyrfilon/react-marvel"
-      },
-      {
-        "image": "/work/gears-roam.jpg",
-        "category": "fullstack",
-        "name": "Автомобільний Блог",
-        "description": "Досліджуйте захопливий 'Gears Roam', блог, що розкриває чарівний світ автомобілів.",
-        "link": "https://gears-roam.vercel.app/",
-        "github": "https://github.com/volodymyrfilon/GearsRoam"
-      },
-      {
-        "image": "/work/weather.jpg",
-        "category": "JavaScript",
-        "name": "Погодний Додаток",
-        "description": "Переглядайте Погодний Додаток, проект на основі JavaScript, який надає оновлення погоди в реальному часі.",
-        "link": "https://volodymyrfilon.github.io/weather-dashboard-js/",
-        "github": "https://github.com/volodymyrfilon/weather-dashboard-js"
-      },
-      {
-        "image": "/work/quiz.jpg",
-        "category": "JavaScript",
-        "name": "Гра в Квіз",
-        "description": "Гра в квіз з лічильником балів та рейтингом в локальному сховищі. У проекті використовується API Open Trivia DB.",
-        "link": "https://volodymyrfilon.github.io/quiz-js/",
-        "github": "https://github.com/volodymyrfilon/quiz-js"
-      },
-      {
-        "image": "/work/garmin.jpg",
-        "category": "JavaScript",
-        "name": "Garmin Shop",
-        "description": "Досліджуйте 'Garmin Shop'. Проект дозволяє вам взаємодіяти з його можливостями.",
-        "link": "https://volodymyrfilon.github.io/garmin-shop/",
-        "github": "https://github.com/volodymyrfilon/garmin-shop"
-      }
-    ],
+    "projects": {
+      "title": "Мої Проекти",
+      "data": [
+        {
+          "image": "/work/post-angeles.jpg",
+          "category": "fullstack",
+          "name": "Пост Анджелес (у процесі)",
+          "description": "Проект створений на замовлення гуманітарної організації, яка допомагає українській армії.",
+          "link": "https://post-angels.vercel.app/",
+          "github": "https://github.com/baza-trainee/post-angels"
+        },
+        {
+          "image": "/work/marvel.jpg",
+          "category": "react js",
+          "name": "Марвел",
+          "description": "Проект використовує Marvel Comics API для відображення персонажів і коміксів в інтерактивному форматі.",
+          "link": "https://volodymyrfilon.github.io/react-marvel/",
+          "github": "https://github.com/volodymyrfilon/react-marvel"
+        },
+        {
+          "image": "/work/gears-roam.jpg",
+          "category": "fullstack",
+          "name": "Автомобільний Блог",
+          "description": "Досліджуйте захопливий 'Gears Roam', блог, що розкриває чарівний світ автомобілів.",
+          "link": "https://gears-roam.vercel.app/",
+          "github": "https://github.com/volodymyrfilon/GearsRoam"
+        },
+        {
+          "image": "/work/weather.jpg",
+          "category": "JavaScript",
+          "name": "Додаток Погоди",
+          "description": "Додаток Погоди побудований на основі JavaScript, який надає оновлення погоди в реальному часі.",
+          "link": "https://volodymyrfilon.github.io/weather-dashboard-js/",
+          "github": "https://github.com/volodymyrfilon/weather-dashboard-js"
+        },
+        {
+          "image": "/work/quiz.jpg",
+          "category": "JavaScript",
+          "name": "Вікторина",
+          "description": "Вікторина з лічильником балів та локальним рейтингом. У проекті використовується API Open Trivia DB.",
+          "link": "https://volodymyrfilon.github.io/quiz-js/",
+          "github": "https://github.com/volodymyrfilon/quiz-js"
+        },
+        {
+          "image": "/work/garmin.jpg",
+          "category": "JavaScript",
+          "name": "Магазин Garmin",
+          "description": "Досліджуйте 'Garmin Shop'. Проект дозволяє вам взаємодіяти з його можливостями.",
+          "link": "https://volodymyrfilon.github.io/garmin-shop/",
+          "github": "https://github.com/volodymyrfilon/garmin-shop"
+        }
+      ]
+    },
     "notFound": {
       "title": "Сторінку не знайдено",
       "buttonHomePage": {
@@ -299,108 +302,108 @@
       }
     },
     "privacyPolicy": {
-      "title": "Політика приватності портфоліо вебсайту",
-      "date": "from August 29, 2023",
+      "title": "Політика Приватності Портфоліо Вебсайту",
+      "date": "від Серпня 29, 2023",
       "email": {
-        "text": "Email",
+        "text": "Пошта",
         "content": "vdfo26@gmail.com"
       },
       "phone": {
-        "text": "Phone",
+        "text": "Телефон",
         "content": "+48 578 568 311"
       },
       "content": [
         {
           "number": "01",
-          "subtitle": "General Provisions.",
+          "subtitle": "Загальні положення.",
           "text": [
-            "This Privacy Policy is a legally binding document, which constitutes an integral part of the Terms of Use of web-site volodymyrfilon.vercel.app, and aimed to regulate relationships between Owners and Users of web-site volodymyrfilon.vercel.app and contains the scope of confidential information, the methods for its collection, storage, processing, disclosure, analysis, ensuring security during the use of web-site volodymyrfilon.vercel.app. It is strongly recommended for Users to read carefully the following Privacy Policy before they start usage of web-site volodymyrfilon.vercel.app, as well as its content, or other related products. By using the mentioned products, you acknowledge your consent to use web-site volodymyrfilon.vercel.app in accordance with this Privacy Policy. If Users do not accept fully or partially the terms herein, they should terminate or not to start the usage of web-site volodymyrfilon.vercel.app."
+            "Ці Умови конфіденційності є Офіційним документом, які становлять невід'ємну частину Умов використання веб-сайту volodymyrfilon.vercel.app, який регулює взаємовідносини між власником веб-сайту volodymyrfilon.vercel.app і його користувачами щодо переліку конфіденційної інформації, способів її збору, зберігання, обробки, розкриття, аналізу і процесингу, забезпечення безпеки у зв'язку з, і в процесі використання веб-сайту volodymyrfilon.vercel.app. Наполегливо рекомендуємо користувачам детально Ознайомитися з викладеними Умовами конфіденційності перед початком використання веб-сайту volodymyrfilon.vercel.app, його контенту, або Інших пов'язаних продуктів, адже, починаючи використовувати перераховані продукти, ви підтверджуєте свою згоду на використання веб-сайту volodymyrfilon.vercel.app на умовах, викладених нижче. У разі, якщо Користувачі НЕ згодні повністю або частково з цими Умовами конфіденційності, прохання припинити / НЕ продовжувати роботу з веб-сайтом volodymyrfilon.vercel.app."
           ]
         },
         {
           "number": "02",
-          "subtitle": "The scope and types of confidential information.",
+          "subtitle": "Перелік конфіденційної інформації.",
           "text": [
-            "The personal information that is collected, stored or processed while using web-site volodymyrfilon.vercel.app includes the following types of information",
-            "Contact Information - This includes, in particular: mobile phone numbers, email address, name and surname of User, i.e. information by means of which User can identify himself as submit User`s application or User`s CV of web-site volodymyrfilon.vercel.app.",
-            "User Information - This includes, in particular: any information that is generated and uploaded directly by User, shared, received, distributed in any form by User while using web-site volodymyrfilon.vercel.app, as well as information about the User himself.",
-            "Third party Materials - This includes, in particular: data, products, content, intellectual property created, published or otherwise accumulated from third parties, other than User and/or Owner of web-site volodymyrfilon.vercel.app.",
-            "Contact Information - This includes, in particular: information which is received or collected, in particular - about IP-addresses, device types, which are used for running web-site volodymyrfilon.vercel.app, time and frequency of installations, visits, geo-location of Users and devices, metadata, comments, ratings, feedback posted by Users, received from other users, content of third parties."
+            "До персональної інформації, яка збирається, зберігається або обробляється в процесі використання веб-сайту volodymyrfilon.vercel.app відносяться наступні види інформації",
+            "Контактна інформація - до неї відноситься, зокрема: номер мобільного телефону, адреса електронної пошти, ім'я та прізвище Користувача, за допомогою якого Користувач може ідентифікувати себе.",
+            "Інформація користувача - До неї відноситься, зокрема: будь-яка інформація, яка створюється і завантажується безпосередньо Користувачем, що передається і отримується, поширюється так чи інакше Користувачем в процесі і за допомогою використання веб-сайту volodymyrfilon.vercel.app, а також безпосередньо інформація про Користувача.",
+            "Матеріали третіх осіб - До неї відноситься, зокрема: дані, продукти, контент, об'єкти інтелектуальної власності, що створені, публікуються або іншим способом виходять від третіх осіб, відмінних від Користувача та / або Власника веб-сайту volodymyrfilon.vercel.app.",
+            "Інформація про акаунт Користувача - До неї відноситься, зокрема: інформація, яка так чи інакше отримана / зібрана про IP-адреси, типи пристроїв, з яких відбувається використання веб-сайту volodymyrfilon.vercel.app, часу і частоту відвідувань веб-сайту volodymyrfilon.vercel.app, геолокації Користувача і пристроїв, метадані, відгуки, рейтинги, фідбек, розміщений Користувачем, отриманий від інших користувачів / третіх осіб контенту."
           ]
         },
         {
           "number": "03",
-          "subtitle": "Purposes for the collection of personal data.",
+          "subtitle": "Цілі збору інформації.",
           "text": [
-            "Collection of information is necessary in order to enable the following: Performance of User's tasks; Detecting, investigating, and combating fraud, non-permitted access or any other kind of illegal activity in relation to the web-site volodymyrfilon.vercel.app; ensuring technical support for Users of web-site volodymyrfilon.vercel.app; Administration of web-site volodymyrfilon.vercel.app; Ensuring compliance with the Terms of Use of web-site volodymyrfilon.vercel.app; Analytics of accumulated, depersonalized and anonymized information in order to improve and optimize the quality of service, which results will be used to optimize web-site volodymyrfilon.vercel.app functionality and improve the service provided.",
-            "With respect to above mentioned Owner of web-site volodymyrfilon.vercel.app agrees to obtain a full and explicit User consent for the collection and processing of mentioned data.",
-            "By starting an actual usage of web-site volodymyrfilon.vercel.app and setting tasks via web-site volodymyrfilon.vercel.app, including tasks for data sharing, User expresses his full and explicit consent for the collection and processing of mentioned personal data.",
-            "By accepting this Privacy Policy, User acknowledges and agrees that the data listed above will be collected, processed and stored on the Owner of web-site's volodymyrfilon.vercel.app servers. The collection, storage, processing, or any use of the information for purposes other than the purposes specified herein, is strictly prohibited. No one may distribute, publish or otherwise exploit User information in any way, which violates or potentially violates the rights of third parties, or other Users."
+            "Збір інформації необхідний для того, щоб забезпечити наступне: Виконання завдань Користувача; Виявлення, розслідування та боротьба з шахрайством, несанкціонованим доступом або будь-якою іншою незаконною діяльністю по відношенню до веб-сайту volodymyrfilon.vercel.app; забезпечення технічної підтримки Користувачів веб-сайту volodymyrfilon.vercel.app Адміністрування веб-сайту volodymyrfilon.vercel.app Забезпечення дотримання Умов користування веб-сайтом volodymyrfilon.vercel.app Аналітика накопичених, знеособлених та анонімних інформацію з метою покращення та оптимізації якості обслуговування, результати якої будуть використані для оптимізації функціональності веб-сайту volodymyrfilon.vercel.app та покращення наданого сервісу.",
+            "Щодо вищезазначеного Власник веб-сайту volodymyrfilon.vercel.app погоджується отримати повну та чітку згоду Користувача на збір та обробку зазначених даних.",
+            "Починаючи фактичне використання веб-сайту volodymyrfilon.vercel.app та встановлюючи завдання через веб-сайт volodymyrfilon.vercel.app, включаючи завдання щодо обміну даними, Користувач висловлює свою повну та явну згоду на збір та обробку зазначених персональних даних.",
+            "Приймаючи цю Політику конфіденційності, Користувач визнає та погоджується з тим, що дані, перелічені вище, збиратимуться, оброблятимуться та зберігатимуться на серверах Власника веб-сайту volodymyrfilon.vercel.app. Збір, зберігання, обробка або будь-яке використання інформації для цілей, відмінних від зазначених у цьому документі, суворо заборонено. Ніхто не має права поширювати, публікувати чи іншим чином використовувати інформацію користувача будь-яким способом, який порушує або потенційно порушує права третіх сторін або інших користувачів."
           ]
         },
         {
           "number": "04",
-          "subtitle": "The moment of data collection.",
+          "subtitle": "Момент збору інформації.",
           "text": [
-            "The owner of the application collects information when: User directly uses web-site volodymyrfilon.vercel.app interfaces; Users create, upload and share data or otherwise participates in related communications; User communicates with Owner of web-site volodymyrfilon.vercel.app through web-site volodymyrfilon.vercel.app and related systems."
+            "Власник програми збирає інформацію, коли: Користувач безпосередньо використовує інтерфейси веб-сайту volodymyrfilon.vercel.app; Користувачі створюють, завантажують і обмінюються даними або іншим чином беруть участь у відповідних комунікаціях; Користувач спілкується з Власником веб-сайту volodymyrfilon.vercel.app через веб-сайт volodymyrfilon.vercel.app та пов’язані системи."
           ]
         },
         {
           "number": "05",
-          "subtitle": "Disclosure of personal data.",
+          "subtitle": "Розкриття персональних даних.",
           "text": [
-            "Owners of web-site volodymyrfilon.vercel.app reserve the right to disclose User personal data to following persons: Third parties who are partners of the Owner of web-site volodymyrfilon.vercel.app and shall, therefore, assist in the provision of service (maintaining services, support, hosting, database management, etc.). In this case, the information is disclosed exclusively for the purposes of service provision, and person to whom it is available, undertakes not to disclose or use information outside the scope of this Privacy Policy; Representatives of public authorities – in order to respond to legally reasonable requests in connection with official procedures, investigations, if the obligation to disclose is required by the current legislation; Professional advisors (lawyers, auditors, etc.) for the purposes of an independent audit, corporate governance and compliance procedures."
+            "Власники веб-сайту volodymyrfilon.vercel.app залишають за собою право розкривати персональні дані Користувача таким особам: Третім особам, які є партнерами Власника веб-сайту volodymyrfilon.vercel.app і, таким чином, допомагають у наданні послуг. (обслуговування, підтримка, хостинг, управління базами даних тощо). У цьому випадку інформація розкривається виключно для цілей надання послуг, а особа, якій вона доступна, зобов’язується не розголошувати та не використовувати інформацію поза сферою дії цієї Політики конфіденційності; представники органів державної влади – для відповіді на юридично обґрунтовані запити у зв’язку з офіційними процедурами, розслідуваннями, якщо обов’язок розголошення вимагається чинним законодавством; Професійні консультанти (юристи, аудитори та ін.) для цілей незалежного аудиту, корпоративного управління та процедур комплаєнс."
           ]
         },
         {
           "number": "06",
-          "subtitle": "Disclosure, transfer, exchange of personal information is possible only based on full, expressed and explicit User consent. User has opportunity at any time to prevent, to stop the transfer or sharing of personal information.",
+          "subtitle": "Розкриття, передача, обмін особистою інформацією відбувається тільки з повної, прямо вираженої і вичерпної згоди Користувача. Користувач має можливість в будь-який момент запобігти, зупинити подальшу передачу, обмін персональної інформації.",
           "text": []
         },
         {
           "number": "07",
-          "subtitle": "Storage and Data Security.",
+          "subtitle": "Зберігання і безпека даних.",
           "text": [
-            "Owner of web-site volodymyrfilon.vercel.app undertakes all the necessary and reasonable measures to protect User information from leakage, loss, illegal and unauthorized use. However, User should be aware that web-site volodymyrfilon.vercel.app is open, can be accessed online, and therefore can potentially be subject to cyber-attacks, viruses, and other similar negative activities. Online access a priori does not guarantee the absolute safety of web-site volodymyrfilon.vercel.app; web-site volodymyrfilon.vercel.app Users use web-site volodymyrfilon.vercel.app at their own risk and Owners of web-site volodymyrfilon.vercel.app do not bear any responsibility for damage / loss raised from the threats to information and cyber security.",
-            "The User is also aware that the applicable information security and data protection tools cannot guarantee the absolute security of any data shared. Owners of web-site volodymyrfilon.vercel.app are not responsible for the actions of third parties, to whom User opens, discloses or otherwise transmits information. Since web-site volodymyrfilon.vercel.app runs globally, User acknowledges and agrees that personal information may be transferred to the devices that are located in any other country of the world, and with different levels of data protection. By using web-site volodymyrfilon.vercel.app, the User acknowledges and agrees to such data traffic"
+            "Власник веб-сайту volodymyrfilon.vercel.app вживає всіх необхідних і об'єктивно обґрунтованих заходів для захисту інформації користувачів від витоку, втрати, незаконного і несанкціонованого використання. Проте, Користувач повинен також усвідомлювати, що веб-сайт volodymyrfilon.vercel.app знаходиться у відкритому онлайн-доступі, у зв'язку із чим може бути підданий кібератакам, вірусам і іншим подібним негативним явищам, що не гарантує Користувачеві абсолютної безпеки використовуваного сервісу; веб-сайт volodymyrfilon.vercel.app використовується ним на власний ризик і Власники веб-сайту volodymyrfilon.vercel.app не несуть жодної відповідальності за шкоду/збиток, що виникли у результаті загроз інформаційної і кібербезпеки. Користувач також усвідомлює, що застосовані заходи інформаційної безпеки і захисту даних не гарантують абсолютний захист будь-якої інформації, що передається. Власники веб-сайту volodymyrfilon.vercel.app також не відповідають за дії третіх осіб, яким Користувач розкриває або іншим чином передає інформацію. Так як веб-сайт volodymyrfilon.vercel.app функціонує глобально, Користувач усвідомлює і погоджується з тим, що персональна інформація може бути передана на пристрої, що знаходяться у будь-якій іншій країні світу, і з різними рівнем захисту даних. Використовуючи веб-сайт volodymyrfilon.vercel.app, Користувач підтверджує і надає згоду на такий рух даних."
           ]
         },
         {
           "number": "08",
-          "subtitle": "Personal Data Change.",
+          "subtitle": "Зміна персональних даних.",
           "text": [
-            "Users have the right at any time to change, update, correct or delete personal information via web-site volodymyrfilon.vercel.app. User agrees that after removal of his [registration] data / content - a copy of the data can continue to be stored on the server because of the data backups for some time. However, the Owner of web-site volodymyrfilon.vercel.app is not obliged to store such data after termination of this Privacy Policy and User is aware and agrees that after termination of the usage of service his data and content will not be saved."
+            "Користувачі мають право у будь-який момент змінювати, оновлювати, виправляти і видаляти персональну інформацію за допомогою веб-сайту volodymyrfilon.vercel.app. Користувач погоджується з тим, що після видалення своїх даних / контенту - копії таких даних можуть продовжувати зберігатись на сервері в результаті резервного копіювання даних протягом деякого часу. Проте Власник веб-сайту volodymyrfilon.vercel.app не зобов'язаний зберігати такі дані після припинення строку дії даних Умов конфіденційності і Користувач усвідомлює, що під час припинення використання сервісу його дані і контент можуть не зберегтися."
           ]
         },
         {
           "number": "09",
           "subtitle": "Cookies.",
           "text": [
-            "Cookies-files may be used to monitor the use of web-site volodymyrfilon.vercel.app and web traffic in order to optimize and improve the service. User is aware and agrees that cookies may collect his certain personal information, including information about IP-addresses, information on the types of devices and used operating systems, time and frequency of visits.",
-            "User can at any time to change the settings of his browser by blocking the ability for automatic use of cookies. The information gathered may be used exclusively for the purposes of analytics, based on depersonalized and anonymized data, the results of which will be used in order to optimize the functionality of web-site volodymyrfilon.vercel.app and to improve the service provided. Blocking of cookies, however, may affect the ability of access to certain functionality of web-site volodymyrfilon.vercel.app."
+            "Файли-сookies можуть бути використані для моніторингу використання веб-сайту volodymyrfilon.vercel.app і веб-трафіку для оптимізації і покращення сервісу. Користувач усвідомлює, що сookies можуть збирати певну персональну інформацію про Користувачів, включаючи інформацію про IP-адреси Користувачів, інформацію про типи пристроїв, операційні системи, що використовуються, про час і частоту надходжень.",
+            "Користувач може змінити налаштування свого браузера, заблокувавши можливість автоматичного використання таких файлів-сookies. Зібрана інформація може бути використана виключно для аналітики акумульованої, деперсоналізованної і анонімізованної інформації, результати якої можуть бути використані Власником веб-сайту volodymyrfilon.vercel.app для оптимізації функціоналу веб-сайту volodymyrfilon.vercel.app і поліпшення сервісу, що надається. Відмова від використання сookies, проте, може вплинути на можливість доступу до тих або інших функціональних можливостей веб-сайту volodymyrfilon.vercel.app."
           ]
         },
         {
           "number": "10",
-          "subtitle": "The procedure for making amendments and additions to the Privacy Policy",
+          "subtitle": "Зміни в Умовах конфіденційності.",
           "text": [
-            "Owners of web-site volodymyrfilon.vercel.app reserve the right at any time to revoke the terms and herein, to make changes, additions, without prior User consent or other prior notifications.",
-            "In case if certain provisions of the present Privacy Policy turn to be invalid or ineffective under the jurisdiction of particular countries, the mentioned does not affect the legal force of the entire document hereby, as well as the validity of its particular provisions in specific jurisdictions. Since consequent changes to the terms herein are made, they shall be published via platform, where web-site volodymyrfilon.vercel.app is located, with the appropriate notification on the updating date at the top of the text."
+            "Власники веб-сайту volodymyrfilon.vercel.app зберігають за собою право у будь-який момент відкликати дію даних Умов конфіденційності, вносити до них зміни, доповнення без попередньої згоди Користувачів або їх попереднього повідомлення.",
+            "У разі визнання окремих положень даних Умов конфіденційності недійсними, або їх недійсності в межах тієї або іншої юрисдикції, це не тягне за собою визнання недійсними Умов конфіденційності в цілому, як і недійсності їх окремих положень у межах конкретних юрисдикцій.",
+            "З моменту внесення відповідних змін до цих Умов конфіденційності, вони підлягають публікації на платформі, де знаходиться веб-сайт volodymyrfilon.vercel.app, а також розміщення вказівки угорі тексту на дату оголошення."
           ]
         },
         {
           "number": "11",
-          "subtitle": "The contact details.",
+          "subtitle": "Контактні дані.",
           "text": []
         }
       ]
     },
 
     "privacyPolicyPopupData": {
-      "text": "Ми використовуємо файли cookie щоб зробити ваше користування веб-сайтом зручнішим. Продовжуючи користуватися цим сайтом, ви погоджуєтесь із використанням файлів cookies. Дізнайтеся більше про використання cookie на сторінці ",
+      "text": "Ми використовуємо файли cookie щоб зробити ваше користування веб-сайтом зручнішим. Продовжуючи користуватися цим сайтом, ви погоджуєтесь із використанням файлів cookies. Дізнатись більше про файли cookie можна в ",
       "link": {
         "href": "/ua/privacy-policy",
-        "name": "Умови конфіденційності"
+        "name": "Політиці Конфіденційності"
       },
       "acceptButton": "Прийняти"
     }

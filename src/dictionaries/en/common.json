@@ -24,7 +24,7 @@
       }
     },
     "logo": {
-      "href": "/en/"
+      "href": "/en"
     },
 
     "home": {
@@ -42,15 +42,15 @@
         },
         "badge1": {
           "endCountNum": 1,
-          "badgeText": "Years Of Experience"
+          "badgeText": "Years of experience"
         },
         "badge2": {
           "endCountNum": 9,
-          "badgeText": "Finished Projects"
+          "badgeText": "Finished projects"
         },
         "badge3": {
           "endCountNum": 5,
-          "badgeText": "Team Projects"
+          "badgeText": "Team projects"
         },
         "devImageSrc": "/hero/developer.png"
       },
@@ -237,60 +237,63 @@
         "button": {
           "name": "Let`s Talk"
         },
-        "errorText": "Error",
-        "successText": "Success"
+        "errorText": "Sending error",
+        "successText": "Sent successfully"
       }
     },
-    "projects": [
-      {
-        "image": "/work/post-angeles.jpg",
-        "category": "fullstack",
-        "name": "Post Angeles (in process)",
-        "description": "A project made for a Ukrainian humanitarian organization what helps the Ukrainian army.",
-        "link": "https://post-angels.vercel.app/",
-        "github": "https://github.com/baza-trainee/post-angels"
-      },
-      {
-        "image": "/work/marvel.jpg",
-        "category": "react js",
-        "name": "Marvel",
-        "description": "Project is utilizing the Marvel Comics API to showcase characters and comics interactively.",
-        "link": "https://volodymyrfilon.github.io/react-marvel/",
-        "github": "https://github.com/volodymyrfilon/react-marvel"
-      },
-      {
-        "image": "/work/gears-roam.jpg",
-        "category": "fullstack",
-        "name": "Automobile Blog",
-        "description": "Explore the engaging 'Gears Roam', a blog that uncovers the fascinating world of cars.",
-        "link": "https://gears-roam.vercel.app/",
-        "github": "https://github.com/volodymyrfilon/GearsRoam"
-      },
-      {
-        "image": "/work/weather.jpg",
-        "category": "JavaScript",
-        "name": "Weather App",
-        "description": "Check out the Weather App, a JavaScript-based project that provides real-time weather updates.",
-        "link": "https://volodymyrfilon.github.io/weather-dashboard-js/",
-        "github": "https://github.com/volodymyrfilon/weather-dashboard-js"
-      },
-      {
-        "image": "/work/quiz.jpg",
-        "category": "JavaScript",
-        "name": "Quiz App",
-        "description": "Quiz game, with score counter and local storage highscores. In project is used Open Trivia DB API.",
-        "link": "https://volodymyrfilon.github.io/quiz-js/",
-        "github": "https://github.com/volodymyrfilon/quiz-js"
-      },
-      {
-        "image": "/work/garmin.jpg",
-        "category": "JavaScript",
-        "name": "Garmin Shop",
-        "description": "Explore the 'Garmin Shop'. Project is allowing you to get hands-on with its features.",
-        "link": "https://volodymyrfilon.github.io/garmin-shop/",
-        "github": "https://github.com/volodymyrfilon/garmin-shop"
-      }
-    ],
+    "projects": {
+      "title": "My Projects",
+      "data": [
+        {
+          "image": "/work/post-angeles.jpg",
+          "category": "fullstack",
+          "name": "Post Angeles (in process)",
+          "description": "A project made for a Ukrainian humanitarian organization what helps the Ukrainian army.",
+          "link": "https://post-angels.vercel.app/",
+          "github": "https://github.com/baza-trainee/post-angels"
+        },
+        {
+          "image": "/work/marvel.jpg",
+          "category": "react js",
+          "name": "Marvel",
+          "description": "Project is utilizing the Marvel Comics API to showcase characters and comics interactively.",
+          "link": "https://volodymyrfilon.github.io/react-marvel/",
+          "github": "https://github.com/volodymyrfilon/react-marvel"
+        },
+        {
+          "image": "/work/gears-roam.jpg",
+          "category": "fullstack",
+          "name": "Automobile Blog",
+          "description": "Explore the engaging 'Gears Roam', a blog that uncovers the fascinating world of cars.",
+          "link": "https://gears-roam.vercel.app/",
+          "github": "https://github.com/volodymyrfilon/GearsRoam"
+        },
+        {
+          "image": "/work/weather.jpg",
+          "category": "JavaScript",
+          "name": "Weather App",
+          "description": "Check out the Weather App, a JavaScript-based project that provides real-time weather updates.",
+          "link": "https://volodymyrfilon.github.io/weather-dashboard-js/",
+          "github": "https://github.com/volodymyrfilon/weather-dashboard-js"
+        },
+        {
+          "image": "/work/quiz.jpg",
+          "category": "JavaScript",
+          "name": "Quiz App",
+          "description": "Quiz game, with score counter and local storage highscores. In project is used Open Trivia DB API.",
+          "link": "https://volodymyrfilon.github.io/quiz-js/",
+          "github": "https://github.com/volodymyrfilon/quiz-js"
+        },
+        {
+          "image": "/work/garmin.jpg",
+          "category": "JavaScript",
+          "name": "Garmin Shop",
+          "description": "Explore the 'Garmin Shop'. Project is allowing you to get hands-on with its features.",
+          "link": "https://volodymyrfilon.github.io/garmin-shop/",
+          "github": "https://github.com/volodymyrfilon/garmin-shop"
+        }
+      ]
+    },
     "notFound": {
       "title": "Page is not found",
       "buttonHomePage": {

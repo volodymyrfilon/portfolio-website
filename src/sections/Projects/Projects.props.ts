@@ -8,11 +8,14 @@ export interface ProjectsProps {
     };
   };
   projectsData: {
-    image: string;
-    category: string;
-    name: string;
-    description: string;
-    link: string;
-    github: string;
-  }[];
+    title: string;
+    data: {
+      image: string;
+      category: string;
+      name: string;
+      description: string;
+      link: string;
+      github: string;
+    }[];
+  };
 }

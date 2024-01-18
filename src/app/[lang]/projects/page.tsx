@@ -26,7 +26,7 @@ const variants = {
 const Projects = ({ params: { lang } }: { params: { lang: Locale } }) => {
   const [categories, setCategories] = useState<string[]>([]);
   const [category, setCategory] = useState<string>('all projects');
-  const [projects, setProjects] = useState<any[]>([]); // Replace ProjectType with the actual type of your projects
+  const [projects, setProjects] = useState<any>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -37,7 +37,7 @@ const Projects = ({ params: { lang } }: { params: { lang: Locale } }) => {
         // remove category duplicates
         const uniqueCategories = [
           'all projects',
-          ...Array.from(new Set(projects.map(item => item.category))),
+          ...Array.from(new Set(projects.data.map(item => item.category))),
         ];
 
         setCategories(uniqueCategories);
@@ -54,9 +54,11 @@ const Projects = ({ params: { lang } }: { params: { lang: Locale } }) => {
     window.scrollTo(0, 0);
   }, []);
 
-  const filteredProjects = projects.filter(project => {
-    return category === 'all projects' ? project : project.category === category;
-  });
+  const filteredProjects = projects.data
+    ? projects.data.filter((project: any) => {
+        return category === 'all projects' ? project : project.category === category;
+      })
+    : [];
 
   return (
     <motion.section
@@ -67,7 +69,7 @@ const Projects = ({ params: { lang } }: { params: { lang: Locale } }) => {
       whileInView="animate"
     >
       <div className="container relative mx-auto">
-        <h2 className="section-title mx-auto mb-8 text-center xl:mb-16">My Projects</h2>
+        <h2 className="section-title mx-auto mb-8 text-center xl:mb-16">{projects.title}</h2>
         <div className="flex items-start justify-center">
           <ProjectLoader />
         </div>
@@ -92,7 +94,7 @@ const Projects = ({ params: { lang } }: { params: { lang: Locale } }) => {
             </TabsList>
             {/* tabs content */}
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 xl:mt-8">
-              {filteredProjects.map((project, index) => (
+              {filteredProjects.map((project: any, index: number) => (
                 <TabsContent value={category} key={index}>
                   <ProjectCard project={project} />
                 </TabsContent>
