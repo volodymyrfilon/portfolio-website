@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import { Suspense } from 'react';
 import Loading from './loading';
 
+import { PrivacyPolicyPopup } from '@/components/shared/PrivacyPolicyPopup';
 import { ThemeProvider } from '@/components/shared/Theme/ThemeProvider';
 import { Footer } from '@/layouts/Footer';
 import { Header } from '@/layouts/Header';
@@ -86,7 +87,7 @@ export default async function RootLayout({
   params: { lang: Locale };
 }) {
   const { common } = await getDictionary(lang);
-  const { logo, header, footer } = common;
+  const { logo, header, footer, privacyPolicyPopupData } = common;
   return (
     <html
       lang={lang}
@@ -100,6 +101,7 @@ export default async function RootLayout({
             {children}
             <Footer data={footer} />
             <div id="modal" />
+            <PrivacyPolicyPopup data={privacyPolicyPopupData} />
           </ThemeProvider>
         </Suspense>
       </body>

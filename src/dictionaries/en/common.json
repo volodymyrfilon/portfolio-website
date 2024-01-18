@@ -298,7 +298,6 @@
         "name": "Home"
       }
     },
-
     "privacyPolicy": {
       "title": "Portfolio Website Privacy Policy",
       "date": "from August 29, 2023",
@@ -395,6 +394,15 @@
           "text": []
         }
       ]
+    },
+
+    "privacyPolicyPopupData": {
+      "text": "Like many Web sites, we use cookies, and we obtain certain types of information to make our users’ experience more comfortable. Using this website, you agree to the cookie policy. Learn more about cookie files at the ",
+      "link": {
+        "href": "/en/privacy-policy",
+        "name": "Privacy Policy"
+      },
+      "acceptButton": "Accept"
     }
   }
 }

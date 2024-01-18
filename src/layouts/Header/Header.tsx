@@ -28,7 +28,7 @@ export const Header = ({ data, lang, logo }: HeaderProps) => {
     <header
       className={`font-eUkraineHead ${
         header ? 'bg-white py-4 shadow-lg dark:bg-accent' : 'py-6 dark:bg-transparent'
-      } sticky top-0 z-30 transition-all ${pathname === '/' && 'bg-[#fdfaff]'}`}
+      } sticky top-0 z-30 transition-all ${pathname === `/${lang}` && 'bg-[#fdfaff]'}`}
     >
       <div className="container mx-auto">
         <div className="flex items-center justify-between ">
