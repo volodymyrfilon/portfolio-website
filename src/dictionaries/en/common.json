@@ -4,7 +4,7 @@
       "headerNav": [
         {
           "name": "Home",
-          "href": "/en"
+          "href": "/en/"
         },
         {
           "name": "My Projects",
@@ -24,7 +24,7 @@
       }
     },
     "logo": {
-      "href": "/en"
+      "href": "/en/"
     },
 
     "home": {
@@ -37,7 +37,7 @@
           "name": "Contact me"
         },
         "downloadButton": {
-          "href": "/cv.pdf",
+          "href": "/cv/en/cv.pdf",
           "name": "Download CV"
         },
         "badge1": {
@@ -63,7 +63,7 @@
           "skills": "Skills"
         },
         "personalData": {
-          "title": "Elevating digital experiences",
+          "title": "Gaining digital experiences",
           "subtitle": "I specialize in creating intuitive websites with cutting-edge technology, delivering dynamic and engaging user experience.",
           "data": [
             {
@@ -243,12 +243,13 @@
     },
     "projects": {
       "title": "My Projects",
+      "allProjects": "all projects",
       "data": [
         {
           "image": "/work/post-angeles.jpg",
           "category": "fullstack",
           "name": "Post Angeles (in process)",
-          "description": "A project made for a Ukrainian humanitarian organization what helps the Ukrainian army.",
+          "description": "Made for an Ukrainian humanitarian organization what helps the Ukrainian army.",
           "link": "https://post-angels.vercel.app/",
           "github": "https://github.com/baza-trainee/post-angels"
         },
@@ -264,7 +265,7 @@
           "image": "/work/gears-roam.jpg",
           "category": "fullstack",
           "name": "Automobile Blog",
-          "description": "Explore the engaging 'Gears Roam', a blog that uncovers the fascinating world of cars.",
+          "description": "A blog that uses Prisma, MongoDB, and Google Auth.",
           "link": "https://gears-roam.vercel.app/",
           "github": "https://github.com/volodymyrfilon/GearsRoam"
         },
@@ -272,7 +273,7 @@
           "image": "/work/weather.jpg",
           "category": "JavaScript",
           "name": "Weather App",
-          "description": "Check out the Weather App, a JavaScript-based project that provides real-time weather updates.",
+          "description": "The Weather app is built on JavaScript that provides real-time weather updates.",
           "link": "https://volodymyrfilon.github.io/weather-dashboard-js/",
           "github": "https://github.com/volodymyrfilon/weather-dashboard-js"
         },
@@ -280,7 +281,7 @@
           "image": "/work/quiz.jpg",
           "category": "JavaScript",
           "name": "Quiz App",
-          "description": "Quiz game, with score counter and local storage highscores. In project is used Open Trivia DB API.",
+          "description": "The game with score counter and local storage highscores. In project is used Open Trivia DB API.",
           "link": "https://volodymyrfilon.github.io/quiz-js/",
           "github": "https://github.com/volodymyrfilon/quiz-js"
         },
@@ -288,16 +289,16 @@
           "image": "/work/garmin.jpg",
           "category": "JavaScript",
           "name": "Garmin Shop",
-          "description": "Explore the 'Garmin Shop'. Project is allowing you to get hands-on with its features.",
+          "description": "A single-page web store written in JavaScript, SASS and HTML.",
           "link": "https://volodymyrfilon.github.io/garmin-shop/",
           "github": "https://github.com/volodymyrfilon/garmin-shop"
         }
       ]
     },
     "notFound": {
-      "title": "Page is not found",
+      "title": "Page is not found!",
       "buttonHomePage": {
-        "href": "/en",
+        "href": "/en/",
         "name": "Home"
       }
     },

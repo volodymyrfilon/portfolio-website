@@ -20,11 +20,11 @@ export const Hero = ({ data }: HeroProps) => {
     badge3,
   } = data;
   return (
-    <section className="h-[84vh] bg-hero bg-cover bg-bottom bg-no-repeat py-12 dark:bg-none xl:py-24 xl:pt-28">
+    <section className="h-[90vh] bg-hero bg-cover bg-bottom bg-no-repeat py-12 dark:bg-none sm:h-[84vh] xl:py-24 xl:pt-28">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* text */}
-          <div className="mx-auto flex max-w-[600px] flex-col justify-center text-center xl:mx-0 xl:text-left">
+          <div className="mx-auto flex max-w-[670px] flex-col justify-center text-center xl:mx-0 xl:text-left">
             <div className="mb-4 text-xs font-semibold uppercase tracking-[4px] text-primary">
               {position}
             </div>

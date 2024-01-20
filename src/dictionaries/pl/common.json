@@ -4,7 +4,7 @@
       "headerNav": [
         {
           "name": "Główna",
-          "href": "/pl"
+          "href": "/pl/"
         },
         {
           "name": "Moje Projekty",
@@ -24,7 +24,7 @@
       }
     },
     "logo": {
-      "href": "/pl"
+      "href": "/pl/"
     },
 
     "home": {
@@ -37,8 +37,8 @@
           "name": "Kontakty"
         },
         "downloadButton": {
-          "href": "/cv.pdf",
-          "name": "Pobierz CV"
+          "href": "cv/pl/cv.pdf",
+          "name": "Pobrać CV"
         },
         "badge1": {
           "endCountNum": 1,
@@ -46,11 +46,11 @@
         },
         "badge2": {
           "endCountNum": 9,
-          "badgeText": "Gotowe projekty"
+          "badgeText": "Gotowych projektów"
         },
         "badge3": {
           "endCountNum": 5,
-          "badgeText": "Projekty zespołowe"
+          "badgeText": "Projektów zespołowych"
         },
         "devImageSrc": "/hero/developer.png"
       },
@@ -63,7 +63,7 @@
           "skills": "Umiejętności"
         },
         "personalData": {
-          "title": "Podnoszące jakość doświadczeń cyfrowych",
+          "title": "Nabycie doświadczeń cyfrowych",
           "subtitle": "Specjalizuję się w tworzeniu intuicyjnych stron internetowych wykorzystujących najnowocześniejsze technologie, zapewniających dynamiczne i angażujące doświadczenia użytkownika.",
           "data": [
             {
@@ -80,7 +80,7 @@
             },
             {
               "icon": "calendar",
-              "text": "Urodzony 26 Apr, 2002"
+              "text": "Urodzony 26 kwiet., 2002"
             },
             {
               "icon": "graduation",
@@ -183,12 +183,13 @@
           {
             "icon": "gem",
             "title": "Nowoczesne",
-            "description": "Using ReactJS and NextJS to build efficient and scalable frontend applications."
+            "description": "Wykorzystanie ReactJS i NextJS do budowy wydajnych i skalowalnych aplikacji frontendowych."
           }
         ]
       },
       "projects": {
-        "title": "Najnowsze projekty",
+        "title": "Ostatnie projekty",
+        "allProjects": "wszystkie projekty",
         "subtitle": "Zanurz się w moich ostatnich projektach internetowych, w których kreatywność i funkcjonalność łączą się. Poznaj najnowsze pozycje w moim portfolio i poznaj sztukę tworzenia stron internetowych na własnej skórze.",
         "buttonProjectsPage": {
           "href": "/pl/projects",
@@ -208,7 +209,7 @@
         "title": "Moje Kontakty",
         "subtitle": "Pracujmy razem!",
         "email": {
-          "text": "Email",
+          "text": "Poczta",
           "content": "vdfo26@gmail.com"
         },
         "address": {
@@ -222,7 +223,7 @@
       },
       "form": {
         "input": {
-          "email": "Email",
+          "email": "Poczta",
           "name": "Imie",
           "message": "Wiadomość"
         },
@@ -235,7 +236,7 @@
           }
         },
         "button": {
-          "name": "Porozmawiajmy"
+          "name": "Wysłać"
         },
         "errorText": "Błąd wyslania",
         "successText": "Wysłano pomyślnie"
@@ -248,7 +249,7 @@
           "image": "/work/post-angeles.jpg",
           "category": "fullstack",
           "name": "Post Angeles (in process)",
-          "description": "Projekt powstał na zlecenie ukraińskiej organizacji humanitarnej, która pomaga ukraińskiej armii.",
+          "description": "Powstał na zlecenie ukraińskiej organizacji humanitarnej pomagającej ukraińskiej armii.",
           "link": "https://post-angels.vercel.app/",
           "github": "https://github.com/baza-trainee/post-angels"
         },
@@ -264,15 +265,15 @@
           "image": "/work/gears-roam.jpg",
           "category": "fullstack",
           "name": "Blog Motoryzacyjny",
-          "description": "Explore the engaging 'Gears Roam', a blog that uncovers the fascinating world of cars.",
+          "description": "Blog korzystający z Prisma, MongoDB i Google Auth.",
           "link": "https://gears-roam.vercel.app/",
           "github": "https://github.com/volodymyrfilon/GearsRoam"
         },
         {
           "image": "/work/weather.jpg",
           "category": "JavaScript",
-          "name": "Aplikacja Pogodowa",
-          "description": "Sprawdź projekt oparty na JavaScript, który zapewnia aktualizacje pogody w czasie rzeczywistym.",
+          "name": "Aplikacja Pogoda",
+          "description": "Projekt jest zbudowany w oparciu o JavaScript, który zapewnia aktualizacje pogody w czasie rzeczywistym.",
           "link": "https://volodymyrfilon.github.io/weather-dashboard-js/",
           "github": "https://github.com/volodymyrfilon/weather-dashboard-js"
         },
@@ -280,7 +281,7 @@
           "image": "/work/quiz.jpg",
           "category": "JavaScript",
           "name": "Aplikacja Quiz",
-          "description": "Quiz z licznikiem punktów i najlepszymi wynikami lokalnymi. W projekcie wykorzystywane jest API Open Trivia DB.",
+          "description": "Gra z licznikiem punktów i lokalnym rankingiem. W projekcie wykorzystano API Open Trivia DB.",
           "link": "https://volodymyrfilon.github.io/quiz-js/",
           "github": "https://github.com/volodymyrfilon/quiz-js"
         },
@@ -288,28 +289,28 @@
           "image": "/work/garmin.jpg",
           "category": "JavaScript",
           "name": "Sklep Garmin",
-          "description": "Poznaj 'Sklep Garmin'. Project umożliwia praktyczne zapoznanie się z jego funkcjami.",
+          "description": "Jednostronicowy sklep internetowy napisany w JavaScript, SASS i HTML.",
           "link": "https://volodymyrfilon.github.io/garmin-shop/",
           "github": "https://github.com/volodymyrfilon/garmin-shop"
         }
       ]
     },
     "notFound": {
-      "title": "Nie znaleziono strony",
+      "title": "Nie znaleziono strony!",
       "buttonHomePage": {
-        "href": "/pl",
+        "href": "/pl/",
         "name": "Główna"
       }
     },
     "privacyPolicy": {
-      "title": "Polityka Prywatności Portfolio Strony",
+      "title": "Polityka Prywatności Portfolio Web-strony",
       "date": "od Sierpnia 29, 2023",
       "email": {
-        "text": "Telefon",
+        "text": "Poczta",
         "content": "vdfo26@gmail.com"
       },
       "phone": {
-        "text": "Phone",
+        "text": "Telefon",
         "content": "+48 578 568 311"
       },
       "content": [
@@ -400,7 +401,7 @@
     },
 
     "privacyPolicyPopupData": {
-      "text": "Podobnie jak wiele witryn internetowych, używamy plików cookie i pozyskujemy określone rodzaje informacji, aby zapewnić wygodę naszym użytkownikom. Korzystając z tej witryny, wyrażasz zgodę na politykę plików cookies. Więcej o plikach cookies znajdziesz w ",
+      "text": "Podobnie jak wiele stron internetowych, używamy plików cookie i pozyskujemy określone rodzaje informacji, aby zapewnić wygodę naszym użytkownikom. Korzystając z tej witryny, wyrażasz zgodę na politykę plików cookies. Więcej o plikach cookies znajdziesz w ",
       "link": {
         "href": "/pl/privacy-policy",
         "name": "Polityce Prywatności"

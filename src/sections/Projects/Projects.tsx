@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import ProjectCard from '@/components/shared/ProjectCard/ProjectCard';
 import { Button } from '@/components/ui/button';
+import { FolderGit2 } from 'lucide-react';
 import Link from 'next/link';
 import { ProjectsProps } from './Projects.props';
 
@@ -20,7 +21,9 @@ export const Projects = ({ data, projectsData }: ProjectsProps) => {
           <h2 className="section-title mb-4">{title}</h2>
           <p className="subtitle mb-8">{subtitle}</p>
           <Link href={buttonProjectsPage.href}>
-            <Button>{buttonProjectsPage.name}</Button>
+            <Button className="gap-x-2">
+              {buttonProjectsPage.name} <FolderGit2 size={18} />
+            </Button>
           </Link>
         </div>
         <div>

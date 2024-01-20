@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { Send } from 'lucide-react';
 import Link from 'next/link';
 import { CtaProps } from './Cta.props';
 
@@ -10,7 +11,9 @@ export const Cta = ({ data }: CtaProps) => {
         <div className="flex flex-col items-center">
           <h2 className="h2 mb-8 max-w-xl text-center">{title}</h2>
           <Link href={buttonContactPage.href}>
-            <Button>{buttonContactPage.name}</Button>
+            <Button className="gap-x-2">
+              {buttonContactPage.name} <Send size={18} />
+            </Button>
           </Link>
         </div>
       </div>

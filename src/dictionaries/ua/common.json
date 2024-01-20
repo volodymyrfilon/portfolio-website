@@ -4,7 +4,7 @@
       "headerNav": [
         {
           "name": "Головна",
-          "href": "/ua"
+          "href": "/ua/"
         },
         {
           "name": "Мої проекти",
@@ -19,38 +19,38 @@
     "footer": {
       "footerText": "Copyright 2023-2024 © Volodymyr Filon. Усі права захищено.",
       "footerPrivacyPolicy": {
-        "label": "Умови обслуговування та політика конфіденційності.",
-        "href": "/privacy-policy"
+        "label": "Умови користування та політика конфіденційності.",
+        "href": "/ua/privacy-policy"
       }
     },
     "logo": {
-      "href": "/ua"
+      "href": "/ua/"
     },
 
     "home": {
       "hero": {
         "position": "веб розробник",
         "developer": "Привіт, мене звати Володимир Філон",
-        "aboutDeveloper": "Мене веде страх перед створенням дружелюбних для користувача та візуально привабливих веб-сайтів. Мій шлях полягає в перетворенні ідей в цифрові враження за допомогою мистецтва коду та дизайну.",
+        "aboutDeveloper": "Мене веде пристрасть до створення зручних і візуально привабливих веб-сайтів. Моя подорож передбачає втілення ідей у цифровий досвід за допомогою мистецтва кодування та дизайну.",
         "contactButton": {
           "href": "/ua/contact",
-          "name": "Контакт"
+          "name": "Контакти"
         },
         "downloadButton": {
-          "href": "/cv.pdf",
+          "href": "cv/ua/cv.pdf",
           "name": "Скачати резюме"
         },
         "badge1": {
           "endCountNum": 1,
-          "badgeText": "Роки досвіду"
+          "badgeText": "Рік досвіду"
         },
         "badge2": {
           "endCountNum": 9,
-          "badgeText": "Завершені проекти"
+          "badgeText": "Готових проектів"
         },
         "badge3": {
           "endCountNum": 5,
-          "badgeText": "Командні проекти"
+          "badgeText": "Командних проектів"
         },
         "devImageSrc": "/hero/developer.png"
       },
@@ -63,7 +63,7 @@
           "skills": "Навички"
         },
         "personalData": {
-          "title": "Підвищення цифрового досвіду",
+          "title": "Набуття цифрового досвіду",
           "subtitle": "Я спеціалізуюся на створенні інтуїтивно зрозумілих веб-сайтів з використанням передових технологій, що надають динаміку та захопливий користувальницький досвід.",
           "data": [
             {
@@ -84,7 +84,7 @@
             },
             {
               "icon": "graduation",
-              "text": "Магістр Міжнарод. Логістики"
+              "text": "Магістр Міжн. Перевезень і Логістики"
             },
             {
               "icon": "home",
@@ -93,12 +93,12 @@
           ],
           "languageInfo": {
             "title": "Мови",
-            "text": "Українська, Англійська, Німецька, Польська."
+            "text": "Українська, Англійська, Німецька, Польська"
           }
         },
 
         "qualificationData": {
-          "title": "Моя подорож кодом і пікселями",
+          "title": "Моя піксельно-кодова подорож",
           "educationData": {
             "title": "освіта",
             "data": [
@@ -109,7 +109,7 @@
               },
               {
                 "university": "Вища Школа Логістики",
-                "qualification": "Магістр Міжнарод. Вантажно-Транспортної Логістики",
+                "qualification": "Магістр Міжн. Вантажно-Транспортної Логістики",
                 "years": "2022 - 2024"
               }
             ]
@@ -119,7 +119,7 @@
             "data": [
               {
                 "company": "Transport Wietrak Group",
-                "role": "Міжнарод. Вантажно-Транспортний Менеджер",
+                "role": "Міжн. Вантажно-Транспортний Менеджер",
                 "years": "2021 - Зараз"
               },
               {
@@ -131,7 +131,7 @@
           }
         },
         "skillData": {
-          "title": "Що я використовую щоденно",
+          "title": "Що я використовую щодня",
           "techSkill": {
             "title": "Технічні навички",
             "data": [
@@ -178,7 +178,7 @@
           {
             "icon": "blocks",
             "title": "Адаптивний дизайн",
-            "description": "Створення макетів, які безперешкодно адаптуються до різних пристроїв для оптимального користувацького досвіду."
+            "description": "Створення сторінок, які безперешкодно адаптуються до різних пристроїв для оптимального користувацького досвіду."
           },
           {
             "icon": "gem",
@@ -188,18 +188,18 @@
         ]
       },
       "projects": {
-        "title": "Найновіші проекти",
-        "subtitle": "Поринь в мої останні веб-проекти, де поєднуються креативність і функціональність. Ознайомся з останніми доповненнями до мого портфоліо та на власні очі відчуй мистецтво веб-розробки.",
+        "title": "Останні проекти",
+        "subtitle": "Пориньте в мої останні веб-проекти, де поєднуються креативність і функціональність. Ознайомтесь з останніми доповненнями до мого портфоліо та на власні очі відчуйте мистецтво веб-розробки.",
         "buttonProjectsPage": {
           "href": "/ua/projects",
-          "name": "Всі проекти"
+          "name": "Усі проекти"
         }
       },
       "cta": {
         "title": "Маєте питання? Не соромтеся написати до мене!",
         "buttonContactPage": {
           "href": "/ua/contact",
-          "name": "Контакт"
+          "name": "Контакти"
         }
       }
     },
@@ -235,7 +235,7 @@
           }
         },
         "button": {
-          "name": "Поговоримо"
+          "name": "Відправити"
         },
         "errorText": "Помилка відправлення",
         "successText": "Успішно відправлено"
@@ -243,12 +243,13 @@
     },
     "projects": {
       "title": "Мої Проекти",
+      "allProjects": "Усі проекти",
       "data": [
         {
           "image": "/work/post-angeles.jpg",
           "category": "fullstack",
           "name": "Пост Анджелес (у процесі)",
-          "description": "Проект створений на замовлення гуманітарної організації, яка допомагає українській армії.",
+          "description": "Cтворений на замовлення української гуманітарної організації, яка допомагає українській армії.",
           "link": "https://post-angels.vercel.app/",
           "github": "https://github.com/baza-trainee/post-angels"
         },
@@ -264,15 +265,15 @@
           "image": "/work/gears-roam.jpg",
           "category": "fullstack",
           "name": "Автомобільний Блог",
-          "description": "Досліджуйте захопливий 'Gears Roam', блог, що розкриває чарівний світ автомобілів.",
+          "description": "Блог, в якому використано Prisma, MongoDB, а також - Google Auth.",
           "link": "https://gears-roam.vercel.app/",
           "github": "https://github.com/volodymyrfilon/GearsRoam"
         },
         {
           "image": "/work/weather.jpg",
           "category": "JavaScript",
-          "name": "Додаток Погоди",
-          "description": "Додаток Погоди побудований на основі JavaScript, який надає оновлення погоди в реальному часі.",
+          "name": "Додаток Погода",
+          "description": "Додаток Погода побудований на JavaScript, який надає оновлення погоди в реальному часі.",
           "link": "https://volodymyrfilon.github.io/weather-dashboard-js/",
           "github": "https://github.com/volodymyrfilon/weather-dashboard-js"
         },
@@ -280,7 +281,7 @@
           "image": "/work/quiz.jpg",
           "category": "JavaScript",
           "name": "Вікторина",
-          "description": "Вікторина з лічильником балів та локальним рейтингом. У проекті використовується API Open Trivia DB.",
+          "description": "Гра з лічильником балів та локальним рейтингом. У проекті використовується API Open Trivia DB.",
           "link": "https://volodymyrfilon.github.io/quiz-js/",
           "github": "https://github.com/volodymyrfilon/quiz-js"
         },
@@ -288,16 +289,16 @@
           "image": "/work/garmin.jpg",
           "category": "JavaScript",
           "name": "Магазин Garmin",
-          "description": "Досліджуйте 'Garmin Shop'. Проект дозволяє вам взаємодіяти з його можливостями.",
+          "description": "Односторінковий веб-магазин, написаний на JavaScript, SASS i HTML.",
           "link": "https://volodymyrfilon.github.io/garmin-shop/",
           "github": "https://github.com/volodymyrfilon/garmin-shop"
         }
       ]
     },
     "notFound": {
-      "title": "Сторінку не знайдено",
+      "title": "Сторінку не знайдено!",
       "buttonHomePage": {
-        "href": "/ua",
+        "href": "/ua/",
         "name": "Головна"
       }
     },

@@ -9,7 +9,7 @@ function getLocale() {
   // @ts-ignore locales are readonly
   const locales: string[] = i18n.locales;
 
-  const locale = matchLocale(locales, locales, i18n.defaultLocale);
+  const locale = matchLocale(locales, locales, 'en');
 
   return locale;
 }

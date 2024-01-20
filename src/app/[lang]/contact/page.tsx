@@ -24,26 +24,8 @@ const variants = {
   },
 };
 
-interface ContactData {
-  title: string;
-  subtitle: string;
-  email: {
-    text: string;
-    content: string;
-  };
-  address: {
-    text: string;
-    content: string;
-  };
-  phone: {
-    text: string;
-    content: string;
-  };
-  form: any; // Replace 'any' with the actual type of your 'form' property
-}
-
 const Contact = ({ params: { lang } }: { params: { lang: Locale } }) => {
-  const [contactData, setContactData] = useState<ContactData | null>(null);
+  const [contactData, setContactData] = useState<any | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -65,8 +47,7 @@ const Contact = ({ params: { lang } }: { params: { lang: Locale } }) => {
   }, []);
 
   if (!contactData) {
-    // Handle loading state
-    return <div>Loading...</div>;
+    return console.log('loading data');
   }
 
   const { title, subtitle, email, address, phone, form } = contactData;

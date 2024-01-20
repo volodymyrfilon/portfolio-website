@@ -43,7 +43,7 @@ const Projects = ({ params: { lang } }: { params: { lang: Locale } }) => {
         setCategories(uniqueCategories);
         setProjects(projects);
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error('Error fetching projects data:', error);
       }
     };
 
