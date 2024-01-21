@@ -7,7 +7,7 @@ import { Logo } from '@/layouts/Logo';
 import Link from 'next/link';
 import { MobileNavProps } from './MobileNav.props';
 
-const MobileNav = ({ headerNav, logo }: MobileNavProps) => {
+export const MobileNav = ({ headerNav, logo }: MobileNavProps) => {
   return (
     <Sheet>
       <SheetTrigger asChild>
@@ -25,7 +25,9 @@ const MobileNav = ({ headerNav, logo }: MobileNavProps) => {
                 const isActive = useMenuActive(link.href);
                 return (
                   <Link
-                    className={`text-xl focus:text-primary ${isActive ? 'text-primary' : ''}`}
+                    className={`text-xl hover:text-primary focus:text-primary ${
+                      isActive ? 'text-primary' : ''
+                    }`}
                     href={link.href}
                     key={index}
                   >
@@ -41,5 +43,3 @@ const MobileNav = ({ headerNav, logo }: MobileNavProps) => {
     </Sheet>
   );
 };
-
-export default MobileNav;

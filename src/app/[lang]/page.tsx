@@ -7,7 +7,7 @@ import { Hero } from '@/sections/Hero';
 import { Projects } from '@/sections/Projects';
 import { Services } from '@/sections/Services';
 
-export default async function Home({ params: { lang } }: { params: { lang: Locale } }) {
+const Home = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const { common } = await getDictionary(lang);
   const { projects: projectsData } = common;
   const { hero, about, services, projects, cta } = common['home'];
@@ -22,4 +22,6 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
       <Cta data={cta} />
     </main>
   );
-}
+};
+
+export default Home;

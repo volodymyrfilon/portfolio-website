@@ -8,7 +8,8 @@ import Link from 'next/link';
 
 const privacyPolicyPage = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const { common } = await getDictionary(lang);
-  const { title, date, content, email, phone } = common['privacyPolicy'];
+  const { title, date, content, email, phone, buttonContactPage, buttonHomePage } =
+    common['privacyPolicy'];
   return (
     <section className="mb-24 mt-14 min-h-screen xl:mb-32">
       <div className="container">
@@ -84,16 +85,16 @@ const privacyPolicyPage = async ({ params: { lang } }: { params: { lang: Locale 
             <ChevronsLeft size={18} />
             Back
           </Button> */}
-          <Link href="/">
+          <Link href={buttonHomePage.href}>
             <Button className="flex items-center gap-x-2">
               <HomeIcon size={18} />
-              Home
+              {buttonHomePage.name}
             </Button>
           </Link>
-          <Link href="/contact">
+          <Link href={buttonContactPage.href}>
             <Button className="flex items-center gap-x-2">
               <Contact size={18} />
-              Contact
+              {buttonContactPage.name}
             </Button>
           </Link>
         </div>

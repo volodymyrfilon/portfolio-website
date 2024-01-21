@@ -24,7 +24,7 @@ const variants = {
   },
 };
 
-const Contact = ({ params: { lang } }: { params: { lang: Locale } }) => {
+const Contacts = ({ params: { lang } }: { params: { lang: Locale } }) => {
   const [contactData, setContactData] = useState<any | null>(null);
 
   useEffect(() => {
@@ -128,4 +128,4 @@ const Contact = ({ params: { lang } }: { params: { lang: Locale } }) => {
   );
 };
 
-export default Contact;
+export default Contacts;

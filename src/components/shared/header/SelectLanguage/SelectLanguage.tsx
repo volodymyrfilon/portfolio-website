@@ -25,17 +25,17 @@ export const SelectLanguage = ({ lang }: { lang: string }) => {
     );
 
     if (pathnameIsMissingLocale) {
-      if (locale === i18n.defaultLocale) return pathName;
+      // if (locale === i18n.defaultLocale) return `/${locale}${pathName}`;
       return `/${locale}${pathName}`;
     } else {
-      if (locale === i18n.defaultLocale) {
-        const segments = pathName.split('/');
-        const isHome = segments.length === 2;
-        if (isHome) return '/';
+      // if (locale === i18n.defaultLocale) {
+      //   const segments = pathName.split('/');
+      //   const isHome = segments.length === 2;
+      //   if (isHome) return '/';
 
-        segments.splice(1, 1);
-        return segments.join('/');
-      }
+      //   segments.splice(1, 1);
+      //   return segments.join(`/`);
+      // }
 
       const segments = pathName.split('/');
       segments[1] = locale;
@@ -50,10 +50,6 @@ export const SelectLanguage = ({ lang }: { lang: string }) => {
         onClick={() => setIsOpen(prev => !prev)}
       >
         {lang}
-        {/* <ICONS.HEADER_CHEVRON_UP
-          className={`h-6 w-6 duration-300 ${isOpen ? 'rotate-0' : 'rotate-180'}`}
-          aria-label={headerLanguageLabel.name}
-        /> */}
       </button>
 
       {isOpen && (

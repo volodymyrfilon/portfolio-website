@@ -4,15 +4,15 @@
       "headerNav": [
         {
           "name": "Home",
-          "href": "/en/"
+          "href": "/en"
         },
         {
           "name": "My Projects",
           "href": "/en/projects"
         },
         {
-          "name": "Contact",
-          "href": "/en/contact"
+          "name": "Contacts",
+          "href": "/en/contacts"
         }
       ]
     },
@@ -24,7 +24,7 @@
       }
     },
     "logo": {
-      "href": "/en/"
+      "href": "/en"
     },
 
     "home": {
@@ -33,11 +33,11 @@
         "developer": "Hello, my name is Volodymyr Filon",
         "aboutDeveloper": "I'm driven by a passion for creating user-friendly and visually compelling websites. My journey involves translating ideas into digital experiences through the art of code and design.",
         "contactButton": {
-          "href": "/en/contact",
+          "href": "/en/contacts",
           "name": "Contact me"
         },
         "downloadButton": {
-          "href": "/cv/en/cv.pdf",
+          "href": "/cv/en_cv.pdf",
           "name": "Download CV"
         },
         "badge1": {
@@ -198,7 +198,7 @@
       "cta": {
         "title": "Do you have any questions? Feel free to reach out to me!",
         "buttonContactPage": {
-          "href": "/en/contact",
+          "href": "/en/contacts",
           "name": "Contact me"
         }
       }
@@ -298,7 +298,7 @@
     "notFound": {
       "title": "Page is not found!",
       "buttonHomePage": {
-        "href": "/en/",
+        "href": "/en",
         "name": "Home"
       }
     },
@@ -312,6 +312,14 @@
       "phone": {
         "text": "Phone",
         "content": "+48 578 568 311"
+      },
+      "buttonHomePage": {
+        "href": "/en",
+        "name": "Home"
+      },
+      "buttonContactPage": {
+        "href": "/en/contacts",
+        "name": "Contacts"
       },
       "content": [
         {

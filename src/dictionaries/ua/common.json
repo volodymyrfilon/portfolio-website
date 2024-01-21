@@ -4,27 +4,27 @@
       "headerNav": [
         {
           "name": "Головна",
-          "href": "/ua/"
+          "href": "/ua"
         },
         {
           "name": "Мої проекти",
           "href": "/ua/projects"
         },
         {
-          "name": "Контакт",
-          "href": "/ua/contact"
+          "name": "Контакти",
+          "href": "/ua/contacts"
         }
       ]
     },
     "footer": {
       "footerText": "Copyright 2023-2024 © Volodymyr Filon. Усі права захищено.",
       "footerPrivacyPolicy": {
-        "label": "Умови користування та політика конфіденційності.",
+        "label": "Умови користування та Політика конфіденційності.",
         "href": "/ua/privacy-policy"
       }
     },
     "logo": {
-      "href": "/ua/"
+      "href": "/ua"
     },
 
     "home": {
@@ -33,11 +33,11 @@
         "developer": "Привіт, мене звати Володимир Філон",
         "aboutDeveloper": "Мене веде пристрасть до створення зручних і візуально привабливих веб-сайтів. Моя подорож передбачає втілення ідей у цифровий досвід за допомогою мистецтва кодування та дизайну.",
         "contactButton": {
-          "href": "/ua/contact",
+          "href": "/ua/contacts",
           "name": "Контакти"
         },
         "downloadButton": {
-          "href": "cv/ua/cv.pdf",
+          "href": "/cv/ua_cv.pdf",
           "name": "Скачати резюме"
         },
         "badge1": {
@@ -198,7 +198,7 @@
       "cta": {
         "title": "Маєте питання? Не соромтеся написати до мене!",
         "buttonContactPage": {
-          "href": "/ua/contact",
+          "href": "/ua/contacts",
           "name": "Контакти"
         }
       }
@@ -228,9 +228,9 @@
         },
         "checkbox": {
           "acceptTerms": "Прийняти умови та політику конфіденційності",
-          "beforeLink": "Ви погоджуєтеся з нашими ",
+          "beforeLink": "Ви погоджуєтеся з ",
           "linkTerms": {
-            "name": "Умовами обслуговування та політикою конфіденційності.",
+            "name": "Умовами Користування та Політикою Конфіденційності.",
             "href": "/ua/privacy-policy"
           }
         },
@@ -298,7 +298,7 @@
     "notFound": {
       "title": "Сторінку не знайдено!",
       "buttonHomePage": {
-        "href": "/ua/",
+        "href": "/ua",
         "name": "Головна"
       }
     },
@@ -312,6 +312,14 @@
       "phone": {
         "text": "Телефон",
         "content": "+48 578 568 311"
+      },
+      "buttonHomePage": {
+        "href": "/ua",
+        "name": "Головна"
+      },
+      "buttonContactPage": {
+        "href": "/ua/contacts",
+        "name": "Контакти"
       },
       "content": [
         {

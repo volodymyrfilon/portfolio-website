@@ -1,7 +1,7 @@
 'use client';
 
 import { ThemeToggler } from '@/components/shared/Theme/ThemeToggler';
-import MobileNav from '@/components/shared/header/MobileNav/MobileNav';
+import { MobileNav } from '@/components/shared/header/MobileNav';
 import { Nav } from '@/components/shared/header/Nav';
 import { SelectLanguage } from '@/components/shared/header/SelectLanguage';
 import { usePathname } from 'next/navigation';
@@ -16,7 +16,6 @@ export const Header = ({ data, lang, logo }: HeaderProps) => {
 
   useEffect(() => {
     const scrollYPos = () => (window.scrollY > 50 ? setHeader(true) : setHeader(false));
-
     // Add the scroll event listener
     window.addEventListener('scroll', scrollYPos);
 

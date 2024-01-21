@@ -24,8 +24,13 @@ const variants = {
 };
 
 const Projects = ({ params: { lang } }: { params: { lang: Locale } }) => {
+  const allProjectsName = {
+    en: 'all projects',
+    pl: 'wszystkie',
+    ua: 'усі проекти',
+  };
   const [categories, setCategories] = useState<string[]>([]);
-  const [category, setCategory] = useState<string>('all projects');
+  const [category, setCategory] = useState<string>(allProjectsName[lang]);
   const [projects, setProjects] = useState<any>([]);
 
   useEffect(() => {
@@ -36,14 +41,14 @@ const Projects = ({ params: { lang } }: { params: { lang: Locale } }) => {
 
         // remove category duplicates
         const uniqueCategories = [
-          'all projects',
+          allProjectsName[lang],
           ...Array.from(new Set(projects.data.map(item => item.category))),
         ];
 
         setCategories(uniqueCategories);
         setProjects(projects);
       } catch (error) {
-        console.error('Error fetching projects data:', error);
+        console.error('Error fetching data:', error);
       }
     };
 
@@ -56,7 +61,7 @@ const Projects = ({ params: { lang } }: { params: { lang: Locale } }) => {
 
   const filteredProjects = projects.data
     ? projects.data.filter((project: any) => {
-        return category === 'all projects' ? project : project.category === category;
+        return category === allProjectsName[lang] ? project : project.category === category;
       })
     : [];
 

@@ -4,15 +4,15 @@
       "headerNav": [
         {
           "name": "Główna",
-          "href": "/pl/"
+          "href": "/pl"
         },
         {
           "name": "Moje Projekty",
           "href": "/pl/projects"
         },
         {
-          "name": "Kontakt",
-          "href": "/pl/contact"
+          "name": "Kontakty",
+          "href": "/pl/contacts"
         }
       ]
     },
@@ -24,7 +24,7 @@
       }
     },
     "logo": {
-      "href": "/pl/"
+      "href": "/pl"
     },
 
     "home": {
@@ -33,11 +33,11 @@
         "developer": "Witam, nazywam się Volodymyr Filon",
         "aboutDeveloper": "Napędza mnie pasja tworzenia przyjaznych dla użytkownika i atrakcyjnych wizualnie stron internetowych. Moja podróż polega na przekładaniu pomysłów na cyfrowe doświadczenia poprzez sztukę kodowania i projektowania.",
         "contactButton": {
-          "href": "/pl/contact",
+          "href": "/pl/contacts",
           "name": "Kontakty"
         },
         "downloadButton": {
-          "href": "cv/pl/cv.pdf",
+          "href": "/cv/pl_cv.pdf",
           "name": "Pobrać CV"
         },
         "badge1": {
@@ -199,7 +199,7 @@
       "cta": {
         "title": "Czy masz jakieś pytania? Zapraszam do kontaktu ze mną!",
         "buttonContactPage": {
-          "href": "/pl/contact",
+          "href": "/pl/contacts",
           "name": "Kontakty"
         }
       }
@@ -229,9 +229,9 @@
         },
         "checkbox": {
           "acceptTerms": "Zaakceptować regulamin i politykę prywatności",
-          "beforeLink": "Wyrażasz zgodę na nasze ",
+          "beforeLink": "Wyrażasz zgodę na ",
           "linkTerms": {
-            "name": "Warunki użytkowania i Politykę prywatności",
+            "name": "Warunki korzystania i Politykę prywatności",
             "href": "/pl/privacy-policy"
           }
         },
@@ -244,6 +244,7 @@
     },
     "projects": {
       "title": "Moje Projekty",
+      "allProjects": "wszystkie",
       "data": [
         {
           "image": "/work/post-angeles.jpg",
@@ -298,7 +299,7 @@
     "notFound": {
       "title": "Nie znaleziono strony!",
       "buttonHomePage": {
-        "href": "/pl/",
+        "href": "/pl",
         "name": "Główna"
       }
     },
@@ -312,6 +313,14 @@
       "phone": {
         "text": "Telefon",
         "content": "+48 578 568 311"
+      },
+      "buttonHomePage": {
+        "href": "/pl",
+        "name": "Główna"
+      },
+      "buttonContactPage": {
+        "href": "/pl/contacts",
+        "name": "Kontakty"
       },
       "content": [
         {
