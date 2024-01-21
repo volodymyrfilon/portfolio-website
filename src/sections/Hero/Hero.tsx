@@ -1,12 +1,12 @@
-import { Download, Send } from 'lucide-react';
-import Link from 'next/link';
-import { RiArrowDownSLine, RiBriefcase4Fill, RiTeamFill, RiTodoFill } from 'react-icons/ri';
+import { Download, Send } from 'lucide-react'
+import Link from 'next/link'
+import { RiArrowDownSLine, RiBriefcase4Fill, RiTeamFill, RiTodoFill } from 'react-icons/ri'
 
-import { Badge } from '@/components/shared/Badge';
-import { DevImage } from '@/components/shared/DevImage';
-import { Socials } from '@/components/shared/Socials';
-import { Button } from '@/components/ui/button';
-import { HeroProps } from './Hero.props';
+import { Badge } from '@/components/shared/Badge'
+import { DevImage } from '@/components/shared/DevImage'
+import { Socials } from '@/components/shared/Socials'
+import { Button } from '@/components/ui/button'
+import { HeroProps } from './Hero.props'
 
 export const Hero = ({ data }: HeroProps) => {
   const {
@@ -20,7 +20,7 @@ export const Hero = ({ data }: HeroProps) => {
     badge3,
   } = data;
   return (
-    <section className="h-[90vh] bg-hero bg-cover bg-bottom bg-no-repeat py-12 dark:bg-none sm:h-[84vh] xl:py-24 xl:pt-28">
+    <section className="bg-hero bg-cover bg-bottom bg-no-repeat py-12 dark:bg-none h-[84vh] xl:py-24 xl:pt-28">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* text */}

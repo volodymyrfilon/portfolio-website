@@ -49,7 +49,7 @@
           "badgeText": "Готових проектів"
         },
         "badge3": {
-          "endCountNum": 5,
+          "endCountNum": 2,
           "badgeText": "Командних проектів"
         },
         "devImageSrc": "/hero/developer.png"

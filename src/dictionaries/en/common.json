@@ -49,7 +49,7 @@
           "badgeText": "Finished projects"
         },
         "badge3": {
-          "endCountNum": 5,
+          "endCountNum": 2,
           "badgeText": "Team projects"
         },
         "devImageSrc": "/hero/developer.png"

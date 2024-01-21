@@ -1,4 +1,4 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import {
   Box,
   Briefcase,
@@ -10,12 +10,12 @@ import {
   MailIcon,
   PhoneCall,
   User2,
-} from 'lucide-react';
-import Image from 'next/image';
+} from 'lucide-react'
+import Image from 'next/image'
 
 //database
-import { DevImage } from '@/components/shared/DevImage';
-import { AboutProps } from './About.props';
+import { DevImage } from '@/components/shared/DevImage'
+import { AboutProps } from './About.props'
 
 const personalIcons: Record<string, JSX.Element> = {
   user: <User2 size={20} />,
@@ -32,7 +32,7 @@ export const About = ({ data }: AboutProps) => {
   const { techSkill, toolSkill } = skillData;
 
   return (
-    <section className="pb-12 pt-0 xl:h-[860px] xl:py-24">
+    <section className="pb-12 pt-10 xl:h-[860px] xl:py-24">
       <div className="container mx-auto">
         <h2 className="section-title mx-auto mb-8 text-center xl:mb-16">{title}</h2>
         <div className="flex flex-col xl:flex-row">

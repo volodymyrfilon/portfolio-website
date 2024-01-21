@@ -49,7 +49,7 @@
           "badgeText": "Gotowych projektów"
         },
         "badge3": {
-          "endCountNum": 5,
+          "endCountNum": 2,
           "badgeText": "Projektów zespołowych"
         },
         "devImageSrc": "/hero/developer.png"
