@@ -1,0 +1,421 @@
+{
+  "common": {
+    "header": {
+      "headerNav": [
+        {
+          "name": "Główna",
+          "href": "/pl"
+        },
+        {
+          "name": "Moje Projekty",
+          "href": "/pl/projects"
+        },
+        {
+          "name": "Kontakty",
+          "href": "/pl/contacts"
+        }
+      ]
+    },
+    "footer": {
+      "footerText": "Copyright 2023-2024 © Volodymyr Filon. Wszelkie prawa zastrzeżone.",
+      "footerPrivacyPolicy": {
+        "label": "Warunki korzystania i Polityka prywatności",
+        "href": "/pl/privacy-policy"
+      }
+    },
+    "logo": {
+      "href": "/pl"
+    },
+
+    "home": {
+      "hero": {
+        "position": "web developer",
+        "developer": "Witam, nazywam się Volodymyr Filon",
+        "aboutDeveloper": "Napędza mnie pasja tworzenia przyjaznych dla użytkownika i atrakcyjnych wizualnie stron internetowych. Moja podróż polega na przekładaniu pomysłów na cyfrowe doświadczenia poprzez sztukę kodowania i projektowania.",
+        "contactButton": {
+          "href": "/pl/contacts",
+          "name": "Kontakty"
+        },
+        "downloadButton": {
+          "href": "/cv/pl_cv.pdf",
+          "name": "Pobrać CV"
+        },
+        "badge1": {
+          "endCountNum": 1,
+          "badgeText": "Rok doświadczenia"
+        },
+        "badge2": {
+          "endCountNum": 9,
+          "badgeText": "Gotowych projektów"
+        },
+        "badge3": {
+          "endCountNum": 5,
+          "badgeText": "Projektów zespołowych"
+        },
+        "devImageSrc": "/hero/developer.png"
+      },
+      "about": {
+        "title": "O mnie",
+        "devImageSrc": "/about/developer.png",
+        "tabSections": {
+          "personal": "Dane osobiste",
+          "qualification": "Kwalifikacje",
+          "skills": "Umiejętności"
+        },
+        "personalData": {
+          "title": "Nabycie doświadczeń cyfrowych",
+          "subtitle": "Specjalizuję się w tworzeniu intuicyjnych stron internetowych wykorzystujących najnowocześniejsze technologie, zapewniających dynamiczne i angażujące doświadczenia użytkownika.",
+          "data": [
+            {
+              "icon": "user",
+              "text": "Volodymyr Filon"
+            },
+            {
+              "icon": "phone",
+              "text": "+48 578 568 311"
+            },
+            {
+              "icon": "mail",
+              "text": "vdfo26@gmail.com"
+            },
+            {
+              "icon": "calendar",
+              "text": "Urodzony 26 kwiet., 2002"
+            },
+            {
+              "icon": "graduation",
+              "text": "Magister Międz. Transportu i Logistyki"
+            },
+            {
+              "icon": "home",
+              "text": "Pozńan, Polska"
+            }
+          ],
+          "languageInfo": {
+            "title": "Languages",
+            "text": "Ukraiński, Angielski, Niemiecki, Polski"
+          }
+        },
+
+        "qualificationData": {
+          "title": "Moja przygoda z kodem i pikselami",
+          "educationData": {
+            "title": "edukacja",
+            "data": [
+              {
+                "university": "Wyższa Szkoła Logistyki",
+                "qualification": "Licencjat z Logistyki i Zarządzania Łańcuchem Dostaw",
+                "years": "2019 - 2022"
+              },
+              {
+                "university": "High School of Logistics",
+                "qualification": "Magister Międz. Transportu i Logistyki",
+                "years": "2022 - 2024"
+              }
+            ]
+          },
+          "experienceData": {
+            "title": "doświadczenie",
+            "data": [
+              {
+                "company": "Transport Wietrak Group",
+                "role": "Spedytor Międzynarodowy",
+                "years": "2021 - Teraz"
+              },
+              {
+                "company": "BAZA Trainee Ukraine",
+                "role": "Junior Frontend Web Developer (zdalnie)",
+                "years": "2023 - Teraz"
+              }
+            ]
+          }
+        },
+        "skillData": {
+          "title": "Czego używam na co dzień",
+          "techSkill": {
+            "title": "Umiejętności techniczne",
+            "data": [
+              { "name": "HTML5, CSS3, SASS/SCSS" },
+              { "name": "JavaScript, TypeScript" },
+              { "name": "ReactJS, NextJS, TailwindCSS" },
+              { "name": "NodeJS" },
+              { "name": "MongoDB, PostgreSQL" }
+            ]
+          },
+          "toolSkill": {
+            "title": "Narzędzia",
+            "data": [
+              {
+                "imgPath": "/about/vscode.svg"
+              },
+              {
+                "imgPath": "/about/notion.svg"
+              },
+              {
+                "imgPath": "/about/trello.svg"
+              },
+              {
+                "imgPath": "/about/figma.svg"
+              },
+              {
+                "imgPath": "/about/git.svg"
+              },
+              {
+                "imgPath": "/about/discord.svg"
+              }
+            ]
+          }
+        }
+      },
+      "services": {
+        "title": "Moje usługi",
+        "serviceData": [
+          {
+            "icon": "chart",
+            "title": "Tworzenie Stron Internetowych",
+            "description": "Tworzenie dynamicznych i przyjaznych dla użytkownika stron internetowych przy użyciu HTML, CSS oraz JavaScript bibliotek i frameworków."
+          },
+          {
+            "icon": "blocks",
+            "title": "Elastyczny projekt",
+            "description": "Tworzenie układów, które płynnie dostosowują się do różnych urządzeń, zapewniając optymalną wygodę użytkowania."
+          },
+          {
+            "icon": "gem",
+            "title": "Nowoczesne",
+            "description": "Wykorzystanie ReactJS i NextJS do budowy wydajnych i skalowalnych aplikacji frontendowych."
+          }
+        ]
+      },
+      "projects": {
+        "title": "Ostatnie projekty",
+        "allProjects": "wszystkie projekty",
+        "subtitle": "Zanurz się w moich ostatnich projektach internetowych, w których kreatywność i funkcjonalność łączą się. Poznaj najnowsze pozycje w moim portfolio i poznaj sztukę tworzenia stron internetowych na własnej skórze.",
+        "buttonProjectsPage": {
+          "href": "/pl/projects",
+          "name": "Projekty"
+        }
+      },
+      "cta": {
+        "title": "Czy masz jakieś pytania? Zapraszam do kontaktu ze mną!",
+        "buttonContactPage": {
+          "href": "/pl/contacts",
+          "name": "Kontakty"
+        }
+      }
+    },
+    "contact": {
+      "contacts": {
+        "title": "Moje Kontakty",
+        "subtitle": "Pracujmy razem!",
+        "email": {
+          "text": "Poczta",
+          "content": "vdfo26@gmail.com"
+        },
+        "address": {
+          "text": "Adres",
+          "content": "Poznan, Poland"
+        },
+        "phone": {
+          "text": "Telefon",
+          "content": "+48 578 568 311"
+        }
+      },
+      "form": {
+        "input": {
+          "email": "Poczta",
+          "name": "Imie",
+          "message": "Wiadomość"
+        },
+        "checkbox": {
+          "acceptTerms": "Zaakceptować regulamin i politykę prywatności",
+          "beforeLink": "Wyrażasz zgodę na ",
+          "linkTerms": {
+            "name": "Warunki korzystania i Politykę prywatności",
+            "href": "/pl/privacy-policy"
+          }
+        },
+        "button": {
+          "name": "Wysłać"
+        },
+        "errorText": "Błąd wyslania",
+        "successText": "Wysłano pomyślnie"
+      }
+    },
+    "projects": {
+      "title": "Moje Projekty",
+      "allProjects": "wszystkie",
+      "data": [
+        {
+          "image": "/work/post-angeles.jpg",
+          "category": "fullstack",
+          "name": "Post Angeles (in process)",
+          "description": "Powstał na zlecenie ukraińskiej organizacji humanitarnej pomagającej ukraińskiej armii.",
+          "link": "https://post-angels.vercel.app/",
+          "github": "https://github.com/baza-trainee/post-angels"
+        },
+        {
+          "image": "/work/marvel.jpg",
+          "category": "react js",
+          "name": "Marvel",
+          "description": "Projekt wykorzystuje API Marvel Comics do wyświetlania bohaterów i komiksów w formacie interaktywnym.",
+          "link": "https://volodymyrfilon.github.io/react-marvel/",
+          "github": "https://github.com/volodymyrfilon/react-marvel"
+        },
+        {
+          "image": "/work/gears-roam.jpg",
+          "category": "fullstack",
+          "name": "Blog Motoryzacyjny",
+          "description": "Blog korzystający z Prisma, MongoDB i Google Auth.",
+          "link": "https://gears-roam.vercel.app/",
+          "github": "https://github.com/volodymyrfilon/GearsRoam"
+        },
+        {
+          "image": "/work/weather.jpg",
+          "category": "JavaScript",
+          "name": "Aplikacja Pogoda",
+          "description": "Projekt jest zbudowany w oparciu o JavaScript, który zapewnia aktualizacje pogody w czasie rzeczywistym.",
+          "link": "https://volodymyrfilon.github.io/weather-dashboard-js/",
+          "github": "https://github.com/volodymyrfilon/weather-dashboard-js"
+        },
+        {
+          "image": "/work/quiz.jpg",
+          "category": "JavaScript",
+          "name": "Aplikacja Quiz",
+          "description": "Gra z licznikiem punktów i lokalnym rankingiem. W projekcie wykorzystano API Open Trivia DB.",
+          "link": "https://volodymyrfilon.github.io/quiz-js/",
+          "github": "https://github.com/volodymyrfilon/quiz-js"
+        },
+        {
+          "image": "/work/garmin.jpg",
+          "category": "JavaScript",
+          "name": "Sklep Garmin",
+          "description": "Jednostronicowy sklep internetowy napisany w JavaScript, SASS i HTML.",
+          "link": "https://volodymyrfilon.github.io/garmin-shop/",
+          "github": "https://github.com/volodymyrfilon/garmin-shop"
+        }
+      ]
+    },
+    "notFound": {
+      "title": "Nie znaleziono strony!",
+      "buttonHomePage": {
+        "href": "/pl",
+        "name": "Główna"
+      }
+    },
+    "privacyPolicy": {
+      "title": "Polityka Prywatności Portfolio Web-strony",
+      "date": "od Sierpnia 29, 2023",
+      "email": {
+        "text": "Poczta",
+        "content": "vdfo26@gmail.com"
+      },
+      "phone": {
+        "text": "Telefon",
+        "content": "+48 578 568 311"
+      },
+      "buttonHomePage": {
+        "href": "/pl",
+        "name": "Główna"
+      },
+      "buttonContactPage": {
+        "href": "/pl/contacts",
+        "name": "Kontakty"
+      },
+      "content": [
+        {
+          "number": "01",
+          "subtitle": "Zasady Ogólne.",
+          "text": [
+            "Niniejsza Polityka Prywatności jest dokumentem prawnie wiążącym, stanowiącym integralną część Regulaminu korzystania z serwisu internetowego volodymyrfilon.vercel.app i mającym na celu uregulowanie relacji pomiędzy Właścicielami i Użytkownikami serwisu internetowego volodymyrfilon.vercel.app i zawiera zakres informacji poufnych, sposoby ich gromadzenia, przechowywania, przetwarzania, ujawniania, analizy, zapewnienia bezpieczeństwa podczas korzystania z serwisu internetowego volodymyrfilon.vercel.app. Zdecydowanie zaleca się, aby Użytkownicy dokładnie zapoznali się z poniższą Polityką Prywatności przed rozpoczęciem korzystania ze strony internetowej volodymyrfilon.vercel.app, jej zawartości lub innych powiązanych produktów. Korzystając z wymienionych produktów, wyrażasz zgodę na korzystanie ze strony internetowej volodymyrfilon.vercel.app zgodnie z niniejszą Polityką Prywatności. Jeżeli Użytkownicy nie akceptują w całości lub w części niniejszych warunków, powinni zakończyć lub nie rozpoczynać korzystania ze strony internetowej volodymyrfilon.vercel.app."
+          ]
+        },
+        {
+          "number": "02",
+          "subtitle": "Zakres i rodzaje informacji poufnych.",
+          "text": [
+            "Dane osobowe zbierane, przechowywane lub przetwarzane podczas korzystania ze strony internetowej volodymyrfilon.vercel.app obejmują następujące rodzaje informacji",
+            "Dane kontaktowe – obejmują w szczególności: numery telefonów komórkowych, adres e-mail, imię i nazwisko Użytkownika, tj. informacje, za pomocą których Użytkownik może się zidentyfikować w celu przesłania aplikacji Użytkownika lub CV Użytkownika serwisu internetowego volodymyrfilon. vercel.app.",
+            "Informacje o Użytkowniku – obejmują w szczególności: wszelkie informacje, które są generowane i przesyłane bezpośrednio przez Użytkownika, udostępniane, otrzymywane, rozpowszechniane w jakiejkolwiek formie przez Użytkownika podczas korzystania z serwisu internetowego volodymyrfilon.vercel.app, a także informacje o samym Użytkowniku.",
+            "Materiały osób trzecich – obejmuje to w szczególności: dane, produkty, treści, własność intelektualną wytworzoną, opublikowaną lub w inny sposób zgromadzoną od osób trzecich, innych niż Użytkownik i/lub Właściciel serwisu internetowego volodymyrfilon.vercel.app.",
+            "Dane kontaktowe – obejmują w szczególności: otrzymywane lub gromadzone informacje, w szczególności o adresach IP, typach urządzeń używanych do prowadzenia strony internetowej volodymyrfilon.vercel.app, czasie i częstotliwości instalacji, odwiedzin, geolokalizacja Użytkowników i urządzeń, metadane, komentarze, oceny, opinie zamieszczane przez Użytkowników, otrzymane od innych użytkowników, treści osób trzecich."
+          ]
+        },
+        {
+          "number": "03",
+          "subtitle": "Cele gromadzenia danych osobowych.",
+          "text": [
+            "Gromadzenie informacji jest niezbędne w celu umożliwienia: wykonywania zadań Użytkownika; wykrywania, badania i zwalczania oszustw, niedozwolonego dostępu lub innego rodzaju nielegalnej działalności w związku ze stroną internetową volodymyrfilon.vercel.app; zapewnienie wsparcia technicznego dla Użytkowników serwisu volodymyrfilon.vercel.app; Administracja serwisu internetowego volodymyrfilon.vercel.app; Zapewnienie zgodności z Regulaminem korzystania z serwisu volodymyrfilon.vercel.app; Analityka zgromadzonych, zdepersonalizowanych i zanonimizowanych informacje w celu poprawy i optymalizacji jakości usług, których wyniki zostaną wykorzystane w celu optymalizacji funkcjonalności serwisu voodymyrfilon.vercel.app oraz udoskonalenia świadczonych usług.",
+            "W stosunku do ww. Właściciela serwisu internetowego volodymyrfilon.vercel.app wyraża zgodę na uzyskanie pełnej i wyraźnej zgody Użytkownika na gromadzenie i przetwarzanie ww. danych.",
+            "Rozpoczynając faktyczne korzystanie z witryny internetowej volodymyrfilon.vercel.app i ustawiając zadania za pośrednictwem witryny internetowej volodymyrfilon.vercel.app, w tym zadania dotyczące udostępniania danych, Użytkownik wyraża pełną i wyraźną zgodę na gromadzenie i przetwarzanie wspomnianych danych osobowych .",
+            "Akceptując niniejszą Politykę prywatności, Użytkownik przyjmuje do wiadomości i zgadza się, że dane wymienione powyżej będą gromadzone, przetwarzane i przechowywane na serwerach właściciela witryny internetowej volodymyrfilon.vercel.app. Gromadzenie, przechowywanie, przetwarzanie lub jakiekolwiek wykorzystanie informacji do celów innych niż określone w niniejszym dokumencie jest surowo zabronione. Nikomu nie wolno rozpowszechniać, publikować ani w inny sposób wykorzystywać informacji o Użytkowniku w sposób naruszający lub potencjalnie naruszający prawa osób trzecich lub innych Użytkowników."
+          ]
+        },
+        {
+          "number": "04",
+          "subtitle": "Moment zbierania danych.",
+          "text": [
+            "Właściciel aplikacji zbiera informacje, gdy: Użytkownik bezpośrednio korzysta z interfejsów serwisu volodymyrfilon.vercel.app; Użytkownicy tworzą, przesyłają i udostępniają dane lub w inny sposób uczestniczą w powiązanej komunikacji; Użytkownik komunikuje się z Właścicielem witryny internetowej volodymyrfilon.vercel.app za pośrednictwem witryny internetowej volodymyrfilon.vercel.app i powiązanych systemów."
+          ]
+        },
+        {
+          "number": "05",
+          "subtitle": "Ujawnienie danych osobowych.",
+          "text": [
+            "Właściciele serwisu volodymyrfilon.vercel.app zastrzegają sobie prawo do ujawnienia danych osobowych Użytkownika następującym osobom: Osobom trzecim, które są partnerami Właściciela serwisu volodymyrfilon.vercel.app i w związku z tym będą pomagać w świadczeniu usług (utrzymanie usług, wsparcie, hosting, zarządzanie bazami danych itp.). W takim przypadku informacje są ujawniane wyłącznie w celu świadczenia usługi, a osoba, której są one dostępne, zobowiązuje się nie ujawniać ani nie wykorzystywać informacji poza zakresem niniejszej Polityki Prywatności; Przedstawiciele organów władzy publicznej – w celu udzielenia odpowiedzi na prawnie uzasadnione wnioski w związku z procedurami urzędowymi, dochodzeniami, jeżeli obowiązek ujawnienia wymagają obowiązujące przepisy prawa; Profesjonalni doradcy (prawnicy, audytorzy itp.) na potrzeby niezależnego audytu, ładu korporacyjnego i procedur compliance."
+          ]
+        },
+        {
+          "number": "06",
+          "subtitle": "Ujawnianie, przekazywanie, wymiana danych osobowych możliwe jest wyłącznie na podstawie pełnej, wyrażonej i wyraźnej zgody Użytkownika. Użytkownik ma w każdej chwili możliwość uniemożliwienia, zaprzestania przekazywania lub udostępniania danych osobowych.",
+          "text": []
+        },
+        {
+          "number": "07",
+          "subtitle": "Przechowywanie i Bezpieczeństwo danych.",
+          "text": [
+            "Właściciel strony internetowej volodymyrfilon.vercel.app podejmuje wszelkie niezbędne i uzasadnione środki w celu ochrony informacji Użytkownika przed wyciekiem, utratą, nielegalnym i nieuprawnionym wykorzystaniem. Użytkownik powinien jednak mieć świadomość, że witryna internetowa volodymyrfilon.vercel.app jest otwarta, można uzyskać do niego dostęp online, w związku z czym może on być potencjalnie przedmiotem cyberataków, wirusów itp. Dostęp online a priori nie gwarantuje całkowitego bezpieczeństwa witryny internetowej volodymyrfilon.vercel.app; witryny internetowej volodymyrfilon.vercel Użytkownicy .app korzystają z serwisu volodymyrfilon.vercel.app na własne ryzyko, a Właściciele serwisu volodymyrfilon.vercel.app nie ponoszą żadnej odpowiedzialności za szkody/straty powstałe na skutek zagrożeń bezpieczeństwa informacji i cyberbezpieczeństwa.",
+            "Użytkownik jest również świadomy, że stosowane narzędzia bezpieczeństwa informacji i ochrony danych nie mogą zagwarantować całkowitego bezpieczeństwa jakichkolwiek udostępnianych danych. Właściciele serwisu voodymyrfilon.vercel.app nie ponoszą odpowiedzialności za działania osób trzecich, którym Użytkownik otwiera, ujawnia lub w inny sposób przekazuje informacje.Ponieważ witryna internetowa volodymyrfilon.vercel.app działa na całym świecie, Użytkownik przyjmuje do wiadomości i wyraża zgodę na to, że dane osobowe mogą być przesyłane do urządzeń znajdujących się w dowolnym innym kraju na świecie i przy różnych poziomach ochrony danych. Korzystając ze strony internetowej volodymyrfilon.vercel.app, Użytkownik przyjmuje do wiadomości i wyraża zgodę na taki przepływ danych."
+          ]
+        },
+        {
+          "number": "08",
+          "subtitle": "Zmiana danych osobowych.",
+          "text": [
+            "Użytkownicy mają prawo w każdej chwili zmieniać, aktualizować, poprawiać lub usuwać dane osobowe za pośrednictwem strony internetowej volodymyrfilon.vercel.app. Użytkownik zgadza się, że po usunięciu jego danych/treści [rejestracyjnych] – kopia danych może być nadal przechowywana na serwerze ze względu na kopie zapasowe danych przez pewien czas. Właściciel serwisu internetowego volodymyrfilon.vercel.app nie ma jednak obowiązku przechowywania takich danych po zakończeniu obowiązywania niniejszej Polityki Prywatności, a Użytkownik jest świadomy i wyraża zgodę na to, że po zakończeniu korzystania z usługi jego dane i treści nie zostaną zapisane."
+          ]
+        },
+        {
+          "number": "09",
+          "subtitle": "Cookies.",
+          "text": [
+            "Pliki cookies mogą być wykorzystywane do monitorowania korzystania ze strony internetowej volodymyrfilon.vercel.app oraz ruchu w sieci w celu optymalizacji i udoskonalania serwisu. Użytkownik jest świadomy i wyraża zgodę na to, że pliki cookies mogą gromadzić jego pewne dane osobowe, w tym informacje o adresach IP, informacjach o typach urządzeń i używanych systemach operacyjnych, czasie i częstotliwości wizyt.",
+            "Użytkownik może w każdej chwili dokonać zmiany ustawień swojej przeglądarki internetowej poprzez zablokowanie możliwości automatycznej obsługi plików cookies. Zebrane informacje mogą być wykorzystywane wyłącznie w celach analitycznych, opartych na zdepersonalizowanych i zanonimizowanych danych, których wyniki zostaną wykorzystane w celu optymalizacji funkcjonalności serwisu internetowego volodymyrfilon.vercel.app oraz ulepszenia świadczonych usług.Zablokowanie plików cookies może jednak wpłynąć na możliwość dostępu do niektórych funkcjonalności serwisu volodymyrfilon.vercel.app."
+          ]
+        },
+        {
+          "number": "10",
+          "subtitle": "Procedura dokonywania zmian i uzupełnień Polityki Prywatności.",
+          "text": [
+            "Właściciele strony internetowej volodymyrfilon.vercel.app zastrzegają sobie prawo do odwołania w dowolnym momencie niniejszego regulaminu i wprowadzania zmian, uzupełnień bez uprzedniej zgody Użytkownika lub innych wcześniejszych powiadomień.",
+            "W przypadku, gdyby niektóre postanowienia niniejszej Polityki Prywatności okazały się nieważne lub nieskuteczne na obszarze jurysdykcji poszczególnych krajów, nie ma to wpływu na moc prawną całego niniejszego dokumentu, jak również na ważność jego poszczególnych postanowień w określonych jurysdykcjach W związku z późniejszymi zmianami warunków niniejszego Regulaminu, będą one publikowane za pośrednictwem platformy, na której znajduje się strona internetowa volodymyrfilon.vercel.app, z odpowiednią informacją o dacie aktualizacji w górnej części tekstu."
+          ]
+        },
+        {
+          "number": "11",
+          "subtitle": "Dane kontaktowe.",
+          "text": []
+        }
+      ]
+    },
+
+    "privacyPolicyPopupData": {
+      "text": "Podobnie jak wiele stron internetowych, używamy plików cookie i pozyskujemy określone rodzaje informacji, aby zapewnić wygodę naszym użytkownikom. Korzystając z tej witryny, wyrażasz zgodę na politykę plików cookies. Więcej o plikach cookies znajdziesz w ",
+      "link": {
+        "href": "/pl/privacy-policy",
+        "name": "Polityce Prywatności"
+      },
+      "acceptButton": "Zaakceptować"
+    }
+  }
+}

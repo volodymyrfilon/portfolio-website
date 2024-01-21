@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-eUkraine);
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 19% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 19% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+    --primary: 262.1 83.3% 57.8%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 240 19% 16%;
+    --secondary-foreground: 210 20% 98%;
+    --tertiary: 27 82% 98% --muted: 220 14.3% 95.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220.9 39.3% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262.1 83.3% 57.8%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71.4% 4.1%;
+    --foreground: 210 20% 98%;
+    --card: 240 19% 16% --card-foreground: 300 0% 100% --popover: 224 71.4% 4.1%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 263.4 70% 50.4%;
+    --primary-foreground: 300 0% 100% --secondary: 240 19% 16% --secondary-foreground: 300 0% 100%
+      --tertiary: 237 22% 20% --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 300 0% 100% --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 263.4 70% 50.4%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.h1 {
+  @apply text-[44px] font-bold leading-none tracking-[-2px] special:text-5xl sm:text-6xl xl:text-[64px] xl:leading-[72px];
+}
+
+.h2 {
+  @apply text-2xl font-bold sm:text-3xl;
+}
+
+.h3 {
+  @apply text-xl font-bold sm:text-2xl;
+}
+
+.h4 {
+  @apply text-[18px] font-semibold;
+}
+
+.subtitle {
+  @apply mb-8 text-sm font-light leading-7 text-muted-foreground;
+}
+
+.section-title {
+  @apply relative flex w-max items-center justify-between gap-x-3 font-eUkraineHead text-2xl font-bold before:h-[24px] before:w-[24px] before:bg-dots_light before:bg-center before:bg-no-repeat before:dark:bg-dots_dark sm:text-3xl;
+}
+
+.badge {
+  @apply z-10 flex h-[68px] w-[200px] items-center gap-x-3 rounded-[10px] bg-white p-4 shadow-2xl  dark:backdrop-blur-[44px];
+}
+
+/* swiper bullets styles */
+.swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply bg-primary;
+}
+
+.privacy-policy_num_extended {
+  -webkit-text-stroke: 1.7px hsl(var(--primary));
+  text-stroke: 1.7px hsl(var(--primary));
+  color: transparent;
+}
