@@ -37,7 +37,12 @@ export const Hero = ({ data }: HeroProps) => {
                   {contactButton.name} <Send size={18} />
                 </Button>
               </Link>
-              <Link href={downloadButton.href} target="_blank" rel="noopener noreferrer" download>
+              <Link
+                href={downloadButton.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                download="Volodymyr_Filon_CV_Resume.pdf"
+              >
                 <Button variant="secondary" className="gap-x-2">
                   {downloadButton.name}
                   <Download size={18} />
