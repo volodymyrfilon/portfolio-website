@@ -10,7 +10,7 @@ import Link from 'next/link';
 import { FormProps } from './Form.props';
 
 export const Form = ({ data }: FormProps) => {
-  const { input, checkbox, button, errorText, successText } = data;
+  const { input, checkbox, button, errorText, successText, emailTemplate } = data;
   const formRef = useRef<HTMLFormElement>(null);
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -23,7 +23,7 @@ export const Form = ({ data }: FormProps) => {
 
     setSuccess(false);
     setError(false);
-    emailjs.sendForm('service_50pdx47', 'template_0zlbocq', currentForm, 'd0i9kuK3dREHwIgVy').then(
+    emailjs.sendForm('service_50pdx47', emailTemplate, currentForm, 'd0i9kuK3dREHwIgVy').then(
       result => {
         setSuccess(true);
         setError(false);

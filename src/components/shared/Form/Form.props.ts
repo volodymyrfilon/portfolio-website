@@ -18,5 +18,6 @@ export interface FormProps {
     };
     errorText: string;
     successText: string;
+    emailTemplate: string;
   };
 }
