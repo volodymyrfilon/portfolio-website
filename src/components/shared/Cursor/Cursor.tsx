@@ -20,7 +20,7 @@ export const Cursor = () => {
 
   return (
     <motion.div
-      className="fixed z-[999] h-12 w-12 rounded-full border border-black dark:border-white"
+      className="fixed z-[999] hidden h-12 w-12 rounded-full border border-black dark:border-white lg:flex"
       animate={{ x: position.x + 10, y: position.y + 10 }}
     ></motion.div>
   );
