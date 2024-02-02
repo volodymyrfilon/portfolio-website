@@ -239,7 +239,8 @@
           "name": "Wysłać"
         },
         "errorText": "Błąd wyslania",
-        "successText": "Wysłano pomyślnie"
+        "successText": "Wysłano pomyślnie",
+        "emailTemplate": "template_0zlbocq"
       }
     },
     "projects": {

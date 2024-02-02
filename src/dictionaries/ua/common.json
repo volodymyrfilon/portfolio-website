@@ -238,7 +238,8 @@
           "name": "Відправити"
         },
         "errorText": "Помилка відправлення",
-        "successText": "Успішно відправлено"
+        "successText": "Успішно відправлено",
+        "emailTemplate": "template_3xkzf6n"
       }
     },
     "projects": {

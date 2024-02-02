@@ -238,7 +238,8 @@
           "name": "Let`s Talk"
         },
         "errorText": "Sending error",
-        "successText": "Sent successfully"
+        "successText": "Sent successfully",
+        "emailTemplate": "template_0zlbocq"
       }
     },
     "projects": {

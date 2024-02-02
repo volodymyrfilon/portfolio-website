@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import { Suspense } from 'react';
 import Loading from './loading';
 
+import { Cursor } from '@/components/shared/Cursor';
 import { PrivacyPolicyPopup } from '@/components/shared/PrivacyPolicyPopup';
 import { ThemeProvider } from '@/components/shared/Theme/ThemeProvider';
 import { Footer } from '@/layouts/Footer';
@@ -97,6 +98,7 @@ export default async function RootLayout({
       <body className={`selection:bg-primary/40`}>
         <Suspense fallback={<Loading />}>
           <ThemeProvider attribute="class" defaultTheme="light">
+            <Cursor />
             <Header data={header} lang={lang} logo={logo} />
             {children}
             <Footer data={footer} />
