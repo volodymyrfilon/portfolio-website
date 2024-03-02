@@ -135,10 +135,10 @@
           "techSkill": {
             "title": "Tech skills",
             "data": [
-              { "name": "HTML5, CSS3, SASS/SCSS" },
+              { "name": "HTML5, CSS3, SASS/SCSS, TailwindCSS" },
               { "name": "JavaScript, TypeScript" },
-              { "name": "ReactJS, NextJS, TailwindCSS" },
-              { "name": "NodeJS" },
+              { "name": "ReactJS, NextJS, NodeJS" },
+              { "name": "Vue2, Vuex, Vuetify" },
               { "name": "MongoDB, PostgreSQL" }
             ]
           },
@@ -183,7 +183,7 @@
           {
             "icon": "gem",
             "title": "Modern Frameworks",
-            "description": "Using ReactJS and NextJS to build efficient and scalable frontend applications."
+            "description": "Using ReactJS, NextJS, VueJS to build efficient and scalable frontend applications."
           }
         ]
       },

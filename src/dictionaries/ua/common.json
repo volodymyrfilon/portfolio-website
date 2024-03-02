@@ -135,10 +135,10 @@
           "techSkill": {
             "title": "Технічні навички",
             "data": [
-              { "name": "HTML5, CSS3, SASS/SCSS" },
+              { "name": "HTML5, CSS3, SASS/SCSS, TailwindCSS" },
               { "name": "JavaScript, TypeScript" },
-              { "name": "ReactJS, NextJS, TailwindCSS" },
-              { "name": "NodeJS" },
+              { "name": "ReactJS, NextJS, NodeJS" },
+              { "name": "Vue2, Vuex, Vuetify" },
               { "name": "MongoDB, PostgreSQL" }
             ]
           },
@@ -183,7 +183,7 @@
           {
             "icon": "gem",
             "title": "Сучасні фреймворки",
-            "description": "Використання ReactJS та NextJS для побудови ефективних та масштабованих фронтенд-додатків."
+            "description": "Використання ReactJS, NextJS та VueJS для побудови ефективних та масштабованих фронтенд-додатків."
           }
         ]
       },

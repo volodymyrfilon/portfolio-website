@@ -135,10 +135,10 @@
           "techSkill": {
             "title": "Umiejętności techniczne",
             "data": [
-              { "name": "HTML5, CSS3, SASS/SCSS" },
+              { "name": "HTML5, CSS3, SASS/SCSS, TailwindCSS" },
               { "name": "JavaScript, TypeScript" },
-              { "name": "ReactJS, NextJS, TailwindCSS" },
-              { "name": "NodeJS" },
+              { "name": "ReactJS, NextJS, NodeJS" },
+              { "name": "Vue2, Vuex, Vuetify" },
               { "name": "MongoDB, PostgreSQL" }
             ]
           },
@@ -183,7 +183,7 @@
           {
             "icon": "gem",
             "title": "Nowoczesne",
-            "description": "Wykorzystanie ReactJS i NextJS do budowy wydajnych i skalowalnych aplikacji frontendowych."
+            "description": "Wykorzystanie ReactJS, NextJS i VueJS do budowy wydajnych i skalowalnych aplikacji frontendowych."
           }
         ]
       },
